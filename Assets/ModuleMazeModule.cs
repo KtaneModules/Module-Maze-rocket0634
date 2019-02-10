@@ -216,13 +216,22 @@ public class ModuleMazeModule : MonoBehaviour
                 if (start == destination && !showSolution)
                 {
                     solved = true;
-                    if (souvenirStart.Contains("squares"))
+                    try
                     {
-                        var squares = gSprites.Where(x => x.name.Contains("squares") && x.name != souvenirStart);
-                        souvenirSprites = new[] { gSprites.Where(x => x.name == souvenirStart).First() }.Concat(squares).ToArray();
+                        if (souvenirStart.Contains("squares"))
+                        {
+                            var squares = gSprites.Where(x => x.name.Contains("squares") && x.name != souvenirStart);
+                            souvenirSprites = new[] { gSprites.Where(x => x.name == souvenirStart).First() }.Concat(squares).ToArray();
+                        }
+                        else
+                            souvenirSprites = new[] { gSprites.Where(x => x.name == souvenirStart).First(), gSprites.Where(x => x.name == sprites[phonies[0]].name).First(), gSprites.Where(x => x.name == sprites[phonies[1]].name).First(), gSprites.Where(x => x.name == sprites[phonies[2]].name).First(), gSprites.Where(x => x.name == sprites[phonies[3]].name).First(), gSprites.Where(x => x.name == sprites[phonies[4]].name).First() };
                     }
-                    else
-                        souvenirSprites = new[] { gSprites.Where(x => x.name == souvenirStart).First(), gSprites.Where(x => x.name == sprites[phonies[0]].name).First(), gSprites.Where(x => x.name == sprites[phonies[1]].name).First(), gSprites.Where(x => x.name == sprites[phonies[2]].name).First(), gSprites.Where(x => x.name == sprites[phonies[3]].name).First(), gSprites.Where(x => x.name == sprites[phonies[4]].name).First() };
+                    catch
+                    {
+                        DebugLog("There was an issue with randomization. If Souvenir support is active, it may be impacted.");
+                        DebugLog("Chosen Indicies: {0}, resulting names: {1}", false, string.Join(", ", phonies.Select(x => x.ToString()).ToArray()), string.Join(", ", phonies.Select(x => sprites[x].name).ToArray()));
+                        DebugLog("Starting name: {0}", false, souvenirStart);
+                    }
                     Module.HandlePass();
                 }
                 else if (showSolution)

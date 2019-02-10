@@ -107,7 +107,7 @@ Neutral (Neutralization) Yahtzee
 Web (Web Design) Xray
 Chord (Chord Qualities) QR,Create
 Create (Creation) ,Rubiks
-Rubiks (Rubik’s cube) RNG
+Rubiks (Rubik’s Cube) RNG
 FizBuz (FizzBuzz) ClrMrs,Clock
 Clock (The Clock) MstrCrl
 LEDEnc (LED Encryption) ,Edgwrk
@@ -159,7 +159,7 @@ PolyMz (Polyhedral Maze)
 SymCord (Symbolic Coordinates) iPhone
 Mod159 (Modules_159)
 Poker (Poker) ,Sonic
-Sonic (Sonic The Hedgehog)
+Sonic (Sonic the Hedgehog)
 Poetry (Poetry) ,BtnSeq
 BtnSeq (Button Sequence) Skyrim
 Alg (Algebra)

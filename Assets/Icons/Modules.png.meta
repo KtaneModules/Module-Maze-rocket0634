@@ -240,7 +240,7 @@ TextureImporter:
     21300466: The Time Keeper
     21300468: Lightspeed
     21300470: Black Hole
-    21300472: Simon’s Stars
+    21300472: Simon’s Star
     21300474: Morse War
     21300476: The Stock Market
     21300478: Modules_239
@@ -3779,7 +3779,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Simon’s Stars
+      name: Simon’s Star
       rect:
         serializedVersion: 2
         x: 1536
