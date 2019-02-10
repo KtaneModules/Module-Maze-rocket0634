@@ -1,479 +1,4 @@
-fileFormatVersion: 2
-guid: 78c03edf443a44e4786c7c955888161e
-timeCreated: 1549752892
-licenseType: Free
-TextureImporter:
-  fileIDToRecycleName:
-    21300000: Wire Sequence
-    21300002: Wires
-    21300004: Who’s On First
-    21300006: Venting Gas
-    21300008: Simon Says
-    21300010: Password
-    21300012: Morse Code
-    21300014: Memory
-    21300016: Maze
-    21300018: Knob
-    21300020: Keypad
-    21300022: Complicated Wires
-    21300024: Capacitor Discharge
-    21300026: The Button
-    21300028: Color Flash
-    21300030: Piano Keys
-    21300032: Semaphore
-    21300034: Math
-    21300036: Emoji Math
-    21300038: Modules_19
-    21300040: Lights Out
-    21300042: Switches
-    21300044: Two Bits
-    21300046: Word Scramble
-    21300048: Anagrams
-    21300050: Combination Lock
-    21300052: Filibuster
-    21300054: Motion Sense
-    21300056: Square Button
-    21300058: Simon States
-    21300060: Round Keypad
-    21300062: Listening
-    21300064: Foreign Exchange Rates
-    21300066: Answering Questions
-    21300068: Orientation Cube
-    21300070: Morsematics
-    21300072: Connection Check
-    21300074: Letter Keys
-    21300076: Forget Me Not
-    21300078: Modules_39
-    21300080: Rotary Phone
-    21300082: Astrology
-    21300084: Logic
-    21300086: Crazy Talk
-    21300088: Adventure Game
-    21300090: Turn The Keys
-    21300092: Turn The Key
-    21300094: Mystic Square
-    21300096: Plumbing
-    21300098: Cruel Piano Keys
-    21300100: Safety Safe
-    21300102: Tetris
-    21300104: Cryptography
-    21300106: Chess
-    21300108: Mouse In The Maze
-    21300110: 3D Maze
-    21300112: Silly Slots
-    21300114: Number Pad
-    21300116: Probing
-    21300118: Modules_59
-    21300120: Resistors
-    21300122: Skewed Slots
-    21300124: Caesar Cipher
-    21300126: Perspective Pegs
-    21300128: Microcontroller
-    21300130: Murder
-    21300132: The Gamepad
-    21300134: Tic-Tac-Toe
-    21300136: Who’s That Monsplode
-    21300138: Monsplode, Fight!
-    21300140: Shape Shift
-    21300142: Follow the Leader
-    21300144: Friendship
-    21300146: The Bulb
-    21300148: Alphabet
-    21300150: Blind Alley
-    21300152: Sea Shells
-    21300154: English Test
-    21300156: Rock-Paper-Scissors-Lizard-Spock
-    21300158: Modules_79
-    21300160: Hexamaze
-    21300162: Bitmaps
-    21300164: Colored Squares
-    21300166: Adjacent Letters
-    21300168: Third Base
-    21300170: Souvenir
-    21300172: Word Search
-    21300174: Broken Buttons
-    21300176: Simon Screams
-    21300178: Laundry
-    21300180: Modules Against Humanity
-    21300182: Complicated Buttons
-    21300184: Battleship
-    21300186: Text Field
-    21300188: Symbolic Password
-    21300190: Wire Placement
-    21300192: Double-Oh
-    21300194: Cheap Checkout
-    21300196: Coordinates
-    21300198: Modules_99
-    21300200: Light Cycle
-    21300202: HTTP Response
-    21300204: Rhythms
-    21300206: Color Math
-    21300208: Only Connect
-    21300210: Neutralization
-    21300212: Web Design
-    21300214: Chord Qualities
-    21300216: Creation
-    21300218: Rubik’s Cube
-    21300220: FizzBuzz
-    21300222: The Clock
-    21300224: LED Encryption
-    21300226: Edgework
-    21300228: Bitwise Operations
-    21300230: Fast Math
-    21300232: Minesweeper
-    21300234: Zoo
-    21300236: Binary LEDs
-    21300238: Modules_119
-    21300240: Boolean Venn Diagram
-    21300242: Point of Order
-    21300244: Ice Cream
-    21300246: Hex To Decimal
-    21300248: The Screw
-    21300250: Yahtzee
-    21300252: X-Ray
-    21300254: QR Code
-    21300256: Button Masher
-    21300258: Random Number Generator
-    21300260: Color Morse
-    21300262: Mastermind Cruel
-    21300264: Mastermind Simple
-    21300266: Gridlock
-    21300268: Big Circle
-    21300270: Morse-A-Maze
-    21300272: Colored Switches
-    21300274: Perplexing Wires
-    21300276: Monsplode Trading Cards
-    21300278: Modules_139
-    21300280: Game of Life Cruel
-    21300282: Game of Life Simple
-    21300284: Nonogram
-    21300286: S.E.T.
-    21300288: Refill that Beer!
-    21300290: Painting
-    21300292: Color Generator
-    21300294: Shape Memory
-    21300296: Symbol Cycle
-    21300298: Hunting
-    21300300: Extended Password
-    21300302: Curriculum
-    21300304: Braille
-    21300306: Mafia
-    21300308: Festive Piano Keys
-    21300310: Flags
-    21300312: Timezone
-    21300314: Polyhedral Maze
-    21300316: Symbolic Coordinates
-    21300318: Modules_159
-    21300320: Poker
-    21300322: Sonic the Hedgehog
-    21300324: Poetry
-    21300326: Button Sequence
-    21300328: Algebra
-    21300330: Visual Impairment
-    21300332: The Jukebox
-    21300334: Identity Parade
-    21300336: Maintenance
-    21300338: Blind Maze
-    21300340: Backgrounds
-    21300342: Mortal Kombat
-    21300344: Mashematics
-    21300346: Faulty Backgrounds
-    21300348: Radiator
-    21300350: Modern Cipher
-    21300352: LED Grid
-    21300354: Sink
-    21300356: The iPhone
-    21300358: Modules_179
-    21300360: The Swan
-    21300362: Waste Management
-    21300364: Human Resources
-    21300366: Skyrim
-    21300368: Burglar Alarm
-    21300370: Press X
-    21300372: European Travel
-    21300374: Error Codes
-    21300376: Rapid Buttons
-    21300378: LEGOs
-    21300380: Rubik’s Clock
-    21300382: Font Select
-    21300384: The Stopwatch
-    21300386: Pie
-    21300388: The Wire
-    21300390: The London Underground
-    21300392: Logic Gates
-    21300394: Forget Everything
-    21300396: Grid Matching
-    21300398: Modules_199
-    21300400: Color Decoding
-    21300402: The Sun
-    21300404: Playfair Cipher
-    21300406: Tangrams
-    21300408: The Number
-    21300410: Cooking
-    21300412: Superlogic
-    21300414: The Moon
-    21300416: The Cube
-    21300418: Dr. Doctor
-    21300420: Tax Returns
-    21300422: The Jewel Vault
-    21300424: Digital Root
-    21300426: Graffiti Numbers
-    21300428: Marble Tumble
-    21300430: X01
-    21300432: Logical Buttons
-    21300434: The Code
-    21300436: Tap Code
-    21300438: Modules_219
-    21300440: Simon Sings
-    21300442: Simon Sends
-    21300444: Synonyms
-    21300446: Greek Calculus
-    21300448: Simon Shrieks
-    21300450: Complex Keypad
-    21300452: Subways
-    21300454: Lasers
-    21300456: Turtle Robot
-    21300458: Guitar Chords
-    21300460: Calendar
-    21300462: USA Maze
-    21300464: Binary Tree
-    21300466: The Time Keeper
-    21300468: Lightspeed
-    21300470: Black Hole
-    21300472: Simon’s Stars
-    21300474: Morse War
-    21300476: The Stock Market
-    21300478: Modules_239
-    21300480: Mineseeker
-    21300482: Maze Scrambler
-    21300484: The Number Cipher
-    21300486: Alphabet Numbers
-    21300488: British Slang
-    21300490: Double Color
-    21300492: Maritime Flags
-    21300494: Equations
-    21300496: Determinants
-    21300498: Pattern Cube
-    21300500: Know Your Way
-    21300502: Splitting The Loot
-    21300504: Simon Samples
-    21300506: Character Shift
-    21300508: Uncolored Squares
-    21300510: Dragon Energy
-    21300512: Flashing Lights
-    21300514: 3D Tunnels
-    21300516: Synchronization
-    21300518: Modules_259
-    21300520: The Switch
-    21300522: Reverse Morse
-    21300524: Manometers
-    21300526: Shikaku
-    21300528: Wire Spaghetti
-    21300530: Tennis
-    21300532: Module Homework
-    21300534: Benedict Cumberbatch
-    21300536: Signals
-    21300538: Horrible Memory
-    21300540: Boggle
-    21300542: Command Prompt
-    21300544: Boolean Maze
-    21300546: Sonic & Knuckles
-    21300548: Quintuples
-    21300550: The Sphere
-    21300552: Coffeebucks
-    21300554: Colorful Madness
-    21300556: Bases
-    21300558: Modules_279
-    21300560: Lion’s Share
-    21300562: Snooker
-    21300564: Blackjack
-    21300566: Party Time
-    21300568: Accumulation
-    21300570: The Plunger Button
-    21300572: The Digit
-    21300574: The Jack-O’-Lantern
-    21300576: T-Words
-    21300578: Divided Squares
-    21300580: Connection Device
-    21300582: Instructions
-    21300584: Valves
-    21300586: Encrypted Morse
-    21300588: The Crystal Maze
-    21300590: Cruel Countdown
-    21300592: Countdown
-    21300594: Catchphrase
-    21300596: Blockbusters
-    21300598: Modules_299
-    21300600: IKEA
-    21300602: Retirement
-    21300604: Periodic Table
-    21300606: 101 Dalmatians
-    21300608: Schlag den Bomb
-    21300610: Mahjong
-    21300612: Kudosudoku
-    21300614: The Radio
-    21300616: Modulo
-    21300618: Number Nimbleness
-    21300620: Pay Respects
-    21300622: Challenge & Contact
-    21300624: The Triangle
-    21300626: Sueet Wall
-    21300628: Hot Potato
-    21300630: Christmas Presents
-    21300632: Hieroglyphics
-    21300634: Functions
-    21300636: Scripting
-    21300638: Modules_319
-    21300640: Needy Mrs Bob
-    21300642: Simon Spins
-    21300644: Ten-Button Color Code
-    21300646: Cursed Double-Oh
-    21300648: Crackbox
-    21300650: Street Fighter
-    21300652: The Labyrinth
-    21300654: Spinning Buttons
-    21300656: Color Match
-    21300658: The Festive Jukebox
-    21300660: Skinny Wires
-    21300662: The Hangover
-    21300664: Factory Maze
-    21300666: Binary Puzzle
-    21300668: Broken Guitar Chords
-    21300670: Regular Crazy Talk
-    21300672: Hogwarts
-    21300674: Dominoes
-    21300676: Simon Speaks
-    21300678: Modules_339
-    21300680: Discolored Squares
-    21300682: Flip The Coin
-    21300684: Krazy Talk
-    21300686: Numbers
-    21300688: Simon’s Stages
-    21300690: Free Parking
-    21300692: Cookie Jars
-    21300694: Alchemy
-    21300696: Varicolored Squares
-    21300698: Simon Squawks
-    21300700: Zoni
-    21300702: Mad Memory
-    21300704: Unrelated Anagrams
-    21300706: Bartending
-    21300708: Question Mark
-    21300710: Shapes And Bombs
-    21300712: Flavor Text
-    21300714: Flavor Text EX
-    21300716: Decolored Squares
-    21300718: Modules_359
-    21300720: Homophones
-    21300722: DetoNATO
-    21300724: Air Traffic Controller
-    21300726: SYNC-125 [3]
-    21300728: Westeros
-    21300730: Morse Identification
-    21300732: Rot Decoding
-    21300734: LED Math
-    21300736: Alphabetical Order
-    21300738: Simon Sounds
-    21300740: The Fidget Spinner
-    21300742: Simon’s Sequence
-    21300744: Simon Scrambles
-    21300746: Harmony Sequence
-    21300748: Unfair Cipher
-    21300750: Melody Sequencer
-    21300752: Colorful Insanity
-    21300754: Gadgetron Vendor
-    21300756: Passport Control
-    21300758: Modules_379
-    21300760: Modules_380
-    21300762: Modules_381
-    21300764: Modules_382
-    21300766: Modules_383
-    21300768: Modules_384
-    21300770: Modules_385
-    21300772: Modules_386
-    21300774: Modules_387
-    21300776: Modules_388
-    21300778: Modules_389
-    21300780: Modules_390
-    21300782: Modules_391
-    21300784: Modules_392
-    21300786: Modules_393
-    21300788: Modules_394
-    21300790: Modules_395
-    21300792: Modules_396
-    21300794: Modules_397
-    21300796: Modules_398
-    21300798: Modules_399
-  serializedVersion: 4
-  mipmaps:
-    mipMapMode: 0
-    enableMipMap: 0
-    sRGBTexture: 1
-    linearTexture: 0
-    fadeOut: 0
-    borderMipMap: 0
-    mipMapsPreserveCoverage: 0
-    alphaTestReferenceValue: 0.5
-    mipMapFadeDistanceStart: 1
-    mipMapFadeDistanceEnd: 3
-  bumpmap:
-    convertToNormalMap: 0
-    externalNormalMap: 0
-    heightScale: 0.25
-    normalMapFilter: 0
-  isReadable: 1
-  grayScaleToAlpha: 0
-  generateCubemap: 6
-  cubemapConvolution: 0
-  seamlessCubemap: 0
-  textureFormat: 1
-  maxTextureSize: 2048
-  textureSettings:
-    serializedVersion: 2
-    filterMode: -1
-    aniso: -1
-    mipBias: -1
-    wrapU: 1
-    wrapV: 1
-    wrapW: 1
-  nPOTScale: 0
-  lightmap: 0
-  compressionQuality: 50
-  spriteMode: 2
-  spriteExtrude: 1
-  spriteMeshType: 1
-  alignment: 0
-  spritePivot: {x: 0.5, y: 0.5}
-  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
-  spritePixelsToUnits: 100
-  alphaUsage: 1
-  alphaIsTransparency: 1
-  spriteTessellationDetail: -1
-  textureType: 8
-  textureShape: 1
-  maxTextureSizeSet: 0
-  compressionQualitySet: 0
-  textureFormatSet: 0
-  platformSettings:
-  - buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
-    textureFormat: -1
-    textureCompression: 2
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-  - buildTarget: Standalone
-    maxTextureSize: 2048
-    textureFormat: -1
-    textureCompression: 2
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-  spriteSheet:
-    serializedVersion: 2
-    sprites:
+sprites:
     - serializedVersion: 2
       name: Wire Sequence
       rect:
@@ -503,7 +28,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Who’s On First
+      name: Who's On First
       rect:
         serializedVersion: 2
         x: 192
@@ -1427,7 +952,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Who’s That Monsplode
+      name: Who's That Monsplode
       rect:
         serializedVersion: 2
         x: 768
@@ -2001,7 +1526,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Rubik’s Cube
+      name: Rubik's Cube
       rect:
         serializedVersion: 2
         x: 864
@@ -3135,7 +2660,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Rubik’s Clock
+      name: Rubik's Clock
       rect:
         serializedVersion: 2
         x: 960
@@ -3779,7 +3304,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Simon’s Stars
+      name: Simon's Stars
       rect:
         serializedVersion: 2
         x: 1536
@@ -4395,7 +3920,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Lion’s Share
+      name: Lion's Share
       rect:
         serializedVersion: 2
         x: 0
@@ -4493,7 +4018,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: The Jack-O’-Lantern
+      name: The Jack-O'-Lantern
       rect:
         serializedVersion: 2
         x: 672
@@ -5291,7 +4816,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Simon’s Stages
+      name: Simon's Stages
       rect:
         serializedVersion: 2
         x: 384
@@ -5473,7 +4998,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Flavor Text EX
+      name: Modules_357
       rect:
         serializedVersion: 2
         x: 1632
@@ -5669,7 +5194,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Simon’s Sequence
+      name: Simon's Sequence
       rect:
         serializedVersion: 2
         x: 1056
@@ -6074,9 +5599,3 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
-    outline: []
-    physicsShape: []
-  spritePackingTag: 
-  userData: 
-  assetBundleName: mod.bundle
-  assetBundleVariant: 

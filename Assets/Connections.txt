@@ -1,0 +1,379 @@
+﻿WSeq (Wire Sequence) ,Wires
+Wires (Wires) Switch,
+Who (Who’s On First) Two,Vent
+Vent (Venting Gas) Word
+Simon (Simon Says) Anag,Pass
+Pass (Password) ,Morse
+Morse (Morse Code) Fili
+Mem (Memory) Motion,Maze
+Maze (Maze) SqrBttn
+Knob (Knob) ,Keypad
+Keypad (Keypad) RndKpd
+CompWrs (Complicated Wires) ,Cap
+Cap (Capacitor Discharge) Foreign
+Button (The Button) Answer,CFlash
+CFlash (Color Flash) ,Piano
+Piano (Piano Keys) ,Semaphr
+Semaphr (Semaphore) ,Math
+Math (Math) LttrKys,EmjMth
+EmjMth (Emoji Math)
+Mod19 (Modules_19)
+Light (Lights Out) RotPhn,Switch
+Switch (Switches) Ast
+Two (Two Bits)
+Word (Word Scramble) ,Anag
+Anag (Anagrams) AdvGame
+Lock (Combination Lock) Keys,Fili
+Fili (Filibuster)
+Motion (Motion Sense) Mystic
+SqrBttn (Square Button) Plumb,States
+States (Simon States) CrlPKys
+RndKpd (Round Keypad) ,Listen
+Listen (Listening) Tetris,Foreign
+Foreign (Foreign Exchange Rates) Crypt
+Answer (Answering Questions) ,Ori
+Ori (Orientation Cube) Mouse
+Morsemt (Morsematics) 3D
+Check (Connection Check) Silly,LttrKys
+LttrKys (Letter Keys) ,Forget
+Forget (Forget Me Not) Probe
+Mod39 (Modules_39)
+RotPhn (Rotary Phone) Resist
+Ast (Astrology)
+Logic (Logic) CsrCphr,CrzyTlk
+CrzyTlk (Crazy Talk) ,AdvGame
+AdvGame (Adventure Game)
+Keys (Turn The Keys) ,Key
+Key (Turn The Key) ,Mystic
+Mystic (Mystic Square)
+Plumb (Plumbing) WhoSpld,
+CrlPKys (Cruel Piano Keys) Fight
+Safe (Safety Safe) ShpShft,Tetris
+Tetris (Tetris)
+Crypt (Cryptography) ,Chess
+Chess (Chess)
+Mouse (Mouse In The Maze) Alph,3D
+3D (3D Maze)
+Silly (Silly Slots) Shell
+NumPad (Number Pad) EngTest
+Probe (Probing) RPSLS
+Mod59 (Modules_59)
+Resist (Resistors) HexMz,Slots
+Slots (Skewed Slots) ,CsrCphr
+CsrCphr (Caesar Cipher) ,Pegs
+Pegs (Perspective Pegs) ,Micro
+Micro (Microcontroller) ,Murder
+Murder (Murder) ,Gamepad
+Gamepad (The Gamepad) WrdScrh
+TTT (Tic-Tac-Toe) BrknBts,WhoSpld
+WhoSpld (Who’s That Monsplode)
+Fight (Monsplode, Fight!) Laundry
+ShpShft (Shape Shift) Modules,Leader
+Leader (Follow the Leader) CmpBtns,Friend
+Friend (Friendship)
+Bulb (The Bulb) Field,Alph
+Alph (Alphabet) SymPwrd
+Blind (Blind Alley) Place,Shell
+Shell (Sea Shells)
+EngTest (English Test) ,RPSLS
+RPSLS (Rock-Paper-Scissors-Lizard-Spock)
+Mod79 (Modules_79)
+HexMz (Hexamaze) ,BitMap
+BitMap (Bitmaps) HTTP
+ClrSqrs (Colored Squares) Rhythms,Adj
+Adj (Adjacent Letters) ,Third
+Third (Third Base) Only
+Souv (Souvenir) Neutral,WrdScrh
+WrdScrh (Word Search)
+BrknBts (Broken Buttons) Chord
+Scream (Simon Screams) ,Laundry
+Laundry (Laundry)
+Modules (Modules Against Humanity)
+CmpBtns (Complicated Buttons) ,Battle
+Battle (Battleship) LEDEnc
+Field (Text Field) Edgwrk
+SymPwrd (Symbolic Password)
+Place (Wire Placement) FstMth
+OhOh (Double-Oh) ,Cheap
+Cheap (Cheap Checkout) ,Coord
+Coord (Coordinates) BinLED
+Mod99 (Modules_99)
+LtCycl (Light Cycle) Venn,HTTP
+HTTP (HTTP Response)
+Rhythms (Rhythms) ,ClrMth
+ClrMth (Color Math)
+Only (Only Connect) ,Neutral
+Neutral (Neutralization) Yahtzee
+Web (Web Design) Xray
+Chord (Chord Qualities) QR,Create
+Create (Creation) ,Rubiks
+Rubiks (Rubik’s cube) RNG
+FizBuz (FizzBuzz) ClrMrs,Clock
+Clock (The Clock) MstrCrl
+LEDEnc (LED Encryption) ,Edgwrk
+Edgwrk (Edgework)
+BitOps (Bitwise Operations) BigCrcl,FstMth
+FstMth (Fast Math)
+Mineswp (Minesweeper) ClSwtch,Zoo
+Zoo (Zoo) ,BinLED
+BinLED (Binary LEDs)
+Mod119 (Modules_119)
+Venn (Boolean Venn Diagram) CrlGOL
+PntOrdr (Point of Order) GOL,Icecrm
+Icecrm (Ice Cream) ,HexDec
+HexDec (Hex To Decimal) SET
+Screw (The Screw) Refill,Yahtzee
+Yahtzee (Yahtzee)
+Xray (X-Ray) ,QR
+QR (QR Code)
+BtnMash (Button Masher) SmblCyl,RNG
+RNG (Random Number Generator)
+ClrMrs (Color Morse) ExtPass
+MstrCrl (Mastermind Cruel) Crculm,Mstrmnd
+Mstrmnd (Mastermind Simple) Braille
+Gridlck (Gridlock) Mafia,BigCrcl
+BigCrcl (Big Circle) ,MrsAMz
+MrsAMz (Morse-A-Maze) Flags
+ClSwtch (Colored Switches) Timezn
+PrlxWrs (Perplexing Wires) PolyMz,TrdCrds
+TrdCrds (Monsplode Trading Cards) SymCord
+Mod139 (Modules_139)
+CrlGOL (Game of Life Cruel) Poker
+GOL (Game of Life Simple) Sonic
+Nono (Nonogram) Poetry,SET
+SET (S.E.T.)
+Refill (Refill that Beer!) Alg
+Paint (Painting) VisImpr,ClrGen
+ClrGen (Color Generator) ,ShpMem
+ShpMem (Shape Memory) IdentPd
+SmblCyl (Symbol Cycle) ,Hunt
+Hunt (Hunting) ,ExtPass
+ExtPass (Extended Password)
+Crculm (Curriculum)
+Braille (Braille) Mashem
+Mafia (Mafia) FltBkgd
+FestKeys (Festive Piano Keys) Rad
+Flags (Flags) MdrnCyp
+Timezn (Timezone) LEDGrid,PolyMz
+PolyMz (Polyhedral Maze)
+SymCord (Symbolic Coordinates) iPhone
+Mod159 (Modules_159)
+Poker (Poker) ,Sonic
+Sonic (Sonic The Hedgehog)
+Poetry (Poetry) ,BtnSeq
+BtnSeq (Button Sequence) Skyrim
+Alg (Algebra)
+VisImpr (Visual Impairment) PressX
+Jukebox (The Jukebox) ErpTrvl,IdentPd
+IdentPd (Identity Parade) ,Main
+Main (Maintenance) Rapid,BlndMz
+BlndMz (Blind Maze) LEGO,Bckgrnd
+Bckgrnd (Backgrounds) RbxClk,Kombat
+Kombat (Mortal Kombat) ,Mashem
+Mashem (Mashematics) ,FltBkgd
+FltBkgd (Faulty Backgrounds)
+Rad (Radiator) Wire,MdrnCyp
+MdrnCyp (Modern Cipher)
+LEDGrid (LED Grid) ,Sink
+Sink (Sink) ForgetE
+iPhone (The iPhone) GrdMtch
+Mod179 (Modules_179)
+Swan (The Swan) ClrDec
+Waste (Waste Management) Sun,Human
+Human (Human Resources) ,Skyrim
+Skyrim (Skyrim) ,Burglar
+Burglar (Burglar Alarm) Number
+PressX (Press X) Cook
+ErpTrvl (European Travel) SprLgic,ErrCd
+ErrCd (Error Codes) Moon
+Rapid (Rapid Buttons) Cube
+LEGO (LEGOs) Doctor
+RbxClk (Rubik’s Clock) Tax,Font
+Font (Font Select) Jewel,Stop
+Stop (The Stopwatch) DigRoot
+Pie (Pie) GrafNums,Wire
+Wire (The Wire)
+LndnUdr (The London Underground) X01,LgcGts
+LgcGts (Logic Gates) ,ForgetE
+ForgetE (Forget Everything)
+GrdMtch (Grid Matching) TpCode
+Mod199 (Modules_199)
+ClrDec (Color Decoding) Sings,Sun
+Sun (The Sun)
+Play (Playfair Cipher) Synon,Tan
+Tan (Tangrams) Greek
+Number (The Number) ,Cook
+Cook (Cooking)
+SprLgic (Superlogic) Subway
+Moon (The Moon) Laser
+Cube (The Cube) Turtle
+Doctor (Dr. Doctor) Guitar
+Tax (Tax Returns)
+Jewel (The Jewel Vault) USA
+DigRoot (Digital Root) BinTree
+GrafNums (Graffiti Numbers) TimeKpr
+Marble (Marble Tumble) ,X01
+X01 (X01) BlkHole
+LgcBttn (Logical Buttons) Stars
+Code (The Code) MrsWar,TpCode
+TpCode (Tap Code)
+Mod219 (Modules_219)
+Sings (Simon Sings) MineSkr
+Sends (Simon Sends) ,Synon
+Synon (Synonyms)
+Greek (Greek Calculus) AlNum
+Shrieks (Simon Shrieks) Slang,CmplxKp
+CmplxKp (Complex Keypad) DblClr
+Subway (Subways) Martime
+Laser (Lasers) ,Turtle
+Turtle (Turtle Robot)
+Guitar (Guitar Chords) ,Clndr
+Clndr (Calendar) KYW
+USA (USA Maze) SpltLt
+BinTree (Binary Tree)
+TimeKpr (The Time Keeper) ,LghtSpd
+LghtSpd (Lightspeed) UnClrSq
+BlkHole (Black Hole) Dragon
+Stars (Simon’s Star) ,MrsWar
+MrsWar (Morse War)
+Stock (The Stock Market) Synch
+Mod239 (Modules_239)
+MineSkr (Mineseeker) LgSwtch
+MzScrmb (Maze Scrambler) RevMrs,NumCiph
+NumCiph (The Number Cipher) ,AlNum
+AlNum (Alphabet Numbers) Shi,Slang
+Slang (British Slang)
+DblClr (Double Color) Tennis
+Martime (Maritime Flags) Hmwrk,Equ
+Equ (Equations) ,Deter
+Deter (Determinants) Signal
+Pattern (Pattern Cube) Horrid,KYW
+KYW (Know Your Way)
+SpltLt (Splitting The Loot) ,Samples
+Samples (Simon Samples) BoolMz,ChrShft
+ChrShft (Character Shift) ,UnClrSq
+UnClrSq (Uncolored Squares) Quin
+Dragon (Dragon Energy) Sphere
+FLghts (Flashing Lights) ,Tun
+Tun (3D Tunnels) Mad,Synch
+Synch (Synchronization) Base
+Mod259 (Modules_259)
+LgSwtch (The Switch) Lion
+RevMrs (Reverse Morse) Snooker,Mano
+Mano (Manometers) BlkJack
+Shi (Shikaku) ,Spaghet
+Spaghet (Wire Spaghetti)
+Tennis (Tennis) ,Hmwrk
+Hmwrk (Module Homework)
+BnCmbch (Benedict Cumberbatch) Jack,Signal
+Signal (Signals) TWord
+Horrid (Horrible Memory) ,Boggle
+Boggle (Boggle) ,Prompt
+Prompt (Command Prompt) Instrct
+BoolMz (Boolean Maze) ,Knuckl
+Knuckl (Sonic & Knuckles) EncMrs
+Quin (Quintuples)
+Sphere (The Sphere) CrCount,Coffee
+Coffee (Coffeebucks) Count
+Mad (Colorful Madness) Catch,Base
+Base (Bases) Block
+Mod279 (Modules_279)
+Lion (Lion’s Share) IKEA
+Snooker (Snooker) Retire
+BlkJack (Blackjack) Period
+Part (Party Time) 101,Acc
+Acc (Accumulation) Sch
+Plung (The Plunger Button) ,Digit
+Digit (The Digit) ,Jack
+Jack (The Jack-O’-Lantern)
+TWord (T-Words) ,DivSqrs
+DivSqrs (Divided Squares)
+ConDev (Connection Device) Pay,Instrct
+Instrct (Instructions)
+Valve (Valves) Tri
+EncMrs (Encrypted Morse) ,CrysMz
+CrysMz (The Crystal Maze) Potato
+CrCount (Cruel Countdown) Present
+Count (Countdown) Hiero
+Catch (Catchphrase)
+Block (Blockbusters) Script
+Mod299 (Modules_299)
+IKEA (IKEA) ,Retire
+Retire (Retirement) Spins
+Period (Periodic Table) ,101
+101 (101 Dalmatians)
+Sch (Schlag den Bomb) Crack,Mahjong
+Mahjong (Mahjong) Street
+Kudo (Kudosudoku) Laby,Radio
+Radio (The Radio) ,Modulo
+Modulo (Modulo) ,Nimble
+Nimble (Number Nimbleness) ,Pay
+Pay (Pay Respects)
+Contact (Challenge & Contact) Hang,Tri
+Tri (The Triangle) ,Sueet
+Sueet (Sueet Wall) BinPuz
+Potato (Hot Potato) ,Present
+Present (Christmas Presents)
+Hiero (Hieroglyphics) Hogwarts,Funct
+Funct (Functions) ,Script
+Script (Scripting)
+Mod319 (Modules_319)
+MrsBob (Needy Mrs Bob) DisClSq
+Spins (Simon Spins) ,Ten
+Ten (Ten-Button Color Code) Krazy
+CrsdOh (Cursed Double-Oh) Numbers
+Crack (Crackbox) Stages
+Street (Street Fighter) ,Laby
+Laby (The Labyrinth) ,SpnBtns
+SpnBtns (Spinning Buttons) ,ClrMtch
+ClrMtch (Color Match) ,FstJkbx
+FstJkbx (The Festive Jukebox) ,SknWrs
+SknWrs (Skinny Wires) Zoni
+Hang (The Hangover) ,FactMz
+FactMz (Factory Maze) UnAna
+BinPuz (Binary Puzzle) ,BrknGtr
+BrknGtr (Broken Guitar Chords) ,RegCrz
+RegCrz (Regular Crazy Talk)
+Hogwarts (Hogwarts) ,Domino
+Domino (Dominoes) ,Speaks
+Speaks (Simon Speaks) DeClSq
+Mod339 (Modules_339)
+DisClSq (Discolored Squares) Phones
+Coin (Flip The Coin) NATO,Krazy
+Krazy (Krazy Talk) Air
+Numbers (Numbers) SYNC
+Stages (Simon’s Stages) West
+Park (Free Parking) ,Cookie
+Cookie (Cookie Jars) ,Alch
+Alch (Alchemy) LEDMath
+Vari (Varicolored Squares) Order,Squawks
+Squawks (Simon Squawks) Sounds
+Zoni (Zoni) Fidget
+MadMem (Mad Memory) Sequnc
+UnAna (Unrelated Anagrams) Scrmbl
+Bar (Bartending) Harmony,Mark
+Mark (Question Mark) Unfair
+Shapes (Shapes And Bombs) Melody,FlvTxt
+FlvTxt (Flavor Text) Insane,CrlFlv
+CrlFlv (Flavor Text EX) Gadget
+DeClSq (Decolored Squares) Passprt
+Mod359 (Modules_359)
+Phones (Homophones) ,NATO
+NATO (DetoNATO)
+Air (Air Traffic Controller) ,SYNC
+SYNC (SYNC-125 [3])
+West (Westeros) ,MrsIdnt
+MrsIdnt (Morse Identification) ,Rot
+Rot (Rot Decoding) ,LEDMath
+LEDMath (LED Math)
+Order (Alphabetical Order)
+Sounds (Simon Sounds) ,Fidget
+Fidget (The Fidget Spinner)
+Sequnc (Simon’s Sequence) ,Scrmbl
+Scrmbl (Simon Scrambles) ,Harmony
+Harmony (Harmony Sequence)
+Unfair (Unfair Cipher) ,Melody
+Melody (Melody Sequencer)
+Insane (Colorful Insanity)
+Gadget (Gadgetron Vendor) ,Passprt
+Passprt (Passport Control)

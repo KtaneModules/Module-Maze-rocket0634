@@ -1,6 +1,6 @@
 fileFormatVersion: 2
-guid: 78c03edf443a44e4786c7c955888161e
-timeCreated: 1549752892
+guid: f43b467d37e4df048ae5ae96212bc6d0
+timeCreated: 1549752926
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -434,8 +434,8 @@ TextureImporter:
     aniso: -1
     mipBias: -1
     wrapU: 1
-    wrapV: 1
-    wrapW: 1
+    wrapV: -1
+    wrapW: -1
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
@@ -458,7 +458,7 @@ TextureImporter:
   - buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     textureFormat: -1
-    textureCompression: 2
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -466,7 +466,7 @@ TextureImporter:
   - buildTarget: Standalone
     maxTextureSize: 2048
     textureFormat: -1
-    textureCompression: 2
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -479,9 +479,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 1824
-        width: 96
-        height: 96
+        y: 608
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -492,10 +492,10 @@ TextureImporter:
       name: Wires
       rect:
         serializedVersion: 2
-        x: 96
-        y: 1824
-        width: 96
-        height: 96
+        x: 32
+        y: 608
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -506,10 +506,10 @@ TextureImporter:
       name: Who’s On First
       rect:
         serializedVersion: 2
-        x: 192
-        y: 1824
-        width: 96
-        height: 96
+        x: 64
+        y: 608
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -520,10 +520,10 @@ TextureImporter:
       name: Venting Gas
       rect:
         serializedVersion: 2
-        x: 288
-        y: 1824
-        width: 96
-        height: 96
+        x: 96
+        y: 608
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -534,10 +534,10 @@ TextureImporter:
       name: Simon Says
       rect:
         serializedVersion: 2
-        x: 384
-        y: 1824
-        width: 96
-        height: 96
+        x: 128
+        y: 608
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -548,10 +548,10 @@ TextureImporter:
       name: Password
       rect:
         serializedVersion: 2
-        x: 480
-        y: 1824
-        width: 96
-        height: 96
+        x: 160
+        y: 608
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -562,10 +562,10 @@ TextureImporter:
       name: Morse Code
       rect:
         serializedVersion: 2
-        x: 576
-        y: 1824
-        width: 96
-        height: 96
+        x: 192
+        y: 608
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -576,10 +576,10 @@ TextureImporter:
       name: Memory
       rect:
         serializedVersion: 2
-        x: 672
-        y: 1824
-        width: 96
-        height: 96
+        x: 224
+        y: 608
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -590,10 +590,10 @@ TextureImporter:
       name: Maze
       rect:
         serializedVersion: 2
-        x: 768
-        y: 1824
-        width: 96
-        height: 96
+        x: 256
+        y: 608
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -604,10 +604,10 @@ TextureImporter:
       name: Knob
       rect:
         serializedVersion: 2
-        x: 864
-        y: 1824
-        width: 96
-        height: 96
+        x: 288
+        y: 608
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -618,10 +618,10 @@ TextureImporter:
       name: Keypad
       rect:
         serializedVersion: 2
-        x: 960
-        y: 1824
-        width: 96
-        height: 96
+        x: 320
+        y: 608
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -632,10 +632,10 @@ TextureImporter:
       name: Complicated Wires
       rect:
         serializedVersion: 2
-        x: 1056
-        y: 1824
-        width: 96
-        height: 96
+        x: 352
+        y: 608
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -646,10 +646,10 @@ TextureImporter:
       name: Capacitor Discharge
       rect:
         serializedVersion: 2
-        x: 1152
-        y: 1824
-        width: 96
-        height: 96
+        x: 384
+        y: 608
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -660,10 +660,10 @@ TextureImporter:
       name: The Button
       rect:
         serializedVersion: 2
-        x: 1248
-        y: 1824
-        width: 96
-        height: 96
+        x: 416
+        y: 608
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -674,10 +674,10 @@ TextureImporter:
       name: Color Flash
       rect:
         serializedVersion: 2
-        x: 1344
-        y: 1824
-        width: 96
-        height: 96
+        x: 448
+        y: 608
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -688,10 +688,10 @@ TextureImporter:
       name: Piano Keys
       rect:
         serializedVersion: 2
-        x: 1440
-        y: 1824
-        width: 96
-        height: 96
+        x: 480
+        y: 608
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -702,10 +702,10 @@ TextureImporter:
       name: Semaphore
       rect:
         serializedVersion: 2
-        x: 1536
-        y: 1824
-        width: 96
-        height: 96
+        x: 512
+        y: 608
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -716,10 +716,10 @@ TextureImporter:
       name: Math
       rect:
         serializedVersion: 2
-        x: 1632
-        y: 1824
-        width: 96
-        height: 96
+        x: 544
+        y: 608
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -730,10 +730,10 @@ TextureImporter:
       name: Emoji Math
       rect:
         serializedVersion: 2
-        x: 1728
-        y: 1824
-        width: 96
-        height: 96
+        x: 576
+        y: 608
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -744,10 +744,10 @@ TextureImporter:
       name: Modules_19
       rect:
         serializedVersion: 2
-        x: 1824
-        y: 1824
-        width: 96
-        height: 96
+        x: 608
+        y: 608
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -759,9 +759,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 1728
-        width: 96
-        height: 96
+        y: 576
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -772,10 +772,10 @@ TextureImporter:
       name: Switches
       rect:
         serializedVersion: 2
-        x: 96
-        y: 1728
-        width: 96
-        height: 96
+        x: 32
+        y: 576
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -786,10 +786,10 @@ TextureImporter:
       name: Two Bits
       rect:
         serializedVersion: 2
-        x: 192
-        y: 1728
-        width: 96
-        height: 96
+        x: 64
+        y: 576
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -800,10 +800,10 @@ TextureImporter:
       name: Word Scramble
       rect:
         serializedVersion: 2
-        x: 288
-        y: 1728
-        width: 96
-        height: 96
+        x: 96
+        y: 576
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -814,10 +814,10 @@ TextureImporter:
       name: Anagrams
       rect:
         serializedVersion: 2
-        x: 384
-        y: 1728
-        width: 96
-        height: 96
+        x: 128
+        y: 576
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -828,10 +828,10 @@ TextureImporter:
       name: Combination Lock
       rect:
         serializedVersion: 2
-        x: 480
-        y: 1728
-        width: 96
-        height: 96
+        x: 160
+        y: 576
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -842,10 +842,10 @@ TextureImporter:
       name: Filibuster
       rect:
         serializedVersion: 2
-        x: 576
-        y: 1728
-        width: 96
-        height: 96
+        x: 192
+        y: 576
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -856,10 +856,10 @@ TextureImporter:
       name: Motion Sense
       rect:
         serializedVersion: 2
-        x: 672
-        y: 1728
-        width: 96
-        height: 96
+        x: 224
+        y: 576
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -870,10 +870,10 @@ TextureImporter:
       name: Square Button
       rect:
         serializedVersion: 2
-        x: 768
-        y: 1728
-        width: 96
-        height: 96
+        x: 256
+        y: 576
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -884,10 +884,10 @@ TextureImporter:
       name: Simon States
       rect:
         serializedVersion: 2
-        x: 864
-        y: 1728
-        width: 96
-        height: 96
+        x: 288
+        y: 576
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -898,10 +898,10 @@ TextureImporter:
       name: Round Keypad
       rect:
         serializedVersion: 2
-        x: 960
-        y: 1728
-        width: 96
-        height: 96
+        x: 320
+        y: 576
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -912,10 +912,10 @@ TextureImporter:
       name: Listening
       rect:
         serializedVersion: 2
-        x: 1056
-        y: 1728
-        width: 96
-        height: 96
+        x: 352
+        y: 576
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -926,10 +926,10 @@ TextureImporter:
       name: Foreign Exchange Rates
       rect:
         serializedVersion: 2
-        x: 1152
-        y: 1728
-        width: 96
-        height: 96
+        x: 384
+        y: 576
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -940,10 +940,10 @@ TextureImporter:
       name: Answering Questions
       rect:
         serializedVersion: 2
-        x: 1248
-        y: 1728
-        width: 96
-        height: 96
+        x: 416
+        y: 576
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -954,10 +954,10 @@ TextureImporter:
       name: Orientation Cube
       rect:
         serializedVersion: 2
-        x: 1344
-        y: 1728
-        width: 96
-        height: 96
+        x: 448
+        y: 576
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -968,10 +968,10 @@ TextureImporter:
       name: Morsematics
       rect:
         serializedVersion: 2
-        x: 1440
-        y: 1728
-        width: 96
-        height: 96
+        x: 480
+        y: 576
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -982,10 +982,10 @@ TextureImporter:
       name: Connection Check
       rect:
         serializedVersion: 2
-        x: 1536
-        y: 1728
-        width: 96
-        height: 96
+        x: 512
+        y: 576
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -996,10 +996,10 @@ TextureImporter:
       name: Letter Keys
       rect:
         serializedVersion: 2
-        x: 1632
-        y: 1728
-        width: 96
-        height: 96
+        x: 544
+        y: 576
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1010,10 +1010,10 @@ TextureImporter:
       name: Forget Me Not
       rect:
         serializedVersion: 2
-        x: 1728
-        y: 1728
-        width: 96
-        height: 96
+        x: 576
+        y: 576
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1024,10 +1024,10 @@ TextureImporter:
       name: Modules_39
       rect:
         serializedVersion: 2
-        x: 1824
-        y: 1728
-        width: 96
-        height: 96
+        x: 608
+        y: 576
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1039,9 +1039,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 1632
-        width: 96
-        height: 96
+        y: 544
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1052,10 +1052,10 @@ TextureImporter:
       name: Astrology
       rect:
         serializedVersion: 2
-        x: 96
-        y: 1632
-        width: 96
-        height: 96
+        x: 32
+        y: 544
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1066,10 +1066,10 @@ TextureImporter:
       name: Logic
       rect:
         serializedVersion: 2
-        x: 192
-        y: 1632
-        width: 96
-        height: 96
+        x: 64
+        y: 544
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1080,10 +1080,10 @@ TextureImporter:
       name: Crazy Talk
       rect:
         serializedVersion: 2
-        x: 288
-        y: 1632
-        width: 96
-        height: 96
+        x: 96
+        y: 544
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1094,10 +1094,10 @@ TextureImporter:
       name: Adventure Game
       rect:
         serializedVersion: 2
-        x: 384
-        y: 1632
-        width: 96
-        height: 96
+        x: 128
+        y: 544
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1108,10 +1108,10 @@ TextureImporter:
       name: Turn The Keys
       rect:
         serializedVersion: 2
-        x: 480
-        y: 1632
-        width: 96
-        height: 96
+        x: 160
+        y: 544
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1122,10 +1122,10 @@ TextureImporter:
       name: Turn The Key
       rect:
         serializedVersion: 2
-        x: 576
-        y: 1632
-        width: 96
-        height: 96
+        x: 192
+        y: 544
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1136,10 +1136,10 @@ TextureImporter:
       name: Mystic Square
       rect:
         serializedVersion: 2
-        x: 672
-        y: 1632
-        width: 96
-        height: 96
+        x: 224
+        y: 544
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1150,10 +1150,10 @@ TextureImporter:
       name: Plumbing
       rect:
         serializedVersion: 2
-        x: 768
-        y: 1632
-        width: 96
-        height: 96
+        x: 256
+        y: 544
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1164,10 +1164,10 @@ TextureImporter:
       name: Cruel Piano Keys
       rect:
         serializedVersion: 2
-        x: 864
-        y: 1632
-        width: 96
-        height: 96
+        x: 288
+        y: 544
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1178,10 +1178,10 @@ TextureImporter:
       name: Safety Safe
       rect:
         serializedVersion: 2
-        x: 960
-        y: 1632
-        width: 96
-        height: 96
+        x: 320
+        y: 544
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1192,10 +1192,10 @@ TextureImporter:
       name: Tetris
       rect:
         serializedVersion: 2
-        x: 1056
-        y: 1632
-        width: 96
-        height: 96
+        x: 352
+        y: 544
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1206,10 +1206,10 @@ TextureImporter:
       name: Cryptography
       rect:
         serializedVersion: 2
-        x: 1152
-        y: 1632
-        width: 96
-        height: 96
+        x: 384
+        y: 544
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1220,10 +1220,10 @@ TextureImporter:
       name: Chess
       rect:
         serializedVersion: 2
-        x: 1248
-        y: 1632
-        width: 96
-        height: 96
+        x: 416
+        y: 544
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1234,10 +1234,10 @@ TextureImporter:
       name: Mouse In The Maze
       rect:
         serializedVersion: 2
-        x: 1344
-        y: 1632
-        width: 96
-        height: 96
+        x: 448
+        y: 544
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1248,10 +1248,10 @@ TextureImporter:
       name: 3D Maze
       rect:
         serializedVersion: 2
-        x: 1440
-        y: 1632
-        width: 96
-        height: 96
+        x: 480
+        y: 544
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1262,10 +1262,10 @@ TextureImporter:
       name: Silly Slots
       rect:
         serializedVersion: 2
-        x: 1536
-        y: 1632
-        width: 96
-        height: 96
+        x: 512
+        y: 544
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1276,10 +1276,10 @@ TextureImporter:
       name: Number Pad
       rect:
         serializedVersion: 2
-        x: 1632
-        y: 1632
-        width: 96
-        height: 96
+        x: 544
+        y: 544
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1290,10 +1290,10 @@ TextureImporter:
       name: Probing
       rect:
         serializedVersion: 2
-        x: 1728
-        y: 1632
-        width: 96
-        height: 96
+        x: 576
+        y: 544
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1304,10 +1304,10 @@ TextureImporter:
       name: Modules_59
       rect:
         serializedVersion: 2
-        x: 1824
-        y: 1632
-        width: 96
-        height: 96
+        x: 608
+        y: 544
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1319,9 +1319,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 1536
-        width: 96
-        height: 96
+        y: 512
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1332,10 +1332,10 @@ TextureImporter:
       name: Skewed Slots
       rect:
         serializedVersion: 2
-        x: 96
-        y: 1536
-        width: 96
-        height: 96
+        x: 32
+        y: 512
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1346,10 +1346,10 @@ TextureImporter:
       name: Caesar Cipher
       rect:
         serializedVersion: 2
-        x: 192
-        y: 1536
-        width: 96
-        height: 96
+        x: 64
+        y: 512
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1360,10 +1360,10 @@ TextureImporter:
       name: Perspective Pegs
       rect:
         serializedVersion: 2
-        x: 288
-        y: 1536
-        width: 96
-        height: 96
+        x: 96
+        y: 512
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1374,10 +1374,10 @@ TextureImporter:
       name: Microcontroller
       rect:
         serializedVersion: 2
-        x: 384
-        y: 1536
-        width: 96
-        height: 96
+        x: 128
+        y: 512
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1388,10 +1388,10 @@ TextureImporter:
       name: Murder
       rect:
         serializedVersion: 2
-        x: 480
-        y: 1536
-        width: 96
-        height: 96
+        x: 160
+        y: 512
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1402,10 +1402,10 @@ TextureImporter:
       name: The Gamepad
       rect:
         serializedVersion: 2
-        x: 576
-        y: 1536
-        width: 96
-        height: 96
+        x: 192
+        y: 512
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1416,10 +1416,10 @@ TextureImporter:
       name: Tic-Tac-Toe
       rect:
         serializedVersion: 2
-        x: 672
-        y: 1536
-        width: 96
-        height: 96
+        x: 224
+        y: 512
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1430,10 +1430,10 @@ TextureImporter:
       name: Who’s That Monsplode
       rect:
         serializedVersion: 2
-        x: 768
-        y: 1536
-        width: 96
-        height: 96
+        x: 256
+        y: 512
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1444,10 +1444,10 @@ TextureImporter:
       name: Monsplode, Fight!
       rect:
         serializedVersion: 2
-        x: 864
-        y: 1536
-        width: 96
-        height: 96
+        x: 288
+        y: 512
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1458,10 +1458,10 @@ TextureImporter:
       name: Shape Shift
       rect:
         serializedVersion: 2
-        x: 960
-        y: 1536
-        width: 96
-        height: 96
+        x: 320
+        y: 512
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1472,10 +1472,10 @@ TextureImporter:
       name: Follow the Leader
       rect:
         serializedVersion: 2
-        x: 1056
-        y: 1536
-        width: 96
-        height: 96
+        x: 352
+        y: 512
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1486,10 +1486,10 @@ TextureImporter:
       name: Friendship
       rect:
         serializedVersion: 2
-        x: 1152
-        y: 1536
-        width: 96
-        height: 96
+        x: 384
+        y: 512
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1500,10 +1500,10 @@ TextureImporter:
       name: The Bulb
       rect:
         serializedVersion: 2
-        x: 1248
-        y: 1536
-        width: 96
-        height: 96
+        x: 416
+        y: 512
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1514,10 +1514,10 @@ TextureImporter:
       name: Alphabet
       rect:
         serializedVersion: 2
-        x: 1344
-        y: 1536
-        width: 96
-        height: 96
+        x: 448
+        y: 512
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1528,10 +1528,10 @@ TextureImporter:
       name: Blind Alley
       rect:
         serializedVersion: 2
-        x: 1440
-        y: 1536
-        width: 96
-        height: 96
+        x: 480
+        y: 512
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1542,10 +1542,10 @@ TextureImporter:
       name: Sea Shells
       rect:
         serializedVersion: 2
-        x: 1536
-        y: 1536
-        width: 96
-        height: 96
+        x: 512
+        y: 512
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1556,10 +1556,10 @@ TextureImporter:
       name: English Test
       rect:
         serializedVersion: 2
-        x: 1632
-        y: 1536
-        width: 96
-        height: 96
+        x: 544
+        y: 512
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1570,10 +1570,10 @@ TextureImporter:
       name: Rock-Paper-Scissors-Lizard-Spock
       rect:
         serializedVersion: 2
-        x: 1728
-        y: 1536
-        width: 96
-        height: 96
+        x: 576
+        y: 512
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1584,10 +1584,10 @@ TextureImporter:
       name: Modules_79
       rect:
         serializedVersion: 2
-        x: 1824
-        y: 1536
-        width: 96
-        height: 96
+        x: 608
+        y: 512
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1599,9 +1599,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 1440
-        width: 96
-        height: 96
+        y: 480
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1612,10 +1612,10 @@ TextureImporter:
       name: Bitmaps
       rect:
         serializedVersion: 2
-        x: 96
-        y: 1440
-        width: 96
-        height: 96
+        x: 32
+        y: 480
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1626,10 +1626,10 @@ TextureImporter:
       name: Colored Squares
       rect:
         serializedVersion: 2
-        x: 192
-        y: 1440
-        width: 96
-        height: 96
+        x: 64
+        y: 480
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1640,10 +1640,10 @@ TextureImporter:
       name: Adjacent Letters
       rect:
         serializedVersion: 2
-        x: 288
-        y: 1440
-        width: 96
-        height: 96
+        x: 96
+        y: 480
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1654,10 +1654,10 @@ TextureImporter:
       name: Third Base
       rect:
         serializedVersion: 2
-        x: 384
-        y: 1440
-        width: 96
-        height: 96
+        x: 128
+        y: 480
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1668,10 +1668,10 @@ TextureImporter:
       name: Souvenir
       rect:
         serializedVersion: 2
-        x: 480
-        y: 1440
-        width: 96
-        height: 96
+        x: 160
+        y: 480
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1682,10 +1682,10 @@ TextureImporter:
       name: Word Search
       rect:
         serializedVersion: 2
-        x: 576
-        y: 1440
-        width: 96
-        height: 96
+        x: 192
+        y: 480
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1696,10 +1696,10 @@ TextureImporter:
       name: Broken Buttons
       rect:
         serializedVersion: 2
-        x: 672
-        y: 1440
-        width: 96
-        height: 96
+        x: 224
+        y: 480
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1710,10 +1710,10 @@ TextureImporter:
       name: Simon Screams
       rect:
         serializedVersion: 2
-        x: 768
-        y: 1440
-        width: 96
-        height: 96
+        x: 256
+        y: 480
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1724,10 +1724,10 @@ TextureImporter:
       name: Laundry
       rect:
         serializedVersion: 2
-        x: 864
-        y: 1440
-        width: 96
-        height: 96
+        x: 288
+        y: 480
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1738,10 +1738,10 @@ TextureImporter:
       name: Modules Against Humanity
       rect:
         serializedVersion: 2
-        x: 960
-        y: 1440
-        width: 96
-        height: 96
+        x: 320
+        y: 480
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1752,10 +1752,10 @@ TextureImporter:
       name: Complicated Buttons
       rect:
         serializedVersion: 2
-        x: 1056
-        y: 1440
-        width: 96
-        height: 96
+        x: 352
+        y: 480
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1766,10 +1766,10 @@ TextureImporter:
       name: Battleship
       rect:
         serializedVersion: 2
-        x: 1152
-        y: 1440
-        width: 96
-        height: 96
+        x: 384
+        y: 480
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1780,10 +1780,10 @@ TextureImporter:
       name: Text Field
       rect:
         serializedVersion: 2
-        x: 1248
-        y: 1440
-        width: 96
-        height: 96
+        x: 416
+        y: 480
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1794,10 +1794,10 @@ TextureImporter:
       name: Symbolic Password
       rect:
         serializedVersion: 2
-        x: 1344
-        y: 1440
-        width: 96
-        height: 96
+        x: 448
+        y: 480
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1808,10 +1808,10 @@ TextureImporter:
       name: Wire Placement
       rect:
         serializedVersion: 2
-        x: 1440
-        y: 1440
-        width: 96
-        height: 96
+        x: 480
+        y: 480
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1822,10 +1822,10 @@ TextureImporter:
       name: Double-Oh
       rect:
         serializedVersion: 2
-        x: 1536
-        y: 1440
-        width: 96
-        height: 96
+        x: 512
+        y: 480
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1836,10 +1836,10 @@ TextureImporter:
       name: Cheap Checkout
       rect:
         serializedVersion: 2
-        x: 1632
-        y: 1440
-        width: 96
-        height: 96
+        x: 544
+        y: 480
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1850,10 +1850,10 @@ TextureImporter:
       name: Coordinates
       rect:
         serializedVersion: 2
-        x: 1728
-        y: 1440
-        width: 96
-        height: 96
+        x: 576
+        y: 480
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1864,10 +1864,10 @@ TextureImporter:
       name: Modules_99
       rect:
         serializedVersion: 2
-        x: 1824
-        y: 1440
-        width: 96
-        height: 96
+        x: 608
+        y: 480
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1879,9 +1879,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 1344
-        width: 96
-        height: 96
+        y: 448
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1892,10 +1892,10 @@ TextureImporter:
       name: HTTP Response
       rect:
         serializedVersion: 2
-        x: 96
-        y: 1344
-        width: 96
-        height: 96
+        x: 32
+        y: 448
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1906,10 +1906,10 @@ TextureImporter:
       name: Rhythms
       rect:
         serializedVersion: 2
-        x: 192
-        y: 1344
-        width: 96
-        height: 96
+        x: 64
+        y: 448
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1920,10 +1920,10 @@ TextureImporter:
       name: Color Math
       rect:
         serializedVersion: 2
-        x: 288
-        y: 1344
-        width: 96
-        height: 96
+        x: 96
+        y: 448
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1934,10 +1934,10 @@ TextureImporter:
       name: Only Connect
       rect:
         serializedVersion: 2
-        x: 384
-        y: 1344
-        width: 96
-        height: 96
+        x: 128
+        y: 448
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1948,10 +1948,10 @@ TextureImporter:
       name: Neutralization
       rect:
         serializedVersion: 2
-        x: 480
-        y: 1344
-        width: 96
-        height: 96
+        x: 160
+        y: 448
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1962,10 +1962,10 @@ TextureImporter:
       name: Web Design
       rect:
         serializedVersion: 2
-        x: 576
-        y: 1344
-        width: 96
-        height: 96
+        x: 192
+        y: 448
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1976,10 +1976,10 @@ TextureImporter:
       name: Chord Qualities
       rect:
         serializedVersion: 2
-        x: 672
-        y: 1344
-        width: 96
-        height: 96
+        x: 224
+        y: 448
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1990,10 +1990,10 @@ TextureImporter:
       name: Creation
       rect:
         serializedVersion: 2
-        x: 768
-        y: 1344
-        width: 96
-        height: 96
+        x: 256
+        y: 448
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2004,10 +2004,10 @@ TextureImporter:
       name: Rubik’s Cube
       rect:
         serializedVersion: 2
-        x: 864
-        y: 1344
-        width: 96
-        height: 96
+        x: 288
+        y: 448
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2018,10 +2018,10 @@ TextureImporter:
       name: FizzBuzz
       rect:
         serializedVersion: 2
-        x: 960
-        y: 1344
-        width: 96
-        height: 96
+        x: 320
+        y: 448
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2032,10 +2032,10 @@ TextureImporter:
       name: The Clock
       rect:
         serializedVersion: 2
-        x: 1056
-        y: 1344
-        width: 96
-        height: 96
+        x: 352
+        y: 448
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2046,10 +2046,10 @@ TextureImporter:
       name: LED Encryption
       rect:
         serializedVersion: 2
-        x: 1152
-        y: 1344
-        width: 96
-        height: 96
+        x: 384
+        y: 448
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2060,10 +2060,10 @@ TextureImporter:
       name: Edgework
       rect:
         serializedVersion: 2
-        x: 1248
-        y: 1344
-        width: 96
-        height: 96
+        x: 416
+        y: 448
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2074,10 +2074,10 @@ TextureImporter:
       name: Bitwise Operations
       rect:
         serializedVersion: 2
-        x: 1344
-        y: 1344
-        width: 96
-        height: 96
+        x: 448
+        y: 448
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2088,10 +2088,10 @@ TextureImporter:
       name: Fast Math
       rect:
         serializedVersion: 2
-        x: 1440
-        y: 1344
-        width: 96
-        height: 96
+        x: 480
+        y: 448
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2102,10 +2102,10 @@ TextureImporter:
       name: Minesweeper
       rect:
         serializedVersion: 2
-        x: 1536
-        y: 1344
-        width: 96
-        height: 96
+        x: 512
+        y: 448
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2116,10 +2116,10 @@ TextureImporter:
       name: Zoo
       rect:
         serializedVersion: 2
-        x: 1632
-        y: 1344
-        width: 96
-        height: 96
+        x: 544
+        y: 448
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2130,10 +2130,10 @@ TextureImporter:
       name: Binary LEDs
       rect:
         serializedVersion: 2
-        x: 1728
-        y: 1344
-        width: 96
-        height: 96
+        x: 576
+        y: 448
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2144,10 +2144,10 @@ TextureImporter:
       name: Modules_119
       rect:
         serializedVersion: 2
-        x: 1824
-        y: 1344
-        width: 96
-        height: 96
+        x: 608
+        y: 448
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2159,9 +2159,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 1248
-        width: 96
-        height: 96
+        y: 416
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2172,10 +2172,10 @@ TextureImporter:
       name: Point of Order
       rect:
         serializedVersion: 2
-        x: 96
-        y: 1248
-        width: 96
-        height: 96
+        x: 32
+        y: 416
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2186,10 +2186,10 @@ TextureImporter:
       name: Ice Cream
       rect:
         serializedVersion: 2
-        x: 192
-        y: 1248
-        width: 96
-        height: 96
+        x: 64
+        y: 416
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2200,10 +2200,10 @@ TextureImporter:
       name: Hex To Decimal
       rect:
         serializedVersion: 2
-        x: 288
-        y: 1248
-        width: 96
-        height: 96
+        x: 96
+        y: 416
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2214,10 +2214,10 @@ TextureImporter:
       name: The Screw
       rect:
         serializedVersion: 2
-        x: 384
-        y: 1248
-        width: 96
-        height: 96
+        x: 128
+        y: 416
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2228,10 +2228,10 @@ TextureImporter:
       name: Yahtzee
       rect:
         serializedVersion: 2
-        x: 480
-        y: 1248
-        width: 96
-        height: 96
+        x: 160
+        y: 416
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2242,10 +2242,10 @@ TextureImporter:
       name: X-Ray
       rect:
         serializedVersion: 2
-        x: 576
-        y: 1248
-        width: 96
-        height: 96
+        x: 192
+        y: 416
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2256,10 +2256,10 @@ TextureImporter:
       name: QR Code
       rect:
         serializedVersion: 2
-        x: 672
-        y: 1248
-        width: 96
-        height: 96
+        x: 224
+        y: 416
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2270,10 +2270,10 @@ TextureImporter:
       name: Button Masher
       rect:
         serializedVersion: 2
-        x: 768
-        y: 1248
-        width: 96
-        height: 96
+        x: 256
+        y: 416
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2284,10 +2284,10 @@ TextureImporter:
       name: Random Number Generator
       rect:
         serializedVersion: 2
-        x: 864
-        y: 1248
-        width: 96
-        height: 96
+        x: 288
+        y: 416
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2298,10 +2298,10 @@ TextureImporter:
       name: Color Morse
       rect:
         serializedVersion: 2
-        x: 960
-        y: 1248
-        width: 96
-        height: 96
+        x: 320
+        y: 416
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2312,10 +2312,10 @@ TextureImporter:
       name: Mastermind Cruel
       rect:
         serializedVersion: 2
-        x: 1056
-        y: 1248
-        width: 96
-        height: 96
+        x: 352
+        y: 416
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2326,10 +2326,10 @@ TextureImporter:
       name: Mastermind Simple
       rect:
         serializedVersion: 2
-        x: 1152
-        y: 1248
-        width: 96
-        height: 96
+        x: 384
+        y: 416
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2340,10 +2340,10 @@ TextureImporter:
       name: Gridlock
       rect:
         serializedVersion: 2
-        x: 1248
-        y: 1248
-        width: 96
-        height: 96
+        x: 416
+        y: 416
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2354,10 +2354,10 @@ TextureImporter:
       name: Big Circle
       rect:
         serializedVersion: 2
-        x: 1344
-        y: 1248
-        width: 96
-        height: 96
+        x: 448
+        y: 416
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2368,10 +2368,10 @@ TextureImporter:
       name: Morse-A-Maze
       rect:
         serializedVersion: 2
-        x: 1440
-        y: 1248
-        width: 96
-        height: 96
+        x: 480
+        y: 416
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2382,10 +2382,10 @@ TextureImporter:
       name: Colored Switches
       rect:
         serializedVersion: 2
-        x: 1536
-        y: 1248
-        width: 96
-        height: 96
+        x: 512
+        y: 416
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2396,10 +2396,10 @@ TextureImporter:
       name: Perplexing Wires
       rect:
         serializedVersion: 2
-        x: 1632
-        y: 1248
-        width: 96
-        height: 96
+        x: 544
+        y: 416
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2410,10 +2410,10 @@ TextureImporter:
       name: Monsplode Trading Cards
       rect:
         serializedVersion: 2
-        x: 1728
-        y: 1248
-        width: 96
-        height: 96
+        x: 576
+        y: 416
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2424,10 +2424,10 @@ TextureImporter:
       name: Modules_139
       rect:
         serializedVersion: 2
-        x: 1824
-        y: 1248
-        width: 96
-        height: 96
+        x: 608
+        y: 416
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2439,9 +2439,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 1152
-        width: 96
-        height: 96
+        y: 384
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2452,10 +2452,10 @@ TextureImporter:
       name: Game of Life Simple
       rect:
         serializedVersion: 2
-        x: 96
-        y: 1152
-        width: 96
-        height: 96
+        x: 32
+        y: 384
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2466,10 +2466,10 @@ TextureImporter:
       name: Nonogram
       rect:
         serializedVersion: 2
-        x: 192
-        y: 1152
-        width: 96
-        height: 96
+        x: 64
+        y: 384
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2480,10 +2480,10 @@ TextureImporter:
       name: S.E.T.
       rect:
         serializedVersion: 2
-        x: 288
-        y: 1152
-        width: 96
-        height: 96
+        x: 96
+        y: 384
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2494,10 +2494,10 @@ TextureImporter:
       name: Refill that Beer!
       rect:
         serializedVersion: 2
-        x: 384
-        y: 1152
-        width: 96
-        height: 96
+        x: 128
+        y: 384
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2508,10 +2508,10 @@ TextureImporter:
       name: Painting
       rect:
         serializedVersion: 2
-        x: 480
-        y: 1152
-        width: 96
-        height: 96
+        x: 160
+        y: 384
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2522,10 +2522,10 @@ TextureImporter:
       name: Color Generator
       rect:
         serializedVersion: 2
-        x: 576
-        y: 1152
-        width: 96
-        height: 96
+        x: 192
+        y: 384
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2536,10 +2536,10 @@ TextureImporter:
       name: Shape Memory
       rect:
         serializedVersion: 2
-        x: 672
-        y: 1152
-        width: 96
-        height: 96
+        x: 224
+        y: 384
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2550,10 +2550,10 @@ TextureImporter:
       name: Symbol Cycle
       rect:
         serializedVersion: 2
-        x: 768
-        y: 1152
-        width: 96
-        height: 96
+        x: 256
+        y: 384
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2564,10 +2564,10 @@ TextureImporter:
       name: Hunting
       rect:
         serializedVersion: 2
-        x: 864
-        y: 1152
-        width: 96
-        height: 96
+        x: 288
+        y: 384
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2578,10 +2578,10 @@ TextureImporter:
       name: Extended Password
       rect:
         serializedVersion: 2
-        x: 960
-        y: 1152
-        width: 96
-        height: 96
+        x: 320
+        y: 384
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2592,10 +2592,10 @@ TextureImporter:
       name: Curriculum
       rect:
         serializedVersion: 2
-        x: 1056
-        y: 1152
-        width: 96
-        height: 96
+        x: 352
+        y: 384
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2606,10 +2606,10 @@ TextureImporter:
       name: Braille
       rect:
         serializedVersion: 2
-        x: 1152
-        y: 1152
-        width: 96
-        height: 96
+        x: 384
+        y: 384
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2620,10 +2620,10 @@ TextureImporter:
       name: Mafia
       rect:
         serializedVersion: 2
-        x: 1248
-        y: 1152
-        width: 96
-        height: 96
+        x: 416
+        y: 384
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2634,10 +2634,10 @@ TextureImporter:
       name: Festive Piano Keys
       rect:
         serializedVersion: 2
-        x: 1344
-        y: 1152
-        width: 96
-        height: 96
+        x: 448
+        y: 384
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2648,10 +2648,10 @@ TextureImporter:
       name: Flags
       rect:
         serializedVersion: 2
-        x: 1440
-        y: 1152
-        width: 96
-        height: 96
+        x: 480
+        y: 384
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2662,10 +2662,10 @@ TextureImporter:
       name: Timezone
       rect:
         serializedVersion: 2
-        x: 1536
-        y: 1152
-        width: 96
-        height: 96
+        x: 512
+        y: 384
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2676,10 +2676,10 @@ TextureImporter:
       name: Polyhedral Maze
       rect:
         serializedVersion: 2
-        x: 1632
-        y: 1152
-        width: 96
-        height: 96
+        x: 544
+        y: 384
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2690,10 +2690,10 @@ TextureImporter:
       name: Symbolic Coordinates
       rect:
         serializedVersion: 2
-        x: 1728
-        y: 1152
-        width: 96
-        height: 96
+        x: 576
+        y: 384
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2704,10 +2704,10 @@ TextureImporter:
       name: Modules_159
       rect:
         serializedVersion: 2
-        x: 1824
-        y: 1152
-        width: 96
-        height: 96
+        x: 608
+        y: 384
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2719,9 +2719,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 1056
-        width: 96
-        height: 96
+        y: 352
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2732,10 +2732,10 @@ TextureImporter:
       name: Sonic the Hedgehog
       rect:
         serializedVersion: 2
-        x: 96
-        y: 1056
-        width: 96
-        height: 96
+        x: 32
+        y: 352
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2746,10 +2746,10 @@ TextureImporter:
       name: Poetry
       rect:
         serializedVersion: 2
-        x: 192
-        y: 1056
-        width: 96
-        height: 96
+        x: 64
+        y: 352
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2760,10 +2760,10 @@ TextureImporter:
       name: Button Sequence
       rect:
         serializedVersion: 2
-        x: 288
-        y: 1056
-        width: 96
-        height: 96
+        x: 96
+        y: 352
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2774,10 +2774,10 @@ TextureImporter:
       name: Algebra
       rect:
         serializedVersion: 2
-        x: 384
-        y: 1056
-        width: 96
-        height: 96
+        x: 128
+        y: 352
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2788,10 +2788,10 @@ TextureImporter:
       name: Visual Impairment
       rect:
         serializedVersion: 2
-        x: 480
-        y: 1056
-        width: 96
-        height: 96
+        x: 160
+        y: 352
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2802,10 +2802,10 @@ TextureImporter:
       name: The Jukebox
       rect:
         serializedVersion: 2
-        x: 576
-        y: 1056
-        width: 96
-        height: 96
+        x: 192
+        y: 352
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2816,10 +2816,10 @@ TextureImporter:
       name: Identity Parade
       rect:
         serializedVersion: 2
-        x: 672
-        y: 1056
-        width: 96
-        height: 96
+        x: 224
+        y: 352
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2830,10 +2830,10 @@ TextureImporter:
       name: Maintenance
       rect:
         serializedVersion: 2
-        x: 768
-        y: 1056
-        width: 96
-        height: 96
+        x: 256
+        y: 352
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2844,10 +2844,10 @@ TextureImporter:
       name: Blind Maze
       rect:
         serializedVersion: 2
-        x: 864
-        y: 1056
-        width: 96
-        height: 96
+        x: 288
+        y: 352
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2858,10 +2858,10 @@ TextureImporter:
       name: Backgrounds
       rect:
         serializedVersion: 2
-        x: 960
-        y: 1056
-        width: 96
-        height: 96
+        x: 320
+        y: 352
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2872,10 +2872,10 @@ TextureImporter:
       name: Mortal Kombat
       rect:
         serializedVersion: 2
-        x: 1056
-        y: 1056
-        width: 96
-        height: 96
+        x: 352
+        y: 352
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2886,10 +2886,10 @@ TextureImporter:
       name: Mashematics
       rect:
         serializedVersion: 2
-        x: 1152
-        y: 1056
-        width: 96
-        height: 96
+        x: 384
+        y: 352
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2900,10 +2900,10 @@ TextureImporter:
       name: Faulty Backgrounds
       rect:
         serializedVersion: 2
-        x: 1248
-        y: 1056
-        width: 96
-        height: 96
+        x: 416
+        y: 352
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2914,10 +2914,10 @@ TextureImporter:
       name: Radiator
       rect:
         serializedVersion: 2
-        x: 1344
-        y: 1056
-        width: 96
-        height: 96
+        x: 448
+        y: 352
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2928,10 +2928,10 @@ TextureImporter:
       name: Modern Cipher
       rect:
         serializedVersion: 2
-        x: 1440
-        y: 1056
-        width: 96
-        height: 96
+        x: 480
+        y: 352
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2942,10 +2942,10 @@ TextureImporter:
       name: LED Grid
       rect:
         serializedVersion: 2
-        x: 1536
-        y: 1056
-        width: 96
-        height: 96
+        x: 512
+        y: 352
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2956,10 +2956,10 @@ TextureImporter:
       name: Sink
       rect:
         serializedVersion: 2
-        x: 1632
-        y: 1056
-        width: 96
-        height: 96
+        x: 544
+        y: 352
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2970,10 +2970,10 @@ TextureImporter:
       name: The iPhone
       rect:
         serializedVersion: 2
-        x: 1728
-        y: 1056
-        width: 96
-        height: 96
+        x: 576
+        y: 352
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2984,10 +2984,10 @@ TextureImporter:
       name: Modules_179
       rect:
         serializedVersion: 2
-        x: 1824
-        y: 1056
-        width: 96
-        height: 96
+        x: 608
+        y: 352
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2999,9 +2999,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 960
-        width: 96
-        height: 96
+        y: 320
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3012,10 +3012,10 @@ TextureImporter:
       name: Waste Management
       rect:
         serializedVersion: 2
-        x: 96
-        y: 960
-        width: 96
-        height: 96
+        x: 32
+        y: 320
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3026,10 +3026,10 @@ TextureImporter:
       name: Human Resources
       rect:
         serializedVersion: 2
-        x: 192
-        y: 960
-        width: 96
-        height: 96
+        x: 64
+        y: 320
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3040,10 +3040,10 @@ TextureImporter:
       name: Skyrim
       rect:
         serializedVersion: 2
-        x: 288
-        y: 960
-        width: 96
-        height: 96
+        x: 96
+        y: 320
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3054,10 +3054,10 @@ TextureImporter:
       name: Burglar Alarm
       rect:
         serializedVersion: 2
-        x: 384
-        y: 960
-        width: 96
-        height: 96
+        x: 128
+        y: 320
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3068,10 +3068,10 @@ TextureImporter:
       name: Press X
       rect:
         serializedVersion: 2
-        x: 480
-        y: 960
-        width: 96
-        height: 96
+        x: 160
+        y: 320
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3082,10 +3082,10 @@ TextureImporter:
       name: European Travel
       rect:
         serializedVersion: 2
-        x: 576
-        y: 960
-        width: 96
-        height: 96
+        x: 192
+        y: 320
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3096,10 +3096,10 @@ TextureImporter:
       name: Error Codes
       rect:
         serializedVersion: 2
-        x: 672
-        y: 960
-        width: 96
-        height: 96
+        x: 224
+        y: 320
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3110,10 +3110,10 @@ TextureImporter:
       name: Rapid Buttons
       rect:
         serializedVersion: 2
-        x: 768
-        y: 960
-        width: 96
-        height: 96
+        x: 256
+        y: 320
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3124,10 +3124,10 @@ TextureImporter:
       name: LEGOs
       rect:
         serializedVersion: 2
-        x: 864
-        y: 960
-        width: 96
-        height: 96
+        x: 288
+        y: 320
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3138,10 +3138,10 @@ TextureImporter:
       name: Rubik’s Clock
       rect:
         serializedVersion: 2
-        x: 960
-        y: 960
-        width: 96
-        height: 96
+        x: 320
+        y: 320
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3152,10 +3152,10 @@ TextureImporter:
       name: Font Select
       rect:
         serializedVersion: 2
-        x: 1056
-        y: 960
-        width: 96
-        height: 96
+        x: 352
+        y: 320
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3166,10 +3166,10 @@ TextureImporter:
       name: The Stopwatch
       rect:
         serializedVersion: 2
-        x: 1152
-        y: 960
-        width: 96
-        height: 96
+        x: 384
+        y: 320
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3180,10 +3180,10 @@ TextureImporter:
       name: Pie
       rect:
         serializedVersion: 2
-        x: 1248
-        y: 960
-        width: 96
-        height: 96
+        x: 416
+        y: 320
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3194,10 +3194,10 @@ TextureImporter:
       name: The Wire
       rect:
         serializedVersion: 2
-        x: 1344
-        y: 960
-        width: 96
-        height: 96
+        x: 448
+        y: 320
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3208,10 +3208,10 @@ TextureImporter:
       name: The London Underground
       rect:
         serializedVersion: 2
-        x: 1440
-        y: 960
-        width: 96
-        height: 96
+        x: 480
+        y: 320
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3222,10 +3222,10 @@ TextureImporter:
       name: Logic Gates
       rect:
         serializedVersion: 2
-        x: 1536
-        y: 960
-        width: 96
-        height: 96
+        x: 512
+        y: 320
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3236,10 +3236,10 @@ TextureImporter:
       name: Forget Everything
       rect:
         serializedVersion: 2
-        x: 1632
-        y: 960
-        width: 96
-        height: 96
+        x: 544
+        y: 320
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3250,10 +3250,10 @@ TextureImporter:
       name: Grid Matching
       rect:
         serializedVersion: 2
-        x: 1728
-        y: 960
-        width: 96
-        height: 96
+        x: 576
+        y: 320
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3264,10 +3264,10 @@ TextureImporter:
       name: Modules_199
       rect:
         serializedVersion: 2
-        x: 1824
-        y: 960
-        width: 96
-        height: 96
+        x: 608
+        y: 320
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3279,9 +3279,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 864
-        width: 96
-        height: 96
+        y: 288
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3292,10 +3292,10 @@ TextureImporter:
       name: The Sun
       rect:
         serializedVersion: 2
-        x: 96
-        y: 864
-        width: 96
-        height: 96
+        x: 32
+        y: 288
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3306,10 +3306,10 @@ TextureImporter:
       name: Playfair Cipher
       rect:
         serializedVersion: 2
-        x: 192
-        y: 864
-        width: 96
-        height: 96
+        x: 64
+        y: 288
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3320,10 +3320,10 @@ TextureImporter:
       name: Tangrams
       rect:
         serializedVersion: 2
-        x: 288
-        y: 864
-        width: 96
-        height: 96
+        x: 96
+        y: 288
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3334,10 +3334,10 @@ TextureImporter:
       name: The Number
       rect:
         serializedVersion: 2
-        x: 384
-        y: 864
-        width: 96
-        height: 96
+        x: 128
+        y: 288
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3348,10 +3348,10 @@ TextureImporter:
       name: Cooking
       rect:
         serializedVersion: 2
-        x: 480
-        y: 864
-        width: 96
-        height: 96
+        x: 160
+        y: 288
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3362,10 +3362,10 @@ TextureImporter:
       name: Superlogic
       rect:
         serializedVersion: 2
-        x: 576
-        y: 864
-        width: 96
-        height: 96
+        x: 192
+        y: 288
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3376,10 +3376,10 @@ TextureImporter:
       name: The Moon
       rect:
         serializedVersion: 2
-        x: 672
-        y: 864
-        width: 96
-        height: 96
+        x: 224
+        y: 288
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3390,10 +3390,10 @@ TextureImporter:
       name: The Cube
       rect:
         serializedVersion: 2
-        x: 768
-        y: 864
-        width: 96
-        height: 96
+        x: 256
+        y: 288
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3404,10 +3404,10 @@ TextureImporter:
       name: Dr. Doctor
       rect:
         serializedVersion: 2
-        x: 864
-        y: 864
-        width: 96
-        height: 96
+        x: 288
+        y: 288
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3418,10 +3418,10 @@ TextureImporter:
       name: Tax Returns
       rect:
         serializedVersion: 2
-        x: 960
-        y: 864
-        width: 96
-        height: 96
+        x: 320
+        y: 288
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3432,10 +3432,10 @@ TextureImporter:
       name: The Jewel Vault
       rect:
         serializedVersion: 2
-        x: 1056
-        y: 864
-        width: 96
-        height: 96
+        x: 352
+        y: 288
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3446,10 +3446,10 @@ TextureImporter:
       name: Digital Root
       rect:
         serializedVersion: 2
-        x: 1152
-        y: 864
-        width: 96
-        height: 96
+        x: 384
+        y: 288
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3460,10 +3460,10 @@ TextureImporter:
       name: Graffiti Numbers
       rect:
         serializedVersion: 2
-        x: 1248
-        y: 864
-        width: 96
-        height: 96
+        x: 416
+        y: 288
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3474,10 +3474,10 @@ TextureImporter:
       name: Marble Tumble
       rect:
         serializedVersion: 2
-        x: 1344
-        y: 864
-        width: 96
-        height: 96
+        x: 448
+        y: 288
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3488,10 +3488,10 @@ TextureImporter:
       name: X01
       rect:
         serializedVersion: 2
-        x: 1440
-        y: 864
-        width: 96
-        height: 96
+        x: 480
+        y: 288
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3502,10 +3502,10 @@ TextureImporter:
       name: Logical Buttons
       rect:
         serializedVersion: 2
-        x: 1536
-        y: 864
-        width: 96
-        height: 96
+        x: 512
+        y: 288
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3516,10 +3516,10 @@ TextureImporter:
       name: The Code
       rect:
         serializedVersion: 2
-        x: 1632
-        y: 864
-        width: 96
-        height: 96
+        x: 544
+        y: 288
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3530,10 +3530,10 @@ TextureImporter:
       name: Tap Code
       rect:
         serializedVersion: 2
-        x: 1728
-        y: 864
-        width: 96
-        height: 96
+        x: 576
+        y: 288
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3544,10 +3544,10 @@ TextureImporter:
       name: Modules_219
       rect:
         serializedVersion: 2
-        x: 1824
-        y: 864
-        width: 96
-        height: 96
+        x: 608
+        y: 288
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3559,9 +3559,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 768
-        width: 96
-        height: 96
+        y: 256
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3572,10 +3572,10 @@ TextureImporter:
       name: Simon Sends
       rect:
         serializedVersion: 2
-        x: 96
-        y: 768
-        width: 96
-        height: 96
+        x: 32
+        y: 256
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3586,10 +3586,10 @@ TextureImporter:
       name: Synonyms
       rect:
         serializedVersion: 2
-        x: 192
-        y: 768
-        width: 96
-        height: 96
+        x: 64
+        y: 256
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3600,10 +3600,10 @@ TextureImporter:
       name: Greek Calculus
       rect:
         serializedVersion: 2
-        x: 288
-        y: 768
-        width: 96
-        height: 96
+        x: 96
+        y: 256
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3614,10 +3614,10 @@ TextureImporter:
       name: Simon Shrieks
       rect:
         serializedVersion: 2
-        x: 384
-        y: 768
-        width: 96
-        height: 96
+        x: 128
+        y: 256
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3628,10 +3628,10 @@ TextureImporter:
       name: Complex Keypad
       rect:
         serializedVersion: 2
-        x: 480
-        y: 768
-        width: 96
-        height: 96
+        x: 160
+        y: 256
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3642,10 +3642,10 @@ TextureImporter:
       name: Subways
       rect:
         serializedVersion: 2
-        x: 576
-        y: 768
-        width: 96
-        height: 96
+        x: 192
+        y: 256
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3656,10 +3656,10 @@ TextureImporter:
       name: Lasers
       rect:
         serializedVersion: 2
-        x: 672
-        y: 768
-        width: 96
-        height: 96
+        x: 224
+        y: 256
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3670,10 +3670,10 @@ TextureImporter:
       name: Turtle Robot
       rect:
         serializedVersion: 2
-        x: 768
-        y: 768
-        width: 96
-        height: 96
+        x: 256
+        y: 256
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3684,10 +3684,10 @@ TextureImporter:
       name: Guitar Chords
       rect:
         serializedVersion: 2
-        x: 864
-        y: 768
-        width: 96
-        height: 96
+        x: 288
+        y: 256
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3698,10 +3698,10 @@ TextureImporter:
       name: Calendar
       rect:
         serializedVersion: 2
-        x: 960
-        y: 768
-        width: 96
-        height: 96
+        x: 320
+        y: 256
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3712,10 +3712,10 @@ TextureImporter:
       name: USA Maze
       rect:
         serializedVersion: 2
-        x: 1056
-        y: 768
-        width: 96
-        height: 96
+        x: 352
+        y: 256
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3726,10 +3726,10 @@ TextureImporter:
       name: Binary Tree
       rect:
         serializedVersion: 2
-        x: 1152
-        y: 768
-        width: 96
-        height: 96
+        x: 384
+        y: 256
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3740,10 +3740,10 @@ TextureImporter:
       name: The Time Keeper
       rect:
         serializedVersion: 2
-        x: 1248
-        y: 768
-        width: 96
-        height: 96
+        x: 416
+        y: 256
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3754,10 +3754,10 @@ TextureImporter:
       name: Lightspeed
       rect:
         serializedVersion: 2
-        x: 1344
-        y: 768
-        width: 96
-        height: 96
+        x: 448
+        y: 256
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3768,10 +3768,10 @@ TextureImporter:
       name: Black Hole
       rect:
         serializedVersion: 2
-        x: 1440
-        y: 768
-        width: 96
-        height: 96
+        x: 480
+        y: 256
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3782,10 +3782,10 @@ TextureImporter:
       name: Simon’s Stars
       rect:
         serializedVersion: 2
-        x: 1536
-        y: 768
-        width: 96
-        height: 96
+        x: 512
+        y: 256
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3796,10 +3796,10 @@ TextureImporter:
       name: Morse War
       rect:
         serializedVersion: 2
-        x: 1632
-        y: 768
-        width: 96
-        height: 96
+        x: 544
+        y: 256
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3810,10 +3810,10 @@ TextureImporter:
       name: The Stock Market
       rect:
         serializedVersion: 2
-        x: 1728
-        y: 768
-        width: 96
-        height: 96
+        x: 576
+        y: 256
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3824,10 +3824,10 @@ TextureImporter:
       name: Modules_239
       rect:
         serializedVersion: 2
-        x: 1824
-        y: 1728
-        width: 96
-        height: 96
+        x: 608
+        y: 256
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3839,9 +3839,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 672
-        width: 96
-        height: 96
+        y: 224
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3852,10 +3852,10 @@ TextureImporter:
       name: Maze Scrambler
       rect:
         serializedVersion: 2
-        x: 96
-        y: 672
-        width: 96
-        height: 96
+        x: 32
+        y: 224
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3866,10 +3866,10 @@ TextureImporter:
       name: The Number Cipher
       rect:
         serializedVersion: 2
-        x: 192
-        y: 672
-        width: 96
-        height: 96
+        x: 64
+        y: 224
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3880,10 +3880,10 @@ TextureImporter:
       name: Alphabet Numbers
       rect:
         serializedVersion: 2
-        x: 288
-        y: 672
-        width: 96
-        height: 96
+        x: 96
+        y: 224
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3894,10 +3894,10 @@ TextureImporter:
       name: British Slang
       rect:
         serializedVersion: 2
-        x: 384
-        y: 672
-        width: 96
-        height: 96
+        x: 128
+        y: 224
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3908,10 +3908,10 @@ TextureImporter:
       name: Double Color
       rect:
         serializedVersion: 2
-        x: 480
-        y: 672
-        width: 96
-        height: 96
+        x: 160
+        y: 224
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3922,10 +3922,10 @@ TextureImporter:
       name: Maritime Flags
       rect:
         serializedVersion: 2
-        x: 576
-        y: 672
-        width: 96
-        height: 96
+        x: 192
+        y: 224
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3936,10 +3936,10 @@ TextureImporter:
       name: Equations
       rect:
         serializedVersion: 2
-        x: 672
-        y: 672
-        width: 96
-        height: 96
+        x: 224
+        y: 224
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3950,10 +3950,10 @@ TextureImporter:
       name: Determinants
       rect:
         serializedVersion: 2
-        x: 768
-        y: 672
-        width: 96
-        height: 96
+        x: 256
+        y: 224
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3964,10 +3964,10 @@ TextureImporter:
       name: Pattern Cube
       rect:
         serializedVersion: 2
-        x: 864
-        y: 672
-        width: 96
-        height: 96
+        x: 288
+        y: 224
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3978,10 +3978,10 @@ TextureImporter:
       name: Know Your Way
       rect:
         serializedVersion: 2
-        x: 960
-        y: 672
-        width: 96
-        height: 96
+        x: 320
+        y: 224
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3992,10 +3992,10 @@ TextureImporter:
       name: Splitting The Loot
       rect:
         serializedVersion: 2
-        x: 1056
-        y: 672
-        width: 96
-        height: 96
+        x: 352
+        y: 224
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4006,10 +4006,10 @@ TextureImporter:
       name: Simon Samples
       rect:
         serializedVersion: 2
-        x: 1152
-        y: 672
-        width: 96
-        height: 96
+        x: 384
+        y: 224
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4020,10 +4020,10 @@ TextureImporter:
       name: Character Shift
       rect:
         serializedVersion: 2
-        x: 1248
-        y: 672
-        width: 96
-        height: 96
+        x: 416
+        y: 224
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4034,10 +4034,10 @@ TextureImporter:
       name: Uncolored Squares
       rect:
         serializedVersion: 2
-        x: 1344
-        y: 672
-        width: 96
-        height: 96
+        x: 448
+        y: 224
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4048,10 +4048,10 @@ TextureImporter:
       name: Dragon Energy
       rect:
         serializedVersion: 2
-        x: 1440
-        y: 672
-        width: 96
-        height: 96
+        x: 480
+        y: 224
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4062,10 +4062,10 @@ TextureImporter:
       name: Flashing Lights
       rect:
         serializedVersion: 2
-        x: 1536
-        y: 672
-        width: 96
-        height: 96
+        x: 512
+        y: 224
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4076,10 +4076,10 @@ TextureImporter:
       name: 3D Tunnels
       rect:
         serializedVersion: 2
-        x: 1632
-        y: 672
-        width: 96
-        height: 96
+        x: 544
+        y: 224
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4090,10 +4090,10 @@ TextureImporter:
       name: Synchronization
       rect:
         serializedVersion: 2
-        x: 1728
-        y: 672
-        width: 96
-        height: 96
+        x: 576
+        y: 224
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4104,10 +4104,10 @@ TextureImporter:
       name: Modules_259
       rect:
         serializedVersion: 2
-        x: 1824
-        y: 672
-        width: 96
-        height: 96
+        x: 608
+        y: 224
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4119,9 +4119,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 576
-        width: 96
-        height: 96
+        y: 192
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4132,10 +4132,10 @@ TextureImporter:
       name: Reverse Morse
       rect:
         serializedVersion: 2
-        x: 96
-        y: 576
-        width: 96
-        height: 96
+        x: 32
+        y: 192
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4146,10 +4146,10 @@ TextureImporter:
       name: Manometers
       rect:
         serializedVersion: 2
-        x: 192
-        y: 576
-        width: 96
-        height: 96
+        x: 64
+        y: 192
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4160,10 +4160,10 @@ TextureImporter:
       name: Shikaku
       rect:
         serializedVersion: 2
-        x: 288
-        y: 576
-        width: 96
-        height: 96
+        x: 96
+        y: 192
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4174,10 +4174,10 @@ TextureImporter:
       name: Wire Spaghetti
       rect:
         serializedVersion: 2
-        x: 384
-        y: 576
-        width: 96
-        height: 96
+        x: 128
+        y: 192
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4188,10 +4188,10 @@ TextureImporter:
       name: Tennis
       rect:
         serializedVersion: 2
-        x: 480
-        y: 576
-        width: 96
-        height: 96
+        x: 160
+        y: 192
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4202,10 +4202,10 @@ TextureImporter:
       name: Module Homework
       rect:
         serializedVersion: 2
-        x: 576
-        y: 576
-        width: 96
-        height: 96
+        x: 192
+        y: 192
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4216,10 +4216,10 @@ TextureImporter:
       name: Benedict Cumberbatch
       rect:
         serializedVersion: 2
-        x: 672
-        y: 576
-        width: 96
-        height: 96
+        x: 224
+        y: 192
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4230,10 +4230,10 @@ TextureImporter:
       name: Signals
       rect:
         serializedVersion: 2
-        x: 768
-        y: 576
-        width: 96
-        height: 96
+        x: 256
+        y: 192
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4244,10 +4244,10 @@ TextureImporter:
       name: Horrible Memory
       rect:
         serializedVersion: 2
-        x: 864
-        y: 576
-        width: 96
-        height: 96
+        x: 288
+        y: 192
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4258,10 +4258,10 @@ TextureImporter:
       name: Boggle
       rect:
         serializedVersion: 2
-        x: 960
-        y: 576
-        width: 96
-        height: 96
+        x: 320
+        y: 192
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4272,10 +4272,10 @@ TextureImporter:
       name: Command Prompt
       rect:
         serializedVersion: 2
-        x: 1056
-        y: 576
-        width: 96
-        height: 96
+        x: 352
+        y: 192
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4286,10 +4286,10 @@ TextureImporter:
       name: Boolean Maze
       rect:
         serializedVersion: 2
-        x: 1152
-        y: 576
-        width: 96
-        height: 96
+        x: 384
+        y: 192
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4300,10 +4300,10 @@ TextureImporter:
       name: Sonic & Knuckles
       rect:
         serializedVersion: 2
-        x: 1248
-        y: 576
-        width: 96
-        height: 96
+        x: 416
+        y: 192
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4314,10 +4314,10 @@ TextureImporter:
       name: Quintuples
       rect:
         serializedVersion: 2
-        x: 1344
-        y: 576
-        width: 96
-        height: 96
+        x: 448
+        y: 192
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4328,10 +4328,10 @@ TextureImporter:
       name: The Sphere
       rect:
         serializedVersion: 2
-        x: 1440
-        y: 576
-        width: 96
-        height: 96
+        x: 480
+        y: 192
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4342,10 +4342,10 @@ TextureImporter:
       name: Coffeebucks
       rect:
         serializedVersion: 2
-        x: 1536
-        y: 576
-        width: 96
-        height: 96
+        x: 512
+        y: 192
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4356,10 +4356,10 @@ TextureImporter:
       name: Colorful Madness
       rect:
         serializedVersion: 2
-        x: 1632
-        y: 576
-        width: 96
-        height: 96
+        x: 544
+        y: 192
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4370,10 +4370,10 @@ TextureImporter:
       name: Bases
       rect:
         serializedVersion: 2
-        x: 1728
-        y: 576
-        width: 96
-        height: 96
+        x: 576
+        y: 192
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4384,10 +4384,10 @@ TextureImporter:
       name: Modules_279
       rect:
         serializedVersion: 2
-        x: 1824
-        y: 576
-        width: 96
-        height: 96
+        x: 608
+        y: 192
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4399,9 +4399,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 480
-        width: 96
-        height: 96
+        y: 160
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4412,10 +4412,10 @@ TextureImporter:
       name: Snooker
       rect:
         serializedVersion: 2
-        x: 96
-        y: 480
-        width: 96
-        height: 96
+        x: 32
+        y: 160
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4426,10 +4426,10 @@ TextureImporter:
       name: Blackjack
       rect:
         serializedVersion: 2
-        x: 192
-        y: 480
-        width: 96
-        height: 96
+        x: 64
+        y: 160
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4440,10 +4440,10 @@ TextureImporter:
       name: Party Time
       rect:
         serializedVersion: 2
-        x: 288
-        y: 480
-        width: 96
-        height: 96
+        x: 96
+        y: 160
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4454,10 +4454,10 @@ TextureImporter:
       name: Accumulation
       rect:
         serializedVersion: 2
-        x: 384
-        y: 480
-        width: 96
-        height: 96
+        x: 128
+        y: 160
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4468,10 +4468,10 @@ TextureImporter:
       name: The Plunger Button
       rect:
         serializedVersion: 2
-        x: 480
-        y: 480
-        width: 96
-        height: 96
+        x: 160
+        y: 160
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4482,10 +4482,10 @@ TextureImporter:
       name: The Digit
       rect:
         serializedVersion: 2
-        x: 576
-        y: 480
-        width: 96
-        height: 96
+        x: 192
+        y: 160
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4496,10 +4496,10 @@ TextureImporter:
       name: The Jack-O’-Lantern
       rect:
         serializedVersion: 2
-        x: 672
-        y: 480
-        width: 96
-        height: 96
+        x: 224
+        y: 160
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4510,10 +4510,10 @@ TextureImporter:
       name: T-Words
       rect:
         serializedVersion: 2
-        x: 768
-        y: 480
-        width: 96
-        height: 96
+        x: 256
+        y: 160
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4524,10 +4524,10 @@ TextureImporter:
       name: Divided Squares
       rect:
         serializedVersion: 2
-        x: 864
-        y: 480
-        width: 96
-        height: 96
+        x: 288
+        y: 160
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4538,10 +4538,10 @@ TextureImporter:
       name: Connection Device
       rect:
         serializedVersion: 2
-        x: 960
-        y: 480
-        width: 96
-        height: 96
+        x: 320
+        y: 160
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4552,10 +4552,10 @@ TextureImporter:
       name: Instructions
       rect:
         serializedVersion: 2
-        x: 1056
-        y: 480
-        width: 96
-        height: 96
+        x: 352
+        y: 160
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4566,10 +4566,10 @@ TextureImporter:
       name: Valves
       rect:
         serializedVersion: 2
-        x: 1152
-        y: 480
-        width: 96
-        height: 96
+        x: 384
+        y: 160
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4580,10 +4580,10 @@ TextureImporter:
       name: Encrypted Morse
       rect:
         serializedVersion: 2
-        x: 1248
-        y: 480
-        width: 96
-        height: 96
+        x: 416
+        y: 160
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4594,10 +4594,10 @@ TextureImporter:
       name: The Crystal Maze
       rect:
         serializedVersion: 2
-        x: 1344
-        y: 480
-        width: 96
-        height: 96
+        x: 448
+        y: 160
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4608,10 +4608,10 @@ TextureImporter:
       name: Cruel Countdown
       rect:
         serializedVersion: 2
-        x: 1440
-        y: 480
-        width: 96
-        height: 96
+        x: 480
+        y: 160
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4622,10 +4622,10 @@ TextureImporter:
       name: Countdown
       rect:
         serializedVersion: 2
-        x: 1536
-        y: 480
-        width: 96
-        height: 96
+        x: 512
+        y: 160
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4636,10 +4636,10 @@ TextureImporter:
       name: Catchphrase
       rect:
         serializedVersion: 2
-        x: 1632
-        y: 480
-        width: 96
-        height: 96
+        x: 544
+        y: 160
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4650,10 +4650,10 @@ TextureImporter:
       name: Blockbusters
       rect:
         serializedVersion: 2
-        x: 1728
-        y: 480
-        width: 96
-        height: 96
+        x: 576
+        y: 160
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4664,10 +4664,10 @@ TextureImporter:
       name: Modules_299
       rect:
         serializedVersion: 2
-        x: 1824
-        y: 480
-        width: 96
-        height: 96
+        x: 608
+        y: 160
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4679,9 +4679,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 384
-        width: 96
-        height: 96
+        y: 128
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4692,10 +4692,10 @@ TextureImporter:
       name: Retirement
       rect:
         serializedVersion: 2
-        x: 96
-        y: 384
-        width: 96
-        height: 96
+        x: 32
+        y: 128
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4706,10 +4706,10 @@ TextureImporter:
       name: Periodic Table
       rect:
         serializedVersion: 2
-        x: 192
-        y: 384
-        width: 96
-        height: 96
+        x: 64
+        y: 128
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4720,10 +4720,10 @@ TextureImporter:
       name: 101 Dalmatians
       rect:
         serializedVersion: 2
-        x: 288
-        y: 384
-        width: 96
-        height: 96
+        x: 96
+        y: 128
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4734,10 +4734,10 @@ TextureImporter:
       name: Schlag den Bomb
       rect:
         serializedVersion: 2
-        x: 384
-        y: 384
-        width: 96
-        height: 96
+        x: 128
+        y: 128
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4748,10 +4748,10 @@ TextureImporter:
       name: Mahjong
       rect:
         serializedVersion: 2
-        x: 480
-        y: 384
-        width: 96
-        height: 96
+        x: 160
+        y: 128
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4762,10 +4762,10 @@ TextureImporter:
       name: Kudosudoku
       rect:
         serializedVersion: 2
-        x: 576
-        y: 384
-        width: 96
-        height: 96
+        x: 192
+        y: 128
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4776,10 +4776,10 @@ TextureImporter:
       name: The Radio
       rect:
         serializedVersion: 2
-        x: 672
-        y: 384
-        width: 96
-        height: 96
+        x: 224
+        y: 128
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4790,10 +4790,10 @@ TextureImporter:
       name: Modulo
       rect:
         serializedVersion: 2
-        x: 768
-        y: 384
-        width: 96
-        height: 96
+        x: 256
+        y: 128
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4804,10 +4804,10 @@ TextureImporter:
       name: Number Nimbleness
       rect:
         serializedVersion: 2
-        x: 864
-        y: 384
-        width: 96
-        height: 96
+        x: 288
+        y: 128
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4818,10 +4818,10 @@ TextureImporter:
       name: Pay Respects
       rect:
         serializedVersion: 2
-        x: 960
-        y: 384
-        width: 96
-        height: 96
+        x: 320
+        y: 128
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4832,10 +4832,10 @@ TextureImporter:
       name: Challenge & Contact
       rect:
         serializedVersion: 2
-        x: 1056
-        y: 384
-        width: 96
-        height: 96
+        x: 352
+        y: 128
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4846,10 +4846,10 @@ TextureImporter:
       name: The Triangle
       rect:
         serializedVersion: 2
-        x: 1152
-        y: 384
-        width: 96
-        height: 96
+        x: 384
+        y: 128
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4860,10 +4860,10 @@ TextureImporter:
       name: Sueet Wall
       rect:
         serializedVersion: 2
-        x: 1248
-        y: 384
-        width: 96
-        height: 96
+        x: 416
+        y: 128
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4874,10 +4874,10 @@ TextureImporter:
       name: Hot Potato
       rect:
         serializedVersion: 2
-        x: 1344
-        y: 384
-        width: 96
-        height: 96
+        x: 448
+        y: 128
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4888,10 +4888,10 @@ TextureImporter:
       name: Christmas Presents
       rect:
         serializedVersion: 2
-        x: 1440
-        y: 384
-        width: 96
-        height: 96
+        x: 480
+        y: 128
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4902,10 +4902,10 @@ TextureImporter:
       name: Hieroglyphics
       rect:
         serializedVersion: 2
-        x: 1536
-        y: 384
-        width: 96
-        height: 96
+        x: 512
+        y: 128
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4916,10 +4916,10 @@ TextureImporter:
       name: Functions
       rect:
         serializedVersion: 2
-        x: 1632
-        y: 384
-        width: 96
-        height: 96
+        x: 544
+        y: 128
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4930,10 +4930,10 @@ TextureImporter:
       name: Scripting
       rect:
         serializedVersion: 2
-        x: 1728
-        y: 384
-        width: 96
-        height: 96
+        x: 576
+        y: 128
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4944,10 +4944,10 @@ TextureImporter:
       name: Modules_319
       rect:
         serializedVersion: 2
-        x: 1824
-        y: 384
-        width: 96
-        height: 96
+        x: 608
+        y: 128
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4959,9 +4959,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 288
-        width: 96
-        height: 96
+        y: 96
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4972,10 +4972,10 @@ TextureImporter:
       name: Simon Spins
       rect:
         serializedVersion: 2
-        x: 96
-        y: 288
-        width: 96
-        height: 96
+        x: 32
+        y: 96
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4986,10 +4986,10 @@ TextureImporter:
       name: Ten-Button Color Code
       rect:
         serializedVersion: 2
-        x: 192
-        y: 288
-        width: 96
-        height: 96
+        x: 64
+        y: 96
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5000,10 +5000,10 @@ TextureImporter:
       name: Cursed Double-Oh
       rect:
         serializedVersion: 2
-        x: 288
-        y: 288
-        width: 96
-        height: 96
+        x: 96
+        y: 96
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5014,10 +5014,10 @@ TextureImporter:
       name: Crackbox
       rect:
         serializedVersion: 2
-        x: 384
-        y: 288
-        width: 96
-        height: 96
+        x: 128
+        y: 96
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5028,10 +5028,10 @@ TextureImporter:
       name: Street Fighter
       rect:
         serializedVersion: 2
-        x: 480
-        y: 288
-        width: 96
-        height: 96
+        x: 160
+        y: 96
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5042,10 +5042,10 @@ TextureImporter:
       name: The Labyrinth
       rect:
         serializedVersion: 2
-        x: 576
-        y: 288
-        width: 96
-        height: 96
+        x: 192
+        y: 96
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5056,10 +5056,10 @@ TextureImporter:
       name: Spinning Buttons
       rect:
         serializedVersion: 2
-        x: 672
-        y: 288
-        width: 96
-        height: 96
+        x: 224
+        y: 96
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5070,10 +5070,10 @@ TextureImporter:
       name: Color Match
       rect:
         serializedVersion: 2
-        x: 768
-        y: 288
-        width: 96
-        height: 96
+        x: 256
+        y: 96
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5084,10 +5084,10 @@ TextureImporter:
       name: The Festive Jukebox
       rect:
         serializedVersion: 2
-        x: 864
-        y: 288
-        width: 96
-        height: 96
+        x: 288
+        y: 96
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5098,10 +5098,10 @@ TextureImporter:
       name: Skinny Wires
       rect:
         serializedVersion: 2
-        x: 960
-        y: 288
-        width: 96
-        height: 96
+        x: 320
+        y: 96
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5112,10 +5112,10 @@ TextureImporter:
       name: The Hangover
       rect:
         serializedVersion: 2
-        x: 1056
-        y: 288
-        width: 96
-        height: 96
+        x: 352
+        y: 96
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5126,10 +5126,10 @@ TextureImporter:
       name: Factory Maze
       rect:
         serializedVersion: 2
-        x: 1152
-        y: 288
-        width: 96
-        height: 96
+        x: 384
+        y: 96
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5140,10 +5140,10 @@ TextureImporter:
       name: Binary Puzzle
       rect:
         serializedVersion: 2
-        x: 1248
-        y: 288
-        width: 96
-        height: 96
+        x: 416
+        y: 96
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5154,10 +5154,10 @@ TextureImporter:
       name: Broken Guitar Chords
       rect:
         serializedVersion: 2
-        x: 1344
-        y: 288
-        width: 96
-        height: 96
+        x: 448
+        y: 96
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5168,10 +5168,10 @@ TextureImporter:
       name: Regular Crazy Talk
       rect:
         serializedVersion: 2
-        x: 1440
-        y: 288
-        width: 96
-        height: 96
+        x: 480
+        y: 96
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5182,10 +5182,10 @@ TextureImporter:
       name: Hogwarts
       rect:
         serializedVersion: 2
-        x: 1536
-        y: 288
-        width: 96
-        height: 96
+        x: 512
+        y: 96
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5196,10 +5196,10 @@ TextureImporter:
       name: Dominoes
       rect:
         serializedVersion: 2
-        x: 1632
-        y: 288
-        width: 96
-        height: 96
+        x: 544
+        y: 96
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5210,10 +5210,10 @@ TextureImporter:
       name: Simon Speaks
       rect:
         serializedVersion: 2
-        x: 1728
-        y: 288
-        width: 96
-        height: 96
+        x: 576
+        y: 96
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5224,10 +5224,10 @@ TextureImporter:
       name: Modules_339
       rect:
         serializedVersion: 2
-        x: 1824
-        y: 288
-        width: 96
-        height: 96
+        x: 608
+        y: 96
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5239,9 +5239,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 192
-        width: 96
-        height: 96
+        y: 64
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5252,10 +5252,10 @@ TextureImporter:
       name: Flip The Coin
       rect:
         serializedVersion: 2
-        x: 96
-        y: 192
-        width: 96
-        height: 96
+        x: 32
+        y: 64
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5266,10 +5266,10 @@ TextureImporter:
       name: Krazy Talk
       rect:
         serializedVersion: 2
-        x: 192
-        y: 192
-        width: 96
-        height: 96
+        x: 64
+        y: 64
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5280,10 +5280,10 @@ TextureImporter:
       name: Numbers
       rect:
         serializedVersion: 2
-        x: 288
-        y: 192
-        width: 96
-        height: 96
+        x: 96
+        y: 64
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5294,10 +5294,10 @@ TextureImporter:
       name: Simon’s Stages
       rect:
         serializedVersion: 2
-        x: 384
-        y: 192
-        width: 96
-        height: 96
+        x: 128
+        y: 64
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5308,10 +5308,10 @@ TextureImporter:
       name: Free Parking
       rect:
         serializedVersion: 2
-        x: 480
-        y: 192
-        width: 96
-        height: 96
+        x: 160
+        y: 64
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5322,10 +5322,10 @@ TextureImporter:
       name: Cookie Jars
       rect:
         serializedVersion: 2
-        x: 576
-        y: 192
-        width: 96
-        height: 96
+        x: 192
+        y: 64
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5336,10 +5336,10 @@ TextureImporter:
       name: Alchemy
       rect:
         serializedVersion: 2
-        x: 672
-        y: 192
-        width: 96
-        height: 96
+        x: 224
+        y: 64
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5350,10 +5350,10 @@ TextureImporter:
       name: Varicolored Squares
       rect:
         serializedVersion: 2
-        x: 768
-        y: 192
-        width: 96
-        height: 96
+        x: 256
+        y: 64
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5364,10 +5364,10 @@ TextureImporter:
       name: Simon Squawks
       rect:
         serializedVersion: 2
-        x: 864
-        y: 192
-        width: 96
-        height: 96
+        x: 288
+        y: 64
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5378,10 +5378,10 @@ TextureImporter:
       name: Zoni
       rect:
         serializedVersion: 2
-        x: 960
-        y: 192
-        width: 96
-        height: 96
+        x: 320
+        y: 64
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5392,10 +5392,10 @@ TextureImporter:
       name: Mad Memory
       rect:
         serializedVersion: 2
-        x: 1056
-        y: 192
-        width: 96
-        height: 96
+        x: 352
+        y: 64
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5406,10 +5406,10 @@ TextureImporter:
       name: Unrelated Anagrams
       rect:
         serializedVersion: 2
-        x: 1152
-        y: 192
-        width: 96
-        height: 96
+        x: 384
+        y: 64
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5420,10 +5420,10 @@ TextureImporter:
       name: Bartending
       rect:
         serializedVersion: 2
-        x: 1248
-        y: 192
-        width: 96
-        height: 96
+        x: 416
+        y: 64
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5434,10 +5434,10 @@ TextureImporter:
       name: Question Mark
       rect:
         serializedVersion: 2
-        x: 1344
-        y: 192
-        width: 96
-        height: 96
+        x: 448
+        y: 64
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5448,10 +5448,10 @@ TextureImporter:
       name: Shapes And Bombs
       rect:
         serializedVersion: 2
-        x: 1440
-        y: 192
-        width: 96
-        height: 96
+        x: 480
+        y: 64
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5462,10 +5462,10 @@ TextureImporter:
       name: Flavor Text
       rect:
         serializedVersion: 2
-        x: 1536
-        y: 192
-        width: 96
-        height: 96
+        x: 512
+        y: 64
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5476,10 +5476,10 @@ TextureImporter:
       name: Flavor Text EX
       rect:
         serializedVersion: 2
-        x: 1632
-        y: 192
-        width: 96
-        height: 96
+        x: 544
+        y: 64
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5490,10 +5490,10 @@ TextureImporter:
       name: Decolored Squares
       rect:
         serializedVersion: 2
-        x: 1728
-        y: 192
-        width: 96
-        height: 96
+        x: 576
+        y: 64
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5504,10 +5504,10 @@ TextureImporter:
       name: Modules_359
       rect:
         serializedVersion: 2
-        x: 1824
-        y: 192
-        width: 96
-        height: 96
+        x: 608
+        y: 64
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5519,9 +5519,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 96
-        width: 96
-        height: 96
+        y: 32
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5532,10 +5532,10 @@ TextureImporter:
       name: DetoNATO
       rect:
         serializedVersion: 2
-        x: 96
-        y: 96
-        width: 96
-        height: 96
+        x: 32
+        y: 32
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5546,10 +5546,10 @@ TextureImporter:
       name: Air Traffic Controller
       rect:
         serializedVersion: 2
-        x: 192
-        y: 96
-        width: 96
-        height: 96
+        x: 64
+        y: 32
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5560,10 +5560,10 @@ TextureImporter:
       name: SYNC-125 [3]
       rect:
         serializedVersion: 2
-        x: 288
-        y: 96
-        width: 96
-        height: 96
+        x: 96
+        y: 32
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5574,10 +5574,10 @@ TextureImporter:
       name: Westeros
       rect:
         serializedVersion: 2
-        x: 384
-        y: 96
-        width: 96
-        height: 96
+        x: 128
+        y: 32
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5588,10 +5588,10 @@ TextureImporter:
       name: Morse Identification
       rect:
         serializedVersion: 2
-        x: 480
-        y: 96
-        width: 96
-        height: 96
+        x: 160
+        y: 32
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5602,10 +5602,10 @@ TextureImporter:
       name: Rot Decoding
       rect:
         serializedVersion: 2
-        x: 576
-        y: 96
-        width: 96
-        height: 96
+        x: 192
+        y: 32
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5616,10 +5616,10 @@ TextureImporter:
       name: LED Math
       rect:
         serializedVersion: 2
-        x: 672
-        y: 96
-        width: 96
-        height: 96
+        x: 224
+        y: 32
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5630,10 +5630,10 @@ TextureImporter:
       name: Alphabetical Order
       rect:
         serializedVersion: 2
-        x: 768
-        y: 96
-        width: 96
-        height: 96
+        x: 256
+        y: 32
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5644,10 +5644,10 @@ TextureImporter:
       name: Simon Sounds
       rect:
         serializedVersion: 2
-        x: 864
-        y: 96
-        width: 96
-        height: 96
+        x: 288
+        y: 32
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5658,10 +5658,10 @@ TextureImporter:
       name: The Fidget Spinner
       rect:
         serializedVersion: 2
-        x: 960
-        y: 96
-        width: 96
-        height: 96
+        x: 320
+        y: 32
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5672,10 +5672,10 @@ TextureImporter:
       name: Simon’s Sequence
       rect:
         serializedVersion: 2
-        x: 1056
-        y: 96
-        width: 96
-        height: 96
+        x: 352
+        y: 32
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5686,10 +5686,10 @@ TextureImporter:
       name: Simon Scrambles
       rect:
         serializedVersion: 2
-        x: 1152
-        y: 96
-        width: 96
-        height: 96
+        x: 384
+        y: 32
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5700,10 +5700,10 @@ TextureImporter:
       name: Harmony Sequence
       rect:
         serializedVersion: 2
-        x: 1248
-        y: 96
-        width: 96
-        height: 96
+        x: 416
+        y: 32
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5714,10 +5714,10 @@ TextureImporter:
       name: Unfair Cipher
       rect:
         serializedVersion: 2
-        x: 1344
-        y: 96
-        width: 96
-        height: 96
+        x: 448
+        y: 32
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5728,10 +5728,10 @@ TextureImporter:
       name: Melody Sequencer
       rect:
         serializedVersion: 2
-        x: 1440
-        y: 96
-        width: 96
-        height: 96
+        x: 480
+        y: 32
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5742,10 +5742,10 @@ TextureImporter:
       name: Colorful Insanity
       rect:
         serializedVersion: 2
-        x: 1536
-        y: 96
-        width: 96
-        height: 96
+        x: 512
+        y: 32
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5756,10 +5756,10 @@ TextureImporter:
       name: Gadgetron Vendor
       rect:
         serializedVersion: 2
-        x: 1632
-        y: 96
-        width: 96
-        height: 96
+        x: 544
+        y: 32
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5770,10 +5770,10 @@ TextureImporter:
       name: Passport Control
       rect:
         serializedVersion: 2
-        x: 1728
-        y: 96
-        width: 96
-        height: 96
+        x: 576
+        y: 32
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5784,10 +5784,10 @@ TextureImporter:
       name: Modules_379
       rect:
         serializedVersion: 2
-        x: 1824
-        y: 96
-        width: 96
-        height: 96
+        x: 608
+        y: 32
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5800,8 +5800,8 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 96
-        height: 96
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5812,10 +5812,10 @@ TextureImporter:
       name: Modules_381
       rect:
         serializedVersion: 2
-        x: 96
+        x: 32
         y: 0
-        width: 96
-        height: 96
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5826,10 +5826,10 @@ TextureImporter:
       name: Modules_382
       rect:
         serializedVersion: 2
-        x: 192
+        x: 64
         y: 0
-        width: 96
-        height: 96
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5840,10 +5840,10 @@ TextureImporter:
       name: Modules_383
       rect:
         serializedVersion: 2
-        x: 288
+        x: 96
         y: 0
-        width: 96
-        height: 96
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5854,10 +5854,10 @@ TextureImporter:
       name: Modules_384
       rect:
         serializedVersion: 2
-        x: 384
+        x: 128
         y: 0
-        width: 96
-        height: 96
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5868,10 +5868,10 @@ TextureImporter:
       name: Modules_385
       rect:
         serializedVersion: 2
-        x: 480
+        x: 160
         y: 0
-        width: 96
-        height: 96
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5882,10 +5882,10 @@ TextureImporter:
       name: Modules_386
       rect:
         serializedVersion: 2
-        x: 576
+        x: 192
         y: 0
-        width: 96
-        height: 96
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5896,10 +5896,10 @@ TextureImporter:
       name: Modules_387
       rect:
         serializedVersion: 2
-        x: 672
+        x: 224
         y: 0
-        width: 96
-        height: 96
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5910,10 +5910,10 @@ TextureImporter:
       name: Modules_388
       rect:
         serializedVersion: 2
-        x: 768
+        x: 256
         y: 0
-        width: 96
-        height: 96
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5924,10 +5924,10 @@ TextureImporter:
       name: Modules_389
       rect:
         serializedVersion: 2
-        x: 864
+        x: 288
         y: 0
-        width: 96
-        height: 96
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5938,10 +5938,10 @@ TextureImporter:
       name: Modules_390
       rect:
         serializedVersion: 2
-        x: 960
+        x: 320
         y: 0
-        width: 96
-        height: 96
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5952,10 +5952,10 @@ TextureImporter:
       name: Modules_391
       rect:
         serializedVersion: 2
-        x: 1056
+        x: 352
         y: 0
-        width: 96
-        height: 96
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5966,10 +5966,10 @@ TextureImporter:
       name: Modules_392
       rect:
         serializedVersion: 2
-        x: 1152
+        x: 384
         y: 0
-        width: 96
-        height: 96
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5980,10 +5980,10 @@ TextureImporter:
       name: Modules_393
       rect:
         serializedVersion: 2
-        x: 1248
+        x: 416
         y: 0
-        width: 96
-        height: 96
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5994,10 +5994,10 @@ TextureImporter:
       name: Modules_394
       rect:
         serializedVersion: 2
-        x: 1344
+        x: 448
         y: 0
-        width: 96
-        height: 96
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -6008,10 +6008,10 @@ TextureImporter:
       name: Modules_395
       rect:
         serializedVersion: 2
-        x: 1440
+        x: 480
         y: 0
-        width: 96
-        height: 96
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -6022,10 +6022,10 @@ TextureImporter:
       name: Modules_396
       rect:
         serializedVersion: 2
-        x: 1536
+        x: 512
         y: 0
-        width: 96
-        height: 96
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -6036,10 +6036,10 @@ TextureImporter:
       name: Modules_397
       rect:
         serializedVersion: 2
-        x: 1632
+        x: 544
         y: 0
-        width: 96
-        height: 96
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -6050,10 +6050,10 @@ TextureImporter:
       name: Modules_398
       rect:
         serializedVersion: 2
-        x: 1728
+        x: 576
         y: 0
-        width: 96
-        height: 96
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -6064,10 +6064,10 @@ TextureImporter:
       name: Modules_399
       rect:
         serializedVersion: 2
-        x: 1824
+        x: 608
         y: 0
-        width: 96
-        height: 96
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
