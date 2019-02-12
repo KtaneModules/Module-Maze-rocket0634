@@ -1,12 +1,12 @@
 fileFormatVersion: 2
 guid: 78c03edf443a44e4786c7c955888161e
-timeCreated: 1549752892
+timeCreated: 1549928019
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
     21300000: Wire Sequence
     21300002: Wires
-    21300004: Who’s On First
+    21300004: "Who\u2019s On First"
     21300006: Venting Gas
     21300008: Simon Says
     21300010: Password
@@ -72,7 +72,7 @@ TextureImporter:
     21300130: Murder
     21300132: The Gamepad
     21300134: Tic-Tac-Toe
-    21300136: Who’s That Monsplode
+    21300136: "Who\u2019s That Monsplode"
     21300138: Monsplode, Fight!
     21300140: Shape Shift
     21300142: Follow the Leader
@@ -113,7 +113,7 @@ TextureImporter:
     21300212: Web Design
     21300214: Chord Qualities
     21300216: Creation
-    21300218: Rubik’s Cube
+    21300218: "Rubik\u2019s Cube"
     21300220: FizzBuzz
     21300222: The Clock
     21300224: LED Encryption
@@ -194,7 +194,7 @@ TextureImporter:
     21300374: Error Codes
     21300376: Rapid Buttons
     21300378: LEGOs
-    21300380: Rubik’s Clock
+    21300380: "Rubik\u2019s Clock"
     21300382: Font Select
     21300384: The Stopwatch
     21300386: Pie
@@ -240,7 +240,7 @@ TextureImporter:
     21300466: The Time Keeper
     21300468: Lightspeed
     21300470: Black Hole
-    21300472: Simon’s Star
+    21300472: "Simon\u2019s Star"
     21300474: Morse War
     21300476: The Stock Market
     21300478: Modules_239
@@ -284,14 +284,14 @@ TextureImporter:
     21300554: Colorful Madness
     21300556: Bases
     21300558: Modules_279
-    21300560: Lion’s Share
+    21300560: "Lion\u2019s Share"
     21300562: Snooker
     21300564: Blackjack
     21300566: Party Time
     21300568: Accumulation
     21300570: The Plunger Button
     21300572: The Digit
-    21300574: The Jack-O’-Lantern
+    21300574: "The Jack-O\u2019-Lantern"
     21300576: T-Words
     21300578: Divided Squares
     21300580: Connection Device
@@ -348,7 +348,7 @@ TextureImporter:
     21300682: Flip The Coin
     21300684: Krazy Talk
     21300686: Numbers
-    21300688: Simon’s Stages
+    21300688: "Simon\u2019s Stages"
     21300690: Free Parking
     21300692: Cookie Jars
     21300694: Alchemy
@@ -370,12 +370,12 @@ TextureImporter:
     21300726: SYNC-125 [3]
     21300728: Westeros
     21300730: Morse Identification
-    21300732: Rot Decoding
+    21300732: Pigpen Rotations
     21300734: LED Math
     21300736: Alphabetical Order
     21300738: Simon Sounds
     21300740: The Fidget Spinner
-    21300742: Simon’s Sequence
+    21300742: "Simon\u2019s Sequence"
     21300744: Simon Scrambles
     21300746: Harmony Sequence
     21300748: Unfair Cipher
@@ -503,7 +503,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Who’s On First
+      name: "Who\u2019s On First"
       rect:
         serializedVersion: 2
         x: 192
@@ -1427,7 +1427,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Who’s That Monsplode
+      name: "Who\u2019s That Monsplode"
       rect:
         serializedVersion: 2
         x: 768
@@ -2001,7 +2001,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Rubik’s Cube
+      name: "Rubik\u2019s Cube"
       rect:
         serializedVersion: 2
         x: 864
@@ -3135,7 +3135,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Rubik’s Clock
+      name: "Rubik\u2019s Clock"
       rect:
         serializedVersion: 2
         x: 960
@@ -3779,7 +3779,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Simon’s Star
+      name: "Simon\u2019s Star"
       rect:
         serializedVersion: 2
         x: 1536
@@ -4395,7 +4395,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Lion’s Share
+      name: "Lion\u2019s Share"
       rect:
         serializedVersion: 2
         x: 0
@@ -4493,7 +4493,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: The Jack-O’-Lantern
+      name: "The Jack-O\u2019-Lantern"
       rect:
         serializedVersion: 2
         x: 672
@@ -5291,7 +5291,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Simon’s Stages
+      name: "Simon\u2019s Stages"
       rect:
         serializedVersion: 2
         x: 384
@@ -5599,7 +5599,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Rot Decoding
+      name: Pigpen Rotations
       rect:
         serializedVersion: 2
         x: 576
@@ -5669,7 +5669,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Simon’s Sequence
+      name: "Simon\u2019s Sequence"
       rect:
         serializedVersion: 2
         x: 1056

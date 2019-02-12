@@ -364,7 +364,7 @@ Air (Air Traffic Controller) ,SYNC
 SYNC (SYNC-125 [3])
 West (Westeros) ,MrsIdnt
 MrsIdnt (Morse Identification) ,Rot
-Rot (Rot Decoding) ,LEDMath
+Rot (Pigpen Rotations) ,LEDMath
 LEDMath (LED Math)
 Order (Alphabetical Order)
 Sounds (Simon Sounds) ,Fidget

@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: f43b467d37e4df048ae5ae96212bc6d0
-timeCreated: 1549823048
+timeCreated: 1549928082
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -370,7 +370,7 @@ TextureImporter:
     21300726: SYNC-125 [3]
     21300728: Westeros
     21300730: Morse Identification
-    21300732: Rot Decoding
+    21300732: Pigpen Rotations
     21300734: LED Math
     21300736: Alphabetical Order
     21300738: Simon Sounds
@@ -5599,7 +5599,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Rot Decoding
+      name: Pigpen Rotations
       rect:
         serializedVersion: 2
         x: 192
