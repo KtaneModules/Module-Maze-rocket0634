@@ -151,15 +151,17 @@ public class SpriteCreator : MonoBehaviour
         meta = File.ReadAllText(path);
         var smallMeta = meta.Substring(meta.IndexOf("sprites"), meta.IndexOf("\n    outline") - meta.IndexOf("sprites"));
         var oldMeta = smallMeta;
+        var curIndex = 0;
         names = fullName.Split(new[] { ';' }, System.StringSplitOptions.RemoveEmptyEntries).ToList();
         while (names.Count > spriteNames.Count) names.RemoveAt(names.Count - 1);
-        for (int i = names.Count - 1; i >= 0; i--)
+        for (int i = 0; i < spriteNames.Count; i++)
         {
             spriteNames[i].name = names[i];
-            var newIndex = spriteNames[i].curIndex;
-            var nextNewIndex = smallMeta.IndexOf("\n", newIndex) - newIndex;
-            if (nextNewIndex > 0) smallMeta = smallMeta.Remove(newIndex, nextNewIndex);
-            smallMeta = smallMeta.Insert(newIndex, spriteNames[i].name);
+            curIndex = smallMeta.IndexOf("name", curIndex) + 6;
+            var nextNewIndex = smallMeta.IndexOf("\n", curIndex) - curIndex;
+            if (nextNewIndex > 0) smallMeta = smallMeta.Remove(curIndex, nextNewIndex);
+            smallMeta = smallMeta.Insert(curIndex, spriteNames[i].name);
+            curIndex = smallMeta.IndexOf("\n", curIndex);
         }
         meta = meta.Replace(oldMeta, smallMeta);
         File.WriteAllText(path, meta);

@@ -38,13 +38,13 @@ public class ModuleMazeModule : MonoBehaviour
         var text = selections.text;
         var settingsPath = System.IO.Path.Combine(Application.persistentDataPath, "Modsettings");
         var path = System.IO.Path.Combine(settingsPath, "ModuleMazeConnections.txt");
-        var path2 = System.IO.Path.Combine(settingsPath, "ModuleMazeVersion.txt");
-        if (!System.IO.File.Exists(path) || !System.IO.File.Exists(path2) || System.IO.File.ReadAllText(path2) != version)
-        {
-            System.IO.File.WriteAllText(path, selections.text);
-            System.IO.File.WriteAllText(path, version);
-        }
-        else if (System.IO.File.ReadAllText(path2) == version) text = System.IO.File.ReadAllText(System.IO.Path.Combine(System.IO.Path.Combine(Application.dataPath, "Modsettings"), "ModuleMaze.txt"));
+        var write = false;
+        var readText = "";
+        if (!System.IO.File.Exists(path) || System.IO.File.ReadAllText(path).Length == 0) write = true;
+        else readText = System.IO.File.ReadAllText(path);
+        if (write || readText.Substring(0, 1) != version)
+            System.IO.File.WriteAllText(path, version + "\n" + selections.text);
+        else if (readText.Substring(0, 1) == version) text = readText.Substring(2);
         TextReader.Run(this, text);
         orderedInfo = assignments.Where(x => x.Value.index != -1).ToDictionary(x => x.Value.index + 1, y => y.Key);
         /*if (RuleSeedable.GetRNG().Seed != 1)
@@ -271,7 +271,7 @@ public class ModuleMazeModule : MonoBehaviour
         var t = 0.0f;
         var duration = 0.25f;
         IconHolder2.transform.localPosition = bh2O;
-        IconHolder2.sprite = sprites[20];
+        IconHolder2.sprite = gSprites[0];
         var b = IconHolder.transform.localPosition;
         if (strike)
         {
