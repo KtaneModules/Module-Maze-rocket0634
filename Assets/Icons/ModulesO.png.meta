@@ -45,7 +45,7 @@ TextureImporter:
     21300076: Rotary Phone
     21300078: Astrology
     21300080: Logic
-    21300082: Crazy Crazy Talk
+    21300082: Crazy Talk
     21300084: Adventure Game
     21300086: Turn The Keys
     21300088: Turn The Key
@@ -229,7 +229,7 @@ TextureImporter:
     21300444: The Time Keeper
     21300446: Lightspeed
     21300448: Black Hole
-    21300450: "Simon\u2019s Stars"
+    21300450: "Simon\u2019s Star"
     21300452: Morse War
     21300454: The Stock Market
     21300456: Mineseeker
@@ -352,7 +352,7 @@ TextureImporter:
     21300690: SYNC-125 [3]
     21300692: Westeros
     21300694: Morse Identification
-    21300696: Rot Decoding
+    21300696: Pigpen Rotations
     21300698: LED Math
     21300700: Alphabetical Order
     21300702: Simon Sounds
@@ -399,7 +399,7 @@ TextureImporter:
     21300784: Four-Card Monte
     21300786: Aa
     21300788: The Witness
-    21300790: The Giant's Drink
+    21300790: The Giant’s Drink
     21300792: Digit String
     21300794: Alpha
     21300796: Snap!
@@ -1049,7 +1049,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Crazy Crazy Talk
+      name: Crazy Talk
       rect:
         serializedVersion: 2
         x: 32
@@ -3625,7 +3625,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: "Simon\u2019s Stars"
+      name: "Simon\u2019s Star"
       rect:
         serializedVersion: 2
         x: 160
@@ -5347,7 +5347,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Rot Decoding
+      name: Pigpen Rotations
       rect:
         serializedVersion: 2
         x: 256
@@ -6005,7 +6005,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: The Giant's Drink
+      name: The Giant’s Drink
       rect:
         serializedVersion: 2
         x: 480

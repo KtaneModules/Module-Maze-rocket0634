@@ -393,7 +393,7 @@ Ncrnmcn (The Necronomicon) ,FrCdMnt
 FrCdMnt (Four-Card Monte) ,Aa
 Aa (Aa) ,Witness
 Witness (The Witness) ,GntDrk
-GntDrk (The Giant's Drink) ,DgtStr
+GntDrk (The Giant’s Drink) ,DgtStr
 DgtStr (Digit String) ,Alpha
 Alpha (Alpha)
 Snap (Snap!) ,HdnClrs

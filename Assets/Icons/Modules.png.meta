@@ -45,7 +45,7 @@ TextureImporter:
     21300076: Rotary Phone
     21300078: Astrology
     21300080: Logic
-    21300082: Crazy Crazy Talk
+    21300082: Crazy Talk
     21300084: Adventure Game
     21300086: Turn The Keys
     21300088: Turn The Key
@@ -399,7 +399,7 @@ TextureImporter:
     21300784: Four-Card Monte
     21300786: Aa
     21300788: The Witness
-    21300790: The Giant's Drink
+    21300790: The Giant’s Drink
     21300792: Digit String
     21300794: Alpha
     21300796: Snap!
@@ -1049,7 +1049,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Crazy Crazy Talk
+      name: Crazy Talk
       rect:
         serializedVersion: 2
         x: 96
@@ -6005,7 +6005,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: The Giant's Drink
+      name: The Giant’s Drink
       rect:
         serializedVersion: 2
         x: 1440
