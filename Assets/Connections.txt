@@ -8,8 +8,8 @@ Morse (Morse Code) ,Mem
 Mem (Memory) ,Maze
 Maze (Maze) States,Knob
 Knob (Knob)
-Keypad (Keypad) ,CompWrs
-CompWrs (Complicated Wires) ,Cap
+Keypad (Keypad) Listen,CompWrs
+CompWrs (Complicated Wires) Foreign,Cap
 Cap (Capacitor Discharge) ,Button
 Button (The Button) ,CFlash
 CFlash (Color Flash) ,Piano
@@ -38,7 +38,7 @@ LttrKys (Letter Keys)
 Forget (Forget Me Not) ,RotPhn
 RotPhn (Rotary Phone) Slots,Ast
 Ast (Astrology)
-Logic (Logic)
+Logic (Logic) Pegs
 CrzyTlk (Crazy Talk) ,AdvGame
 AdvGame (Adventure Game) ,Keys
 Keys (Turn The Keys) ,Key
@@ -51,14 +51,14 @@ Tetris (Tetris)
 Crypt (Cryptography) Bulb,Chess
 Chess (Chess) ,Mouse
 Mouse (Mouse In The Maze) ,3D
-3D (3D Maze) ,Silly
+3D (3D Maze) Shell,Silly
 Silly (Silly Slots) EngTest,NumPad
 NumPad (Number Pad)
 Probe (Probing) HexMz,Resist
 Resist (Resistors) BitMap
 Slots (Skewed Slots) ClrSqrs,CsrCphr
 CsrCphr (Caesar Cipher)
-Pegs (Perspective Pegs) Third
+Pegs (Perspective Pegs) Third,Micro
 Micro (Microcontroller) ,Murder
 Murder (Murder) WrdScrh,Gamepad
 Gamepad (The Gamepad) ,TTT
@@ -88,7 +88,7 @@ Modules (Modules Against Humanity) ,CmpBtns
 CmpBtns (Complicated Buttons) LEDEnc
 Battle (Battleship) Edgwrk,Field
 Field (Text Field) BitOps,SymPwrd
-SymPwrd (Symbolic Password)
+SymPwrd (Symbolic Password) FstMth
 Place (Wire Placement) Mineswp
 OhOh (Double-Oh) Zoo,Cheap
 Cheap (Cheap Checkout) ,Coord
@@ -108,7 +108,7 @@ Clock (The Clock) Mstrmnd,LEDEnc
 LEDEnc (LED Encryption) Gridlck
 Edgwrk (Edgework) BigCrcl
 BitOps (Bitwise Operations)
-FstMth (Fast Math) ClSwtch
+FstMth (Fast Math) ClSwtch,Mineswp
 Mineswp (Minesweeper) PrlxWrs
 Zoo (Zoo) TrdCrds,BinLED
 BinLED (Binary LEDs)
@@ -122,7 +122,7 @@ Xray (X-Ray) ShpMem
 QR (QR Code) SmblCyl
 BtnMash (Button Masher) Hunt
 RNG (Random Number Generator) ExtPass,ClrMrs
-ClrMrs (Color Morse)
+ClrMrs (Color Morse) ,MstrCrl
 MstrCrl (Mastermind Cruel) Braille
 Mstrmnd (Mastermind Simple) Mafia
 Gridlck (Gridlock) ,BigCrcl
@@ -136,7 +136,7 @@ GOL (Game of Life Simple) Poetry,Nono
 Nono (Nonogram)
 SET (S.E.T.) Alg
 Refill (Refill that Beer!) VisImpr
-Paint (Painting) Jukebox
+Paint (Painting) Jukebox,ClrGen
 ClrGen (Color Generator)
 ShpMem (Shape Memory) Main,SmblCyl
 SmblCyl (Symbol Cycle)
@@ -175,15 +175,15 @@ Human (Human Resources) ,Skyrim
 Skyrim (Skyrim)
 Burglar (Burglar Alarm) ,PressX
 PressX (Press X) ,ErpTrvl
-ErpTrvl (European Travel)
+ErpTrvl (European Travel) Moon
 ErrCd (Error Codes)
 Rapid (Rapid Buttons) Doctor
 LEGO (LEGOs) ,RbxClk
-RbxClk (Rubik’s Clock) ,Font
+RbxClk (Rubik’s Clock) Jewel,Font
 Font (Font Select) DigRoot
 Stop (The Stopwatch) GrafNums,Pie
-Pie (Pie) Marble
-Wire (The Wire)
+Pie (Pie) Marble,Wire
+Wire (The Wire) ,LndnUdr
 LndnUdr (The London Underground) LgcBttn
 LgcGts (Logic Gates) ,ForgetE
 ForgetE (Forget Everything) ,GrdMtch
@@ -194,12 +194,12 @@ Play (Playfair Cipher) Greek
 Tan (Tangrams) Shrieks,Number
 Number (The Number)
 Cook (Cooking) Subway,SprLgic
-SprLgic (Superlogic)
-Moon (The Moon) Turtle
+SprLgic (Superlogic) ,Moon
+Moon (The Moon) Turtle,Cube
 Cube (The Cube) Guitar
 Doctor (Dr. Doctor) Clndr
 Tax (Tax Returns) ,Jewel
-Jewel (The Jewel Vault) BinTree
+Jewel (The Jewel Vault) BinTree,DigRoot
 DigRoot (Digital Root) TimeKpr
 GrafNums (Graffiti Numbers) LghtSpd
 Marble (Marble Tumble) BlkHole,X01
@@ -247,7 +247,7 @@ Tun (3D Tunnels) ,Synch
 Synch (Synchronization) ,LgSwtch
 LgSwtch (The Switch) Snooker
 RevMrs (Reverse Morse) BlkJack
-Mano (Manometers) ,Shi
+Mano (Manometers) Part,Shi
 Shi (Shikaku) ,Spaghet
 Spaghet (Wire Spaghetti) Pngrbtn,Tennis
 Tennis (Tennis) Digit
@@ -274,13 +274,13 @@ Digit (The Digit) Radio
 Jack (The Jack-O’-Lantern) Modulo,TWord
 TWord (T-Words)
 DivSqrs (Divided Squares) Pay,ConDev
-ConDev (Connection Device)
+ConDev (Connection Device) Contact
 Instrct (Instructions) Tri
 Valve (Valves) Sueet,EncMrs
 EncMrs (Encrypted Morse)
 CrysMz (The Crystal Maze) ,CrCount
-CrCount (Cruel Countdown)
-Count (Countdown) Funct
+CrCount (Cruel Countdown),Count
+Count (Countdown) Funct,Catch
 Catch (Catchphrase) ,Block
 Block (Blockbusters) MrsBob
 IKEA (IKEA) Spins
@@ -303,8 +303,8 @@ Hiero (Hieroglyphics) ,Funct
 Funct (Functions) Speaks
 Script (Scripting) ,MrsBob
 MrsBob (Needy Mrs Bob) ,Spins
-Spins (Simon Spins) ,Ten
-Ten (Ten-Button Color Code)
+Spins (Simon Spins) Krazy,Ten
+Ten (Ten-Button Color Code) Numbers
 CrsdOh (Cursed Double-Oh) ,Crack
 Crack (Crackbox) Park
 Street (Street Fighter) Cookie,Laby
@@ -332,17 +332,17 @@ Alch (Alchemy) Order
 Vari (Varicolored Squares) ,Squawks
 Squawks (Simon Squawks) ,Zoni
 Zoni (Zoni) ,MadMem
-MadMem (Mad Memory)
+MadMem (Mad Memory) ,UnAna
 UnAna (Unrelated Anagrams) Harmony
 Bar (Bartending) ,Mark
 Mark (Question Mark) ,Shapes
-Shapes (Shapes And Bombs)
+Shapes (Shapes And Bombs) Insane
 FlvTxt (Flavor Text)
 CrlFlv (Flavor Text EX) ,DeClSq
 DeClSq (Decolored Squares) LftRght
 Phones (Homophones) ,NATO
 NATO (DetoNATO) ,Air
-Air (Air Traffic Controller) Plung
+Air (Air Traffic Controller) Plung,SYNC
 SYNC (SYNC-125 [3]) ,West
 West (Westeros) ,MrsIdnt
 MrsIdnt (Morse Identification) EldFut,Rot
@@ -360,14 +360,14 @@ Insane (Colorful Insanity) Lombax,Gadget
 Gadget (Gadgetron Vendor)
 Passprt (Passport Control) ,LftRght
 LftRght (Left and Right) ,Wngdngs
-Wngdngs (Wingdings) QzBz
+Wngdngs (Wingdings) QzBz,Hxbttn
 Hxbttn (The Hexabutton) ,Plung
 Plung (The Plunger) ,GenSeq
 GenSeq (Genetic Sequence) SpkEng,McroMod
 McroMod (Micro-Modules) Stack
 EldFut (Elder Futhark) SvnWrs
 ModMaze (Module Maze) ClrKys,TshSque
-TshSque (Tasha Squeals)
+TshSque (Tasha Squeals) Troll
 FThis (Forget This) Planets
 DgiCiph (Digital Cipher) Ncrnmcn,Draw
 Draw (Draw) ,GcryStr

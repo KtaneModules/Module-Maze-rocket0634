@@ -2017,13 +2017,12 @@ MonoBehaviour:
   - {fileID: 114128410910072878}
   selections: {fileID: 4900000, guid: 253c597dfd77ef7459465cb0f425f68b, type: 3}
   souvenirStart: empty
-  version: 2
+  version: 3
   x: 18
   y: 19
   yMin: 1
   size: 96
   pixelsPerUnit: 100
-  m: 12
 --- !u!114 &114716813011435876
 MonoBehaviour:
   m_ObjectHideFlags: 1
