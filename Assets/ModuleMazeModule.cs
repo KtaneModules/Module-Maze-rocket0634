@@ -64,7 +64,7 @@ public class ModuleMazeModule : MonoBehaviour
             while (func(destination)) destination = UnityEngine.Random.Range(1, sprites.Length);
             for (int i = 0; i < phonies.Count(); i++)
             {
-                while (phonies[i] == start || (i > 0) && phonies.Take(i).Contains(phonies[i]))
+                while (phonies[i] == start || (i > 0) && phonies.Take(i).Contains(phonies[i]) || phonies[i] == 0)
                     phonies[i] = UnityEngine.Random.Range(1, sprites.Length);
             }
         //}
