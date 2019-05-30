@@ -223,13 +223,7 @@ public class ModuleMazeModule : MonoBehaviour
                     solved = true;
                     try
                     {
-                        if (souvenirStart.Contains("Squares"))
-                        {
-                            var squares = gSprites.Where(x => x.name.Contains("Squares") && x.name != souvenirStart);
-                            souvenirSprites = new[] { gSprites.Where(x => x.name == souvenirStart).First() }.Concat(squares).ToArray();
-                        }
-                        else
-                            souvenirSprites = new[] { gSprites.Where(x => x.name == souvenirStart).First(), gSprites.Where(x => x.name == sprites[phonies[0]].name).First(), gSprites.Where(x => x.name == sprites[phonies[1]].name).First(), gSprites.Where(x => x.name == sprites[phonies[2]].name).First(), gSprites.Where(x => x.name == sprites[phonies[3]].name).First(), gSprites.Where(x => x.name == sprites[phonies[4]].name).First() };
+                        souvenirSprites = new[] { gSprites.Where(x => x.name == souvenirStart).First(), gSprites.Where(x => x.name == sprites[phonies[0]].name).First(), gSprites.Where(x => x.name == sprites[phonies[1]].name).First(), gSprites.Where(x => x.name == sprites[phonies[2]].name).First(), gSprites.Where(x => x.name == sprites[phonies[3]].name).First(), gSprites.Where(x => x.name == sprites[phonies[4]].name).First() };
                     }
                     catch
                     {
