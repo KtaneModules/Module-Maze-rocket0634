@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: f43b467d37e4df048ae5ae96212bc6d0
-timeCreated: 1549928082
+timeCreated: 1559713938
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -18,7 +18,7 @@ TextureImporter:
     21300022: Complicated Wires
     21300024: Capacitor Discharge
     21300026: The Button
-    21300028: Color Flash
+    21300028: Colour Flash
     21300030: Piano Keys
     21300032: Semaphore
     21300034: Math
@@ -399,7 +399,7 @@ TextureImporter:
     21300784: Four-Card Monte
     21300786: Aa
     21300788: The Witness
-    21300790: The Giant’s Drink
+    21300790: "The Giant\u2019s Drink"
     21300792: Digit String
     21300794: Alpha
     21300796: Snap!
@@ -671,7 +671,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Color Flash
+      name: Colour Flash
       rect:
         serializedVersion: 2
         x: 448
@@ -6005,7 +6005,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: The Giant’s Drink
+      name: "The Giant\u2019s Drink"
       rect:
         serializedVersion: 2
         x: 480

@@ -12,7 +12,7 @@ Keypad (Keypad) Listen,CompWrs
 CompWrs (Complicated Wires) Foreign,Cap
 Cap (Capacitor Discharge) ,Button
 Button (The Button) ,CFlash
-CFlash (Color Flash) ,Piano
+CFlash (Colour Flash) ,Piano
 Piano (Piano Keys) Check,Semaphr
 Semaphr (Semaphore)
 Math (Math) Forget,EmjMth
