@@ -1607,7 +1607,7 @@ MonoBehaviour:
   - {fileID: 21300796, guid: 78c03edf443a44e4786c7c955888161e, type: 3}
   - {fileID: 21300798, guid: 78c03edf443a44e4786c7c955888161e, type: 3}
   gSprites:
-  - {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 21300002, guid: 8fdfc176257db2b4ba107d570a4fc4b6, type: 3}
   - {fileID: 21300000, guid: f43b467d37e4df048ae5ae96212bc6d0, type: 3}
   - {fileID: 21300002, guid: f43b467d37e4df048ae5ae96212bc6d0, type: 3}
   - {fileID: 21300004, guid: f43b467d37e4df048ae5ae96212bc6d0, type: 3}

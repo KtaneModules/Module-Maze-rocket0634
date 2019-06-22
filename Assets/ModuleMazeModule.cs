@@ -270,15 +270,13 @@ public class ModuleMazeModule : MonoBehaviour
         var t = 0.0f;
         var duration = 0.25f;
         IconHolder2.transform.localPosition = bh2O;
-        IconHolder2.sprite = gSprites[0];
+        IconHolder2.sprite = null;
         var b = IconHolder.transform.localPosition;
         if (strike)
         {
             duration /= 2;
             bh1.x /= 2;
             bh1.z /= 2;
-            bh2O.x /= 2;
-            bh2O.z /= 2;
             while (t < duration)
             {
                 yield return null;
