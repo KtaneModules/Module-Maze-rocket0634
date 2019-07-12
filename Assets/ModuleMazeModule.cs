@@ -20,9 +20,9 @@ public class ModuleMazeModule : MonoBehaviour
     internal Dictionary<string, ModuleInfo> assignments = new Dictionary<string, ModuleInfo>();
     private Dictionary<int, string> orderedInfo;
 
+    public int y, size, pixelsPerUnit;
     //The index value for the starting bomb
     //The index value for the destination bomb
-    public int x, y, yMin, size, pixelsPerUnit;
     private int start, destination;
     private int[] phonies = new int[5];
     float t;
@@ -183,7 +183,7 @@ public class ModuleMazeModule : MonoBehaviour
                 rP.z += 1.1f;
                 if (assignments[orderedInfo[start]].connections[3] != null)
                 {
-                    start -= y + 1;
+                    start -= y;
                     strike = false;
                 }
                 break;
@@ -203,7 +203,7 @@ public class ModuleMazeModule : MonoBehaviour
                 rP.z -= 1.1f;
                 if (assignments[orderedInfo[start]].connections[1] != null)
                 {
-                    start += y + 1;
+                    start += y;
                     strike = false;
                 }
                 break;
@@ -402,18 +402,22 @@ public class ModuleMazeModule : MonoBehaviour
 
     IEnumerator TwitchHandleForcedSolve()
     {
-        yield return new WaitUntil(() => _isActive || solved);
-        StartCoroutine(AutoSolve(destination));
-        yield return null;
+        while (!ready)
+            yield return true;
+        var coroutine = AutoSolve(destination);
+        while (coroutine.MoveNext())
+        {
+            yield return coroutine.Current;
+            yield return true;
+        }
     }
 
     IEnumerator AutoSolve(int curDest)
     {
         //if (!reset) 
-        yield return new WaitForSeconds((_moduleID - 1) * 0.5f % 10);
         if (showSolution) Buttons[4].OnInteract();
+        yield return null;
         var curLoc = start;
-        var y = start;
         var step = 0;
         if (curLoc == curDest)// && !reset)
         {
@@ -430,22 +434,26 @@ public class ModuleMazeModule : MonoBehaviour
         var list = new List<string>();
         var end = false;
         var str = "";
+        var movements = new Stack<int>();
         var direction = 0;
         var dirCount = 0;
+        var explored = new List<int>();
         list.Add("[0, -1, " + curLoc + ", 0]");
-        var func = new Func<int>[] { () => y--, () => y += this.y + 1, () => y++, () => y -= this.y + 1 };
+        var directions = new int[] { -1, y, 1, -y };
         while (!end)
         {
             var curStep = step;
-            if (assignments[orderedInfo[y]].connections[direction] != null)
+            if (assignments[orderedInfo[curLoc]].connections[direction] != null && !explored.Contains(curLoc + directions[direction]))
             {
-                var t = str + direction;
-                if (!Contains(curLoc, t))
+                if (!movements.Contains(curLoc + directions[direction]))
                 {
-                    str = t;
+                    str += direction;
+                    movements.Push(curLoc);
                     step++;
-                    func[direction]();
-                    list.Add(string.Format("[{0}, {1}, {2}, {3}]", str, step, y, dirCount));
+                    curLoc += directions[direction];
+                    if (curLoc == curDest)
+                        end = true;
+                    list.Add(string.Format("[{0}, {1}, {2}, {3}]", str, step, curLoc, dirCount));
                     direction = 0;
                 }
                 else direction++;
@@ -457,40 +465,35 @@ public class ModuleMazeModule : MonoBehaviour
                 while (direction > 3 && step > 0)
                 {
                     step--;
-                    func[(str.Last() - '0' + 2) % 4]();
+                    explored.Add(curLoc);
+                    curLoc += directions[(str.Last() - '0' + 2) % 4];
                     direction = str.Last() - '0' + 1;
                     str = str.Length > 1 ? str.Substring(0, str.Count() - 1) : "";
+                    movements.Pop();
                 }
             }
             if (direction > 3 && str.Length == 0)
                 end = true;
             direction %= 4;
             /* Hopefully this won't be needed.
-             * dirCount++;
-            if (dirCount > 1000)
+            dirCount++;
+            if (!timer.Enabled)
             {
                 DebugLog("Error.", false);
                 DebugLog(str, false);
-                DebugLog("{0} - {1}", false, curLoc, start);
+                DebugLog("{0} - {1}", false, y, start);
+                DebugLog(movements.Count + ": " + string.Join("-", movements.Select(x => sprites[x].name).ToArray()), false);
                 DebugLog(string.Join("\n", list.ToArray()), false);
+                DebugLog(string.Join(", ", explored.Select(x => x.ToString()).ToArray()));
                 yield break;
             }*/
         }
-        var find = list.Where(x => {
-            var test = x.Split(new[] { ',', ' ' }, StringSplitOptions.RemoveEmptyEntries);
-            return int.Parse(test[2]) == curDest;
-            }).OrderBy(x => {
-                var test = x.Split(new[] { ',', ' ' }, StringSplitOptions.RemoveEmptyEntries);
-                return int.Parse(test[1]);
-            });
-        var split = find.ToList()[0].Split(new[] { ',' }, StringSplitOptions.RemoveEmptyEntries)[0].Replace("[","");
-        //Freezes in test harness and then moves without moving. Seeing if this might help.
-        yield return null;
-        foreach (char c in split)
+        foreach (char c in str)
         {
             var notC = c - '0';
             var selectables = new[] { Buttons[3], Buttons[2], Buttons[1], Buttons[0] };
             ready = true;
+            yield return null;
             selectables[notC].OnInteract();
         }
         /*if (reset)
@@ -502,28 +505,14 @@ public class ModuleMazeModule : MonoBehaviour
         yield return new WaitUntil(() => queue.Count == 0 && ready);
         if (curDest != destination)
         {
-            StartCoroutine(AutoSolve(destination));
+            var coroutine = AutoSolve(destination);
+            while (coroutine.MoveNext())
+                yield return coroutine.Current;
             yield break;
         }
+        yield return null;
         Buttons[4].OnInteract();
         //Buttons[4].OnInteractEnded();
-    }
-
-    bool Contains(int curLoc, string str)
-    {
-        var func = new Func<int>[] { () => curLoc--, () => curLoc += y + 1, () => curLoc++, () => curLoc -= y + 1 };
-        var list = new List<int> { curLoc };
-        foreach (int num in str.ToCharArray().Select(x => x - '0'))
-        {
-            func[num]();
-            if (list.Contains(curLoc))
-            {
-                curLoc = list[0];
-                return true;
-            }
-            list.Add(curLoc);
-        }
-        return false;
     }
 
     void DebugLog(string log, params object[] args)
