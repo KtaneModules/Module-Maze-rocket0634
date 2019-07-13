@@ -431,14 +431,12 @@ public class ModuleMazeModule : MonoBehaviour
             queue.Clear();
             yield break;
         }*/
-        var list = new List<string>();
         var end = false;
         var str = "";
         var movements = new Stack<int>();
         var direction = 0;
-        var dirCount = 0;
-        var explored = new List<int>();
-        list.Add("[0, -1, " + curLoc + ", 0]");
+        //var dirCount = 0;
+        var explored = new List<int>();;
         var directions = new int[] { -1, y, 1, -y };
         while (!end)
         {
@@ -453,7 +451,6 @@ public class ModuleMazeModule : MonoBehaviour
                     curLoc += directions[direction];
                     if (curLoc == curDest)
                         end = true;
-                    list.Add(string.Format("[{0}, {1}, {2}, {3}]", str, step, curLoc, dirCount));
                     direction = 0;
                 }
                 else direction++;
@@ -502,7 +499,8 @@ public class ModuleMazeModule : MonoBehaviour
             ready = true;
             yield break;
         }*/
-        yield return new WaitUntil(() => queue.Count == 0 && ready);
+        while (queue.Count != 0 || !ready)
+            yield return true;
         if (curDest != destination)
         {
             var coroutine = AutoSolve(destination);
