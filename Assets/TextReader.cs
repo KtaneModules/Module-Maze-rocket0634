@@ -16,6 +16,8 @@ static class TextReader {
         var Selections = text.Split(new[] { "\n" }, StringSplitOptions.RemoveEmptyEntries);
         for (int i = 0; i < Selections.Count(); i++)
         {
+            // Remove any leftover carriage returns if any are present.
+            Selections[i] = Selections[i].Replace("\r", "");
             var space = Selections[i].IndexOf(" ");
             var leftPar = Selections[i].IndexOf("(");
             var rightPar = Selections[i].IndexOf(")");
@@ -23,9 +25,8 @@ static class TextReader {
             var code = Selections[i].Substring(0, space);
             var name = Selections[i].Substring(leftPar + 1, parLength - 1);
             var selection = Selections[i].Replace(code + " (" + name + ")", "");
-            var split = new string[] { };
             ModuleMaze.sprites[i + 1].name = name;
-            var moduleInfo = new ModuleInfo();
+            ModuleInfo moduleInfo;
             if (!ModuleMaze.assignments.ContainsKey(code))
             {
                 moduleInfo = new ModuleInfo { connections = new string[4] };
@@ -38,7 +39,7 @@ static class TextReader {
             if (selection.Length > 0)
             {
                 selection = selection.Replace(" ", "");
-                split = selection.Split(new[] { ',' });
+                var split = selection.Split(new[] { ',' });
                 for (int j = 0; j < split.Length; j++)
                 {
                     if (split[j].Length < 1) continue;

@@ -13,6 +13,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: modulemaze
   title: Module Maze
+  author: Riverbui
   description: 'If it wasn''t enough to figure out how to solve modules, now you''ve
     got to learn how to navigate them too.
 
@@ -24,6 +25,11 @@ MonoBehaviour:
     Module done by Riverbui
 
     ID is ModuleMaze
+
+    Manual link: https://ktane.timwi.de/HTML/Module%20Maze.html
+
+    (Note, icons may be out of date for certain modules. Please refer to https://ktane.timwi.de/PDF/Module%20Maze.pdf
+    for accurate icons)
 
 
     Thanks to ThatGuyCalledJules for allowing me to reuse the screen/arrows from Synonyms'
