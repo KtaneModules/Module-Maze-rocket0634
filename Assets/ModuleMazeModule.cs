@@ -770,10 +770,10 @@ public class ModuleMazeModule : MonoBehaviour
             bool valid;
             switch (direction)
             {
-                case 0: valid = curLoc / 20 > 0 && connections[curLoc - 20].Contains(curLoc); break;
-                case 1: valid = curLoc % 20 < 19 && connections[curLoc].Contains(curLoc + 1); break;
-                case 2: valid = curLoc / 20 < 19 && connections[curLoc].Contains(curLoc + 20); break;
-                default: valid = curLoc % 20 > 0 && connections[curLoc - 1].Contains(curLoc); break;
+                case 0: valid = curLoc % 20 > 0 && connections[curLoc - 1].Contains(curLoc); break;
+                case 1: valid = curLoc / 20 < 19 && connections[curLoc].Contains(curLoc + 20); break;
+                case 2: valid = curLoc % 20 < 19 && connections[curLoc].Contains(curLoc + 1); break;
+                default: valid = curLoc / 20 > 0 && connections[curLoc - 20].Contains(curLoc); break;
             }
 
             if (valid && !explored.Contains(curLoc + directions[direction]))
