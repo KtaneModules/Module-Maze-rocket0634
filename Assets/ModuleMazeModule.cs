@@ -1,5 +1,4 @@
-﻿using System;
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
@@ -13,61 +12,441 @@ public class ModuleMazeModule : MonoBehaviour
     public KMAudio Audio;
     public KMRuleSeedable RuleSeedable;
     public SpriteRenderer IconHolder, IconHolder2;
-    public Sprite[] sprites, gSprites, souvenirSprites;
+    public Sprite[] sprites, gSprites;
     public KMSelectable[] Buttons;
-    public TextAsset selections;
-    public string souvenirStart = "empty", version;
-    internal Dictionary<string, ModuleInfo> assignments = new Dictionary<string, ModuleInfo>();
-    private Dictionary<int, string> orderedInfo;
+    public string version;
+    private Sprite souvenirStart;
+
+    private static readonly int[][] connections = new int[][]
+    {
+        new int[] { 1 },
+        new int[] { 21 },
+        new int[] { 3, 22 },
+        new int[] {  },
+        new int[] { 5, 24 },
+        new int[] {  },
+        new int[] { 7 },
+        new int[] { 8 },
+        new int[] { 9, 28 },
+        new int[] {  },
+        new int[] { 11, 30 },
+        new int[] { 12, 31 },
+        new int[] { 13 },
+        new int[] { 14 },
+        new int[] { 15 },
+        new int[] { 16, 35 },
+        new int[] {  },
+        new int[] { 18, 37 },
+        new int[] { 19 },
+        new int[] {  },
+        new int[] { 21, 40 },
+        new int[] { 41 },
+        new int[] { 23, 42 },
+        new int[] {  },
+        new int[] { 25 },
+        new int[] { 26 },
+        new int[] { 46 },
+        new int[] { 47 },
+        new int[] { 29 },
+        new int[] { 30, 49 },
+        new int[] {  },
+        new int[] { 51 },
+        new int[] { 33, 52 },
+        new int[] { 34 },
+        new int[] {  },
+        new int[] { 36, 55 },
+        new int[] {  },
+        new int[] { 38 },
+        new int[] { 39, 58 },
+        new int[] {  },
+        new int[] { 60 },
+        new int[] { 42 },
+        new int[] { 43 },
+        new int[] { 44 },
+        new int[] { 45, 64 },
+        new int[] { 65 },
+        new int[] { 47, 66 },
+        new int[] { 67 },
+        new int[] { 49, 68 },
+        new int[] {  },
+        new int[] { 51, 70 },
+        new int[] { 52 },
+        new int[] { 53 },
+        new int[] { 54, 73 },
+        new int[] { 55, 74 },
+        new int[] {  },
+        new int[] { 57, 76 },
+        new int[] { 77 },
+        new int[] { 59, 78 },
+        new int[] {  },
+        new int[] { 61, 80 },
+        new int[] { 62 },
+        new int[] { 63, 82 },
+        new int[] { 64 },
+        new int[] {  },
+        new int[] { 66 },
+        new int[] {  },
+        new int[] { 68, 87 },
+        new int[] {  },
+        new int[] { 89 },
+        new int[] {  },
+        new int[] { 72, 91 },
+        new int[] { 73 },
+        new int[] {  },
+        new int[] { 75, 94 },
+        new int[] { 76 },
+        new int[] {  },
+        new int[] { 78 },
+        new int[] { 98 },
+        new int[] { 99 },
+        new int[] { 100 },
+        new int[] { 101 },
+        new int[] { 102 },
+        new int[] { 84, 103 },
+        new int[] {  },
+        new int[] { 105 },
+        new int[] { 87 },
+        new int[] { 107 },
+        new int[] { 89, 108 },
+        new int[] { 90, 109 },
+        new int[] { 110 },
+        new int[] { 111 },
+        new int[] { 93, 112 },
+        new int[] { 94 },
+        new int[] {  },
+        new int[] { 96, 115 },
+        new int[] { 97, 116 },
+        new int[] {  },
+        new int[] { 118 },
+        new int[] { 119 },
+        new int[] { 120 },
+        new int[] { 121 },
+        new int[] { 122 },
+        new int[] { 104 },
+        new int[] { 105 },
+        new int[] { 106 },
+        new int[] { 107, 126 },
+        new int[] { 127 },
+        new int[] { 128 },
+        new int[] {  },
+        new int[] { 111, 130 },
+        new int[] { 131 },
+        new int[] { 113, 132 },
+        new int[] {  },
+        new int[] { 115, 134 },
+        new int[] {  },
+        new int[] { 117 },
+        new int[] {  },
+        new int[] { 119 },
+        new int[] { 139 },
+        new int[] { 140 },
+        new int[] { 141 },
+        new int[] { 142 },
+        new int[] { 124, 143 },
+        new int[] { 125 },
+        new int[] { 145 },
+        new int[] { 146 },
+        new int[] { 128 },
+        new int[] { 129, 148 },
+        new int[] { 149 },
+        new int[] { 150 },
+        new int[] { 151 },
+        new int[] { 133, 152 },
+        new int[] {  },
+        new int[] { 135, 154 },
+        new int[] {  },
+        new int[] { 156 },
+        new int[] { 157 },
+        new int[] { 139, 158 },
+        new int[] {  },
+        new int[] { 141, 160 },
+        new int[] {  },
+        new int[] { 143 },
+        new int[] { 144, 163 },
+        new int[] {  },
+        new int[] { 146 },
+        new int[] {  },
+        new int[] { 148, 167 },
+        new int[] {  },
+        new int[] { 169 },
+        new int[] { 170 },
+        new int[] { 152 },
+        new int[] { 153, 172 },
+        new int[] {  },
+        new int[] { 155, 174 },
+        new int[] { 156, 175 },
+        new int[] { 157 },
+        new int[] { 158 },
+        new int[] { 159, 178 },
+        new int[] { 179 },
+        new int[] { 161 },
+        new int[] { 181 },
+        new int[] { 163 },
+        new int[] { 164 },
+        new int[] { 184 },
+        new int[] { 166, 185 },
+        new int[] { 167 },
+        new int[] {  },
+        new int[] { 169, 188 },
+        new int[] {  },
+        new int[] { 190 },
+        new int[] { 172, 191 },
+        new int[] { 173 },
+        new int[] { 174 },
+        new int[] {  },
+        new int[] { 176 },
+        new int[] { 177 },
+        new int[] { 197 },
+        new int[] {  },
+        new int[] { 199 },
+        new int[] { 181 },
+        new int[] { 182, 201 },
+        new int[] { 202 },
+        new int[] { 184, 203 },
+        new int[] { 185, 204 },
+        new int[] { 186 },
+        new int[] { 206 },
+        new int[] { 188 },
+        new int[] { 189 },
+        new int[] { 209 },
+        new int[] { 191 },
+        new int[] { 211 },
+        new int[] { 212 },
+        new int[] { 194, 213 },
+        new int[] {  },
+        new int[] { 196, 215 },
+        new int[] { 197 },
+        new int[] { 198, 217 },
+        new int[] { 218 },
+        new int[] { 219 },
+        new int[] { 201 },
+        new int[] { 202, 221 },
+        new int[] { 222 },
+        new int[] { 223 },
+        new int[] { 205, 224 },
+        new int[] {  },
+        new int[] { 207 },
+        new int[] { 208, 227 },
+        new int[] { 209 },
+        new int[] { 210 },
+        new int[] { 211 },
+        new int[] { 212, 231 },
+        new int[] { 213 },
+        new int[] { 214, 233 },
+        new int[] { 215 },
+        new int[] {  },
+        new int[] { 217, 236 },
+        new int[] {  },
+        new int[] { 238 },
+        new int[] { 239 },
+        new int[] { 240 },
+        new int[] { 241 },
+        new int[] { 223 },
+        new int[] {  },
+        new int[] { 225 },
+        new int[] { 245 },
+        new int[] { 246 },
+        new int[] { 247 },
+        new int[] { 229 },
+        new int[] { 230, 249 },
+        new int[] {  },
+        new int[] { 251 },
+        new int[] { 252 },
+        new int[] { 234 },
+        new int[] {  },
+        new int[] { 255 },
+        new int[] { 237, 256 },
+        new int[] { 257 },
+        new int[] { 239 },
+        new int[] { 259 },
+        new int[] { 241, 260 },
+        new int[] { 261 },
+        new int[] { 262 },
+        new int[] { 244 },
+        new int[] { 245 },
+        new int[] { 246 },
+        new int[] { 247 },
+        new int[] { 267 },
+        new int[] { 268 },
+        new int[] { 250, 269 },
+        new int[] { 251 },
+        new int[] { 252, 271 },
+        new int[] { 272 },
+        new int[] { 254, 273 },
+        new int[] {  },
+        new int[] { 256, 275 },
+        new int[] {  },
+        new int[] { 277 },
+        new int[] { 278 },
+        new int[] { 279 },
+        new int[] { 280 },
+        new int[] { 262 },
+        new int[] { 263, 282 },
+        new int[] { 264 },
+        new int[] { 284 },
+        new int[] { 266 },
+        new int[] { 267, 286 },
+        new int[] { 287 },
+        new int[] { 269, 288 },
+        new int[] {  },
+        new int[] { 271 },
+        new int[] {  },
+        new int[] { 292 },
+        new int[] { 274, 293 },
+        new int[] {  },
+        new int[] { 276, 295 },
+        new int[] { 296 },
+        new int[] { 297 },
+        new int[] { 279, 298 },
+        new int[] {  },
+        new int[] { 281 },
+        new int[] { 282 },
+        new int[] { 283, 302 },
+        new int[] { 284 },
+        new int[] { 304 },
+        new int[] { 305 },
+        new int[] { 306 },
+        new int[] { 307 },
+        new int[] { 308 },
+        new int[] { 309 },
+        new int[] { 291, 310 },
+        new int[] { 292 },
+        new int[] {  },
+        new int[] { 294, 313 },
+        new int[] { 295 },
+        new int[] {  },
+        new int[] { 316 },
+        new int[] {  },
+        new int[] { 299, 318 },
+        new int[] {  },
+        new int[] { 301 },
+        new int[] { 302 },
+        new int[] { 322 },
+        new int[] { 304 },
+        new int[] { 305 },
+        new int[] { 306, 325 },
+        new int[] { 326 },
+        new int[] { 308 },
+        new int[] { 328 },
+        new int[] { 310, 329 },
+        new int[] { 311, 330 },
+        new int[] { 312, 331 },
+        new int[] { 313 },
+        new int[] {  },
+        new int[] { 315, 334 },
+        new int[] { 316 },
+        new int[] { 336 },
+        new int[] { 318, 337 },
+        new int[] { 319 },
+        new int[] { 339 },
+        new int[] { 321 },
+        new int[] { 322, 341 },
+        new int[] {  },
+        new int[] { 324, 343 },
+        new int[] { 325 },
+        new int[] {  },
+        new int[] { 327 },
+        new int[] { 347 },
+        new int[] { 329 },
+        new int[] { 349 },
+        new int[] { 350 },
+        new int[] { 332 },
+        new int[] { 333 },
+        new int[] { 334 },
+        new int[] { 335 },
+        new int[] { 355 },
+        new int[] { 337 },
+        new int[] { 338 },
+        new int[] { 358 },
+        new int[] {  },
+        new int[] { 341 },
+        new int[] { 361 },
+        new int[] { 343 },
+        new int[] { 344 },
+        new int[] { 345, 364 },
+        new int[] { 346 },
+        new int[] { 347 },
+        new int[] { 348, 367 },
+        new int[] { 349 },
+        new int[] { 369 },
+        new int[] { 370 },
+        new int[] { 371 },
+        new int[] { 353, 372 },
+        new int[] { 354 },
+        new int[] {  },
+        new int[] { 375 },
+        new int[] { 357, 376 },
+        new int[] { 377 },
+        new int[] { 359, 378 },
+        new int[] {  },
+        new int[] { 361 },
+        new int[] { 362 },
+        new int[] { 363, 382 },
+        new int[] { 364 },
+        new int[] { 365 },
+        new int[] { 366, 385 },
+        new int[] { 386 },
+        new int[] { 387 },
+        new int[] { 369, 388 },
+        new int[] { 389 },
+        new int[] { 390 },
+        new int[] { 372, 391 },
+        new int[] { 373 },
+        new int[] { 374 },
+        new int[] {  },
+        new int[] { 395 },
+        new int[] { 396 },
+        new int[] { 378 },
+        new int[] { 379 },
+        new int[] { 399 },
+        new int[] { 381 },
+        new int[] { 382 },
+        new int[] {  },
+        new int[] { 384 },
+        new int[] { 385 },
+        new int[] {  },
+        new int[] { 387 },
+        new int[] {  },
+        new int[] {  },
+        new int[] { 390 },
+        new int[] { 391 },
+        new int[] { 392 },
+        new int[] { 393 },
+        new int[] { 394 },
+        new int[] { 395 },
+        new int[] { 396 },
+        new int[] { 397 },
+        new int[] {  },
+        new int[] { 399 },
+        new int[] {  }
+    };
 
     public int y, size, pixelsPerUnit;
     //The index value for the starting bomb
     //The index value for the destination bomb
     private int start, destination;
-    private int[] phonies = new int[5];
+    private readonly int[] phonies = new int[5];
     float t;
-    private Queue<IEnumerable> queue = new Queue<IEnumerable>();
+    private readonly Queue<IEnumerable> queue = new Queue<IEnumerable>();
     //Keep track of when the module is processing an input (don't process any others while ready is false) |
-    //Don't allow interactions when !_isActive or solved 
+    //Don't allow interactions when !_isActive or solved
     private bool ready = true, _isActive = false, solved, showSolution = true, first = true;
 
     // Use this for initialization
     void Start()
     {
         _moduleID = _moduleIDCounter++;
-        var text = selections.text;
-        var settingsPath = System.IO.Path.Combine(Application.persistentDataPath, "Modsettings");
-        var path = System.IO.Path.Combine(settingsPath, "ModuleMazeConnections.txt");
-        var write = false;
-        var readText = "";
-        if (!System.IO.File.Exists(path) || System.IO.File.ReadAllText(path).Length == 0) write = true;
-        else readText = System.IO.File.ReadAllText(path);
-        if (write || readText.Substring(9, 1) != version)
-            System.IO.File.WriteAllText(path, string.Format("Version: {0}\n" +
-                "This file may be used to modify icon connections in Module maze.\n" +
-                "Only down,right movements are recorded.\n{1}", version, selections.text));
-        else if (readText.Substring(9, 1) == version)
+        start = UnityEngine.Random.Range(0, sprites.Length);
+        souvenirStart = gSprites[start];
+        do
+            destination = UnityEngine.Random.Range(0, sprites.Length);
+        while (destination == start || Loop(start, 0, 24, true, destination, new List<int>()));
+
+        for (int i = 0; i < phonies.Count(); i++)
         {
-            text = readText.Substring(readText.IndexOf("\n") + 1);
-            text = text.Substring(text.IndexOf("\n") + 1);
-            text = text.Substring(text.IndexOf("\n") + 1);
+            while (phonies[i] == start || (i > 0) && phonies.Take(i).Contains(phonies[i]) || phonies[i] == 0)
+                phonies[i] = UnityEngine.Random.Range(1, sprites.Length);
         }
-        TextReader.Run(this, text);
-        orderedInfo = assignments.Where(x => x.Value.index != -1).ToDictionary(x => x.Value.index + 1, y => y.Key);
-        /*if (RuleSeedable.GetRNG().Seed != 1)
-        {
-            
-        } else {*/
-            start = UnityEngine.Random.Range(1, sprites.Length);
-            Func<int, bool> func = (z) => z == start || !Distance();
-            destination = UnityEngine.Random.Range(1, sprites.Length);
-            while (func(destination)) destination = UnityEngine.Random.Range(1, sprites.Length);
-            for (int i = 0; i < phonies.Count(); i++)
-            {
-                while (phonies[i] == start || (i > 0) && phonies.Take(i).Contains(phonies[i]) || phonies[i] == 0)
-                    phonies[i] = UnityEngine.Random.Range(1, sprites.Length);
-            }
-        //}
         IconHolder.sprite = sprites[destination];
         for (int i = 0; i < Buttons.Length; i++)
         {
@@ -82,20 +461,21 @@ public class ModuleMazeModule : MonoBehaviour
         StartCoroutine(WaitForInput());
     }
 
-    bool Distance()
+    bool Loop(int current, int count, int countLimit, bool doCount, int end, List<int> path)
     {
-        var current = orderedInfo[start];
-        var endingKey = orderedInfo[destination];
-        if (!Loop(current, 0, 24, true, endingKey, new List<string>())) return true;
-        else return false;
-    }
+        var adjacent = new List<int>();
+        if (current % 20 > 0)
+            adjacent.Add(current - 1);
+        if (current % 20 < 19)
+            adjacent.Add(current + 1);
+        if (current / 20 > 0)
+            adjacent.Add(current - 20);
+        if (current / 20 < 19)
+            adjacent.Add(current + 20);
 
-    bool Loop(string current, int count, int countLimit, bool doCount, string end, List<string> path)
-    {
-        for (int i = 0; i < 4; i++)
+        foreach (var next in adjacent)
         {
-            var next = assignments[current].connections[i];
-            if (next != null && ((doCount && count < countLimit) || !doCount) && next != end && !path.Contains(next))
+            if (((doCount && count < countLimit) || !doCount) && next != end && !path.Contains(next))
             {
                 if (!path.Contains(current)) path.Add(current);
                 if (Loop(next, count + 1, countLimit, doCount, end, path)) return true;
@@ -114,37 +494,12 @@ public class ModuleMazeModule : MonoBehaviour
     {
         return delegate ()
         {
-            //if (solved) return false;
-            /* Reset isn't necessary here.
-             * if (i == 4 && !showSolution)
-            {
-                var coroutine = Count();
-                StartCoroutine(coroutine);
-                Buttons[4].OnInteractEnded = delegate
-                {
-                    StopCoroutine(coroutine);
-                    if (t < 2) queue.Enqueue(ButtonPress(4));
-                    Buttons[4].OnInteractEnded = null;
-                };
-                return false;
-            }*/
             if (!_isActive || solved) return false;
             Buttons[i].AddInteractionPunch(0.5f);
             Audio.PlayGameSoundAtTransform(KMSoundOverride.SoundEffect.ButtonPress, transform);
             queue.Enqueue(ButtonPress(i));
             return false;
         };
-    }
-
-    private IEnumerator Count()
-    {
-        t = 0f;
-        while (isActiveAndEnabled)
-        {
-            yield return t += Time.deltaTime;
-            if (t > 2.0f) break;
-        }
-        queue.Enqueue(ButtonPress(5));
     }
 
     private IEnumerator WaitForInput()
@@ -181,7 +536,7 @@ public class ModuleMazeModule : MonoBehaviour
                 move = "top";
                 oP.z -= 1.1f;
                 rP.z += 1.1f;
-                if (assignments[orderedInfo[start]].connections[3] != null)
+                if (start / 20 > 0 && connections[start - 20].Contains(start))
                 {
                     start -= y;
                     strike = false;
@@ -191,7 +546,7 @@ public class ModuleMazeModule : MonoBehaviour
                 move = "right";
                 oP.x -= 1.1f;
                 rP.x += 1.1f;
-                if (assignments[orderedInfo[start]].connections[2] != null)
+                if (start % 20 < 19 && connections[start].Contains(start + 1))
                 {
                     start++;
                     strike = false;
@@ -201,7 +556,7 @@ public class ModuleMazeModule : MonoBehaviour
                 move = "bottom";
                 oP.z += 1.1f;
                 rP.z -= 1.1f;
-                if (assignments[orderedInfo[start]].connections[1] != null)
+                if (start / 20 < 19 && connections[start].Contains(start + 20))
                 {
                     start += y;
                     strike = false;
@@ -211,7 +566,7 @@ public class ModuleMazeModule : MonoBehaviour
                 move = "left";
                 oP.x += 1.1f;
                 rP.x -= 1.1f;
-                if (assignments[orderedInfo[start]].connections[0] != null)
+                if (start % 20 > 0 && connections[start - 1].Contains(start))
                 {
                     start--;
                     strike = false;
@@ -221,16 +576,6 @@ public class ModuleMazeModule : MonoBehaviour
                 if (start == destination && !showSolution)
                 {
                     solved = true;
-                    try
-                    {
-                        souvenirSprites = new[] { gSprites.Where(x => x.name == souvenirStart).First(), gSprites.Where(x => x.name == sprites[phonies[0]].name).First(), gSprites.Where(x => x.name == sprites[phonies[1]].name).First(), gSprites.Where(x => x.name == sprites[phonies[2]].name).First(), gSprites.Where(x => x.name == sprites[phonies[3]].name).First(), gSprites.Where(x => x.name == sprites[phonies[4]].name).First() };
-                    }
-                    catch
-                    {
-                        DebugLog("There was an issue with randomization. If Souvenir support is active, it may be impacted.");
-                        DebugLog("Chosen Indicies: {0}, resulting names: {1}", false, string.Join(", ", phonies.Select(x => x.ToString()).ToArray()), string.Join(", ", phonies.Select(x => sprites[x].name).ToArray()));
-                        DebugLog("Starting name: {0}", false, souvenirStart);
-                    }
                     Module.HandlePass();
                 }
                 else if (showSolution)
@@ -238,10 +583,7 @@ public class ModuleMazeModule : MonoBehaviour
                     IconHolder.sprite = sprites[start];
                     DebugLog("Shown icon is {0}", sprites[start].name);
                     if (first)
-                    {
-                        souvenirStart = sprites[start].name;
                         first = !first;
-                    }
                     showSolution = !showSolution;
                     ready = true;
                 }
@@ -254,11 +596,11 @@ public class ModuleMazeModule : MonoBehaviour
                     ready = true;
                 }
                 break;
-            /*case 5:
-                var coroutine = AutoSolve(start, true);
-                while (coroutine.MoveNext())
-                    yield return coroutine.Current;
-                break;*/
+                /*case 5:
+                    var coroutine = AutoSolve(start, true);
+                    while (coroutine.MoveNext())
+                        yield return coroutine.Current;
+                    break;*/
         }
         if (i > 3) yield break;
         yield return MoveScreen(oP, rP, cP, move, strike);
@@ -343,22 +685,14 @@ public class ModuleMazeModule : MonoBehaviour
         return source;
     }
 
-    private string TwitchHelpMessage = "Interact with the module using !{0} udlr NSEW, and use !{0} toggle to interact with the screen.";
+    private readonly string TwitchHelpMessage = "Interact with the module using !{0} udlr NSEW, and use !{0} toggle to interact with the screen.";
 
     private IEnumerator ProcessTwitchCommand(string input)
     {
         input = input.ToLowerInvariant();
         var submit = false;
         var presses = new List<KMSelectable>();
-        /* You'll always know where you are in the maze, as such there is no need for a reset.
-         * if (StartsWithOrEndsWithAny(input, "reset"))
-        {
-            yield return null;
-            Buttons.Last().OnInteract();
-            yield return new WaitForSeconds(2.1f);
-            Buttons.Last().OnInteractEnded();
-            yield break;
-        }*/
+        // You'll always know where you are in the maze, as such there is no need for a reset.
         if (StartsWithOrEndsWithAny(input, "submit", "select", "toggle"))
         {
             Debug.LogFormat(input);
@@ -414,34 +748,35 @@ public class ModuleMazeModule : MonoBehaviour
 
     IEnumerator AutoSolve(int curDest)
     {
-        //if (!reset) 
         if (showSolution) Buttons[4].OnInteract();
         yield return null;
         var curLoc = start;
         var step = 0;
-        if (curLoc == curDest)// && !reset)
+        if (curLoc == curDest)
         {
             Buttons[4].OnInteract();
             yield break;
         }
-        /*else if (curLoc == curDest)
-        {
-            DebugLog("You reset from your current location to your current location.");
-            ready = true;
-            queue.Clear();
-            yield break;
-        }*/
         var end = false;
         var str = "";
         var movements = new Stack<int>();
         var direction = 0;
-        //var dirCount = 0;
-        var explored = new List<int>();;
+        var explored = new List<int>();
         var directions = new int[] { -1, y, 1, -y };
         while (!end)
         {
             var curStep = step;
-            if (assignments[orderedInfo[curLoc]].connections[direction] != null && !explored.Contains(curLoc + directions[direction]))
+
+            bool valid;
+            switch (direction)
+            {
+                case 0: valid = curLoc / 20 > 0 && connections[curLoc - 20].Contains(curLoc); break;
+                case 1: valid = curLoc % 20 < 19 && connections[curLoc].Contains(curLoc + 1); break;
+                case 2: valid = curLoc / 20 < 19 && connections[curLoc].Contains(curLoc + 20); break;
+                default: valid = curLoc % 20 > 0 && connections[curLoc - 1].Contains(curLoc); break;
+            }
+
+            if (valid && !explored.Contains(curLoc + directions[direction]))
             {
                 if (!movements.Contains(curLoc + directions[direction]))
                 {
@@ -457,6 +792,7 @@ public class ModuleMazeModule : MonoBehaviour
             }
             else
                 direction++;
+
             if (direction > 3 && curStep == step && step != 0)
             {
                 while (direction > 3 && step > 0)
@@ -472,18 +808,6 @@ public class ModuleMazeModule : MonoBehaviour
             if (direction > 3 && str.Length == 0)
                 end = true;
             direction %= 4;
-            /* Hopefully this won't be needed.
-            dirCount++;
-            if (!timer.Enabled)
-            {
-                DebugLog("Error.", false);
-                DebugLog(str, false);
-                DebugLog("{0} - {1}", false, y, start);
-                DebugLog(movements.Count + ": " + string.Join("-", movements.Select(x => sprites[x].name).ToArray()), false);
-                DebugLog(string.Join("\n", list.ToArray()), false);
-                DebugLog(string.Join(", ", explored.Select(x => x.ToString()).ToArray()));
-                yield break;
-            }*/
         }
         foreach (char c in str)
         {
@@ -493,12 +817,6 @@ public class ModuleMazeModule : MonoBehaviour
             yield return null;
             selectables[notC].OnInteract();
         }
-        /*if (reset)
-        {
-            DebugLog("Returned to starting location.");
-            ready = true;
-            yield break;
-        }*/
         while (queue.Count != 0 || !ready)
             yield return true;
         if (curDest != destination)
@@ -510,7 +828,6 @@ public class ModuleMazeModule : MonoBehaviour
         }
         yield return null;
         Buttons[4].OnInteract();
-        //Buttons[4].OnInteractEnded();
     }
 
     void DebugLog(string log, params object[] args)

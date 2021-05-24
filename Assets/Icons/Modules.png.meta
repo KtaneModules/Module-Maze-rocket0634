@@ -1,12 +1,10 @@
 fileFormatVersion: 2
 guid: 78c03edf443a44e4786c7c955888161e
-timeCreated: 1559713867
-licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
     21300000: Wire Sequence
     21300002: Wires
-    21300004: "Who\u2019s On First"
+    21300004: Who's on First
     21300006: Venting Gas
     21300008: Simon Says
     21300010: Password
@@ -68,8 +66,8 @@ TextureImporter:
     21300122: Microcontroller
     21300124: Murder
     21300126: The Gamepad
-    21300128: Tic-Tac-Toe
-    21300130: "Who\u2019s That Monsplode"
+    21300128: Tic Tac Toe
+    21300130: Who's That Monsplode?
     21300132: Monsplode, Fight!
     21300134: Shape Shift
     21300136: Follow the Leader
@@ -108,7 +106,7 @@ TextureImporter:
     21300202: Web Design
     21300204: Chord Qualities
     21300206: Creation
-    21300208: "Rubik\u2019s Cube"
+    21300208: Rubik's Cube
     21300210: FizzBuzz
     21300212: The Clock
     21300214: LED Encryption
@@ -185,7 +183,7 @@ TextureImporter:
     21300356: Error Codes
     21300358: Rapid Buttons
     21300360: LEGOs
-    21300362: "Rubik\u2019s Clock"
+    21300362: Rubik's Clock
     21300364: Font Select
     21300366: The Stopwatch
     21300368: Pie
@@ -229,7 +227,7 @@ TextureImporter:
     21300444: The Time Keeper
     21300446: Lightspeed
     21300448: Black Hole
-    21300450: "Simon\u2019s Stars"
+    21300450: Simon's Star
     21300452: Morse War
     21300454: The Stock Market
     21300456: Mineseeker
@@ -270,14 +268,14 @@ TextureImporter:
     21300526: Coffeebucks
     21300528: Colorful Madness
     21300530: Bases
-    21300532: "Lion\u2019s Share"
+    21300532: Lion's Share
     21300534: Snooker
     21300536: Blackjack
     21300538: Party Time
     21300540: Accumulation
     21300542: The Plunger Button
     21300544: The Digit
-    21300546: "The Jack-O\u2019-Lantern"
+    21300546: The Jack-O'-Lantern
     21300548: T-Words
     21300550: Divided Squares
     21300552: Connection Device
@@ -331,7 +329,7 @@ TextureImporter:
     21300648: Flip The Coin
     21300650: Krazy Talk
     21300652: Numbers
-    21300654: "Simon\u2019s Stages"
+    21300654: Simon's Stages
     21300656: Free Parking
     21300658: Cookie Jars
     21300660: Alchemy
@@ -352,12 +350,12 @@ TextureImporter:
     21300690: SYNC-125 [3]
     21300692: Westeros
     21300694: Morse Identification
-    21300696: Rot Decoding
+    21300696: Pigpen Rotations
     21300698: LED Math
     21300700: Alphabetical Order
     21300702: Simon Sounds
     21300704: The Fidget Spinner
-    21300706: "Simon\u2019s Sequence"
+    21300706: Simon's Sequence
     21300708: Simon Scrambles
     21300710: Harmony Sequence
     21300712: Unfair Cipher
@@ -368,42 +366,43 @@ TextureImporter:
     21300722: Left and Right
     21300724: Wingdings
     21300726: The Hexabutton
-    21300728: The Plunger
-    21300730: Genetic Sequence
-    21300732: Micro-Modules
-    21300734: Elder Futhark
-    21300736: Module Maze
-    21300738: Tasha Squeals
-    21300740: Forget This
-    21300742: Digital Cipher
-    21300744: Draw
-    21300746: Grocery Store
-    21300748: Burger Alarm
-    21300750: Subscribe to Pewdiepie
-    21300752: Purgatory
-    21300754: Mega Man 2
-    21300756: Lombax Cubes
-    21300758: The Stare
-    21300760: Graphic Memory
-    21300762: Timing is Everything
-    21300764: Quiz Buzz
-    21300766: Wavetapping
-    21300768: The Hypercube
-    21300770: Speak English
-    21300772: "Stack\u2019em"
-    21300774: Seven Wires
-    21300776: Colored Keys
-    21300778: The Troll
-    21300780: Planets
-    21300782: The Necronomicon
-    21300784: Four-Card Monte
-    21300786: Aa
-    21300788: The Witness
-    21300790: "The Giant\u2019s Drink"
-    21300792: Digit String
-    21300794: Alpha
-    21300796: Snap!
-    21300798: Hidden Colors
+    21300728: Genetic Sequence
+    21300730: Micro-Modules
+    21300732: Elder Futhark
+    21300734: Module Maze
+    21300736: Tasha Squeals
+    21300738: Forget This
+    21300740: Digital Cipher
+    21300742: Draw
+    21300744: Grocery Store
+    21300746: Burger Alarm
+    21300748: Subscribe to Pewdiepie
+    21300750: Purgatory
+    21300752: Mega Man 2
+    21300754: Lombax Cubes
+    21300756: The Stare
+    21300758: Graphic Memory
+    21300760: Timing is Everything
+    21300762: Quiz Buzz
+    21300764: Wavetapping
+    21300766: The Hypercube
+    21300768: Speak English
+    21300770: Stack'em
+    21300772: Seven Wires
+    21300774: Colored Keys
+    21300776: The Troll
+    21300778: Planets
+    21300780: The Necronomicon
+    21300782: Four-Card Monte
+    21300784: aa
+    21300786: The Witness
+    21300788: The Giant's Drink
+    21300790: Digit String
+    21300792: Alpha
+    21300794: Snap!
+    21300796: Hidden Colors
+    21300798: Colour Code
+  externalObjects: {}
   serializedVersion: 4
   mipmaps:
     mipMapMode: 0
@@ -444,8 +443,9 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
@@ -457,20 +457,24 @@ TextureImporter:
   platformSettings:
   - buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
+    resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 2
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    androidETC2FallbackOverride: 0
   - buildTarget: Standalone
     maxTextureSize: 2048
+    resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 2
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    androidETC2FallbackOverride: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -503,7 +507,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: "Who\u2019s On First"
+      name: Who's on First
       rect:
         serializedVersion: 2
         x: 192
@@ -1371,7 +1375,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Tic-Tac-Toe
+      name: Tic Tac Toe
       rect:
         serializedVersion: 2
         x: 384
@@ -1385,7 +1389,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: "Who\u2019s That Monsplode"
+      name: Who's That Monsplode?
       rect:
         serializedVersion: 2
         x: 480
@@ -1931,7 +1935,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: "Rubik\u2019s Cube"
+      name: Rubik's Cube
       rect:
         serializedVersion: 2
         x: 384
@@ -3009,7 +3013,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: "Rubik\u2019s Clock"
+      name: Rubik's Clock
       rect:
         serializedVersion: 2
         x: 96
@@ -3625,7 +3629,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: "Simon\u2019s Stars"
+      name: Simon's Star
       rect:
         serializedVersion: 2
         x: 480
@@ -4199,7 +4203,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: "Lion\u2019s Share"
+      name: Lion's Share
       rect:
         serializedVersion: 2
         x: 576
@@ -4297,7 +4301,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: "The Jack-O\u2019-Lantern"
+      name: The Jack-O'-Lantern
       rect:
         serializedVersion: 2
         x: 1248
@@ -5053,7 +5057,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: "Simon\u2019s Stages"
+      name: Simon's Stages
       rect:
         serializedVersion: 2
         x: 672
@@ -5347,7 +5351,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Rot Decoding
+      name: Pigpen Rotations
       rect:
         serializedVersion: 2
         x: 768
@@ -5417,7 +5421,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: "Simon\u2019s Sequence"
+      name: Simon's Sequence
       rect:
         serializedVersion: 2
         x: 1248
@@ -5571,24 +5575,10 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: The Plunger
-      rect:
-        serializedVersion: 2
-        x: 384
-        y: 96
-        width: 96
-        height: 96
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
       name: Genetic Sequence
       rect:
         serializedVersion: 2
-        x: 480
+        x: 384
         y: 96
         width: 96
         height: 96
@@ -5602,7 +5592,7 @@ TextureImporter:
       name: Micro-Modules
       rect:
         serializedVersion: 2
-        x: 576
+        x: 480
         y: 96
         width: 96
         height: 96
@@ -5616,7 +5606,7 @@ TextureImporter:
       name: Elder Futhark
       rect:
         serializedVersion: 2
-        x: 672
+        x: 576
         y: 96
         width: 96
         height: 96
@@ -5630,7 +5620,7 @@ TextureImporter:
       name: Module Maze
       rect:
         serializedVersion: 2
-        x: 768
+        x: 672
         y: 96
         width: 96
         height: 96
@@ -5644,7 +5634,7 @@ TextureImporter:
       name: Tasha Squeals
       rect:
         serializedVersion: 2
-        x: 864
+        x: 768
         y: 96
         width: 96
         height: 96
@@ -5658,7 +5648,7 @@ TextureImporter:
       name: Forget This
       rect:
         serializedVersion: 2
-        x: 960
+        x: 864
         y: 96
         width: 96
         height: 96
@@ -5672,7 +5662,7 @@ TextureImporter:
       name: Digital Cipher
       rect:
         serializedVersion: 2
-        x: 1056
+        x: 960
         y: 96
         width: 96
         height: 96
@@ -5686,7 +5676,7 @@ TextureImporter:
       name: Draw
       rect:
         serializedVersion: 2
-        x: 1152
+        x: 1056
         y: 96
         width: 96
         height: 96
@@ -5700,7 +5690,7 @@ TextureImporter:
       name: Grocery Store
       rect:
         serializedVersion: 2
-        x: 1248
+        x: 1152
         y: 96
         width: 96
         height: 96
@@ -5714,7 +5704,7 @@ TextureImporter:
       name: Burger Alarm
       rect:
         serializedVersion: 2
-        x: 1344
+        x: 1248
         y: 96
         width: 96
         height: 96
@@ -5728,7 +5718,7 @@ TextureImporter:
       name: Subscribe to Pewdiepie
       rect:
         serializedVersion: 2
-        x: 1440
+        x: 1344
         y: 96
         width: 96
         height: 96
@@ -5742,7 +5732,7 @@ TextureImporter:
       name: Purgatory
       rect:
         serializedVersion: 2
-        x: 1536
+        x: 1440
         y: 96
         width: 96
         height: 96
@@ -5756,7 +5746,7 @@ TextureImporter:
       name: Mega Man 2
       rect:
         serializedVersion: 2
-        x: 1632
+        x: 1536
         y: 96
         width: 96
         height: 96
@@ -5770,7 +5760,7 @@ TextureImporter:
       name: Lombax Cubes
       rect:
         serializedVersion: 2
-        x: 1728
+        x: 1632
         y: 96
         width: 96
         height: 96
@@ -5784,7 +5774,7 @@ TextureImporter:
       name: The Stare
       rect:
         serializedVersion: 2
-        x: 1824
+        x: 1728
         y: 96
         width: 96
         height: 96
@@ -5798,8 +5788,8 @@ TextureImporter:
       name: Graphic Memory
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
+        x: 1824
+        y: 96
         width: 96
         height: 96
       alignment: 0
@@ -5812,7 +5802,7 @@ TextureImporter:
       name: Timing is Everything
       rect:
         serializedVersion: 2
-        x: 96
+        x: 0
         y: 0
         width: 96
         height: 96
@@ -5826,7 +5816,7 @@ TextureImporter:
       name: Quiz Buzz
       rect:
         serializedVersion: 2
-        x: 192
+        x: 96
         y: 0
         width: 96
         height: 96
@@ -5840,7 +5830,7 @@ TextureImporter:
       name: Wavetapping
       rect:
         serializedVersion: 2
-        x: 288
+        x: 192
         y: 0
         width: 96
         height: 96
@@ -5854,7 +5844,7 @@ TextureImporter:
       name: The Hypercube
       rect:
         serializedVersion: 2
-        x: 384
+        x: 288
         y: 0
         width: 96
         height: 96
@@ -5868,7 +5858,7 @@ TextureImporter:
       name: Speak English
       rect:
         serializedVersion: 2
-        x: 480
+        x: 384
         y: 0
         width: 96
         height: 96
@@ -5879,10 +5869,10 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: "Stack\u2019em"
+      name: Stack'em
       rect:
         serializedVersion: 2
-        x: 576
+        x: 480
         y: 0
         width: 96
         height: 96
@@ -5896,7 +5886,7 @@ TextureImporter:
       name: Seven Wires
       rect:
         serializedVersion: 2
-        x: 672
+        x: 576
         y: 0
         width: 96
         height: 96
@@ -5910,7 +5900,7 @@ TextureImporter:
       name: Colored Keys
       rect:
         serializedVersion: 2
-        x: 768
+        x: 672
         y: 0
         width: 96
         height: 96
@@ -5924,7 +5914,7 @@ TextureImporter:
       name: The Troll
       rect:
         serializedVersion: 2
-        x: 864
+        x: 768
         y: 0
         width: 96
         height: 96
@@ -5938,7 +5928,7 @@ TextureImporter:
       name: Planets
       rect:
         serializedVersion: 2
-        x: 960
+        x: 864
         y: 0
         width: 96
         height: 96
@@ -5952,7 +5942,7 @@ TextureImporter:
       name: The Necronomicon
       rect:
         serializedVersion: 2
-        x: 1056
+        x: 960
         y: 0
         width: 96
         height: 96
@@ -5966,7 +5956,7 @@ TextureImporter:
       name: Four-Card Monte
       rect:
         serializedVersion: 2
-        x: 1152
+        x: 1056
         y: 0
         width: 96
         height: 96
@@ -5977,10 +5967,10 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Aa
+      name: aa
       rect:
         serializedVersion: 2
-        x: 1248
+        x: 1152
         y: 0
         width: 96
         height: 96
@@ -5994,7 +5984,7 @@ TextureImporter:
       name: The Witness
       rect:
         serializedVersion: 2
-        x: 1344
+        x: 1248
         y: 0
         width: 96
         height: 96
@@ -6005,10 +5995,10 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: "The Giant\u2019s Drink"
+      name: The Giant's Drink
       rect:
         serializedVersion: 2
-        x: 1440
+        x: 1344
         y: 0
         width: 96
         height: 96
@@ -6022,7 +6012,7 @@ TextureImporter:
       name: Digit String
       rect:
         serializedVersion: 2
-        x: 1536
+        x: 1440
         y: 0
         width: 96
         height: 96
@@ -6036,7 +6026,7 @@ TextureImporter:
       name: Alpha
       rect:
         serializedVersion: 2
-        x: 1632
+        x: 1536
         y: 0
         width: 96
         height: 96
@@ -6050,7 +6040,7 @@ TextureImporter:
       name: Snap!
       rect:
         serializedVersion: 2
-        x: 1728
+        x: 1632
         y: 0
         width: 96
         height: 96
@@ -6062,6 +6052,20 @@ TextureImporter:
       tessellationDetail: 0
     - serializedVersion: 2
       name: Hidden Colors
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 0
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Colour Code
       rect:
         serializedVersion: 2
         x: 1824
@@ -6076,7 +6080,7 @@ TextureImporter:
       tessellationDetail: 0
     outline: []
     physicsShape: []
-  spritePackingTag: 
-  userData: 
+  spritePackingTag:
+  userData:
   assetBundleName: mod.bundle
-  assetBundleVariant: 
+  assetBundleVariant:
