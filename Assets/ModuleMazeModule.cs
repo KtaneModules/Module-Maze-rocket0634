@@ -12,10 +12,12 @@ public class ModuleMazeModule : MonoBehaviour
     public KMAudio Audio;
     public KMRuleSeedable RuleSeedable;
     public SpriteRenderer IconHolder, IconHolder2;
-    public Sprite[] sprites, gSprites;
+    public Sprite[] sprites;
     public KMSelectable[] Buttons;
     public string version;
+#pragma warning disable IDE0052 // Read by Souvenir
     private Sprite souvenirStart;
+#pragma warning restore IDE0052
 
     private static readonly int[][] connections = new int[][]
     {
@@ -425,8 +427,6 @@ public class ModuleMazeModule : MonoBehaviour
     //The index value for the starting bomb
     //The index value for the destination bomb
     private int start, destination;
-    private readonly int[] phonies = new int[5];
-    float t;
     private readonly Queue<IEnumerable> queue = new Queue<IEnumerable>();
     //Keep track of when the module is processing an input (don't process any others while ready is false) |
     //Don't allow interactions when !_isActive or solved
@@ -437,16 +437,10 @@ public class ModuleMazeModule : MonoBehaviour
     {
         _moduleID = _moduleIDCounter++;
         start = UnityEngine.Random.Range(0, sprites.Length);
-        souvenirStart = gSprites[start];
+        souvenirStart = sprites[start];
         do
             destination = UnityEngine.Random.Range(0, sprites.Length);
         while (destination == start || Loop(start, 0, 24, true, destination, new List<int>()));
-
-        for (int i = 0; i < phonies.Count(); i++)
-        {
-            while (phonies[i] == start || (i > 0) && phonies.Take(i).Contains(phonies[i]) || phonies[i] == 0)
-                phonies[i] = UnityEngine.Random.Range(1, sprites.Length);
-        }
         IconHolder.sprite = sprites[destination];
         for (int i = 0; i < Buttons.Length; i++)
         {
@@ -659,7 +653,15 @@ public class ModuleMazeModule : MonoBehaviour
             IconHolder.transform.localPosition = Vector3.Lerp(b, bh1, Mathf.SmoothStep(0.0f, 1.0f, t / duration));
             IconHolder2.transform.localPosition = Vector3.Lerp(bh2O, b, Mathf.SmoothStep(0.0f, 1.0f, t / duration));
         }
-        DebugLog("Moved {0} from icon [{1}] to [{2}]", move, sprites[oP].name, sprites[start].name);
+        try
+        {
+            DebugLog("Moved {0} from icon [{1}] to [{2}]", move, sprites[oP].name, sprites[start].name);
+        }
+        catch
+        {
+            DebugLog("{0}, {1}", (sprites[oP] == null).ToString(), sprites[start] == null);
+            DebugLog(sprites[oP].name + " " + sprites[start].name);
+        }
         IconHolder.sprite = sprites[start];
         IconHolder.transform.localPosition = new Vector3(0, 0.55f, 0);
         IconHolder2.transform.localPosition = bh2O;
@@ -685,6 +687,8 @@ public class ModuleMazeModule : MonoBehaviour
         return source;
     }
 
+#pragma warning disable 414
+#pragma warning disable IDE0051
     private readonly string TwitchHelpMessage = "Interact with the module using !{0} udlr NSEW, and use !{0} toggle to interact with the screen.";
 
     private IEnumerator ProcessTwitchCommand(string input)
@@ -746,6 +750,8 @@ public class ModuleMazeModule : MonoBehaviour
         }
     }
 
+#pragma warning restore 414
+#pragma warning restore IDE0051
     IEnumerator AutoSolve(int curDest)
     {
         if (showSolution) Buttons[4].OnInteract();

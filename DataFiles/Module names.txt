@@ -362,6 +362,7 @@ Passport Control
 Left and Right
 Wingdings
 The Hexabutton
+The Plunger
 Genetic Sequence
 Micro-Modules
 Elder Futhark
@@ -397,4 +398,3 @@ Digit String
 Alpha
 Snap!
 Hidden Colors
-Colour Code

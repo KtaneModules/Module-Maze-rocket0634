@@ -189,7 +189,7 @@ MonoBehaviour:
   names:
   - Wire Sequence
   - Wires
-  - "Who\u2019s On First"
+  - "Who\u2019s on First"
   - Venting Gas
   - Simon Says
   - Password
@@ -201,7 +201,7 @@ MonoBehaviour:
   - Complicated Wires
   - Capacitor Discharge
   - The Button
-  - Color Flash
+  - Colour Flash
   - Piano Keys
   - Semaphore
   - Math
@@ -228,7 +228,7 @@ MonoBehaviour:
   - Rotary Phone
   - Astrology
   - Logic
-  - Crazy Crazy Talk
+  - Crazy Talk
   - Adventure Game
   - Turn The Keys
   - Turn The Key
@@ -251,7 +251,7 @@ MonoBehaviour:
   - Microcontroller
   - Murder
   - The Gamepad
-  - Tic-Tac-Toe
+  - Tic Tac Toe
   - "Who\u2019s That Monsplode"
   - Monsplode, Fight!
   - Shape Shift
@@ -412,7 +412,7 @@ MonoBehaviour:
   - The Time Keeper
   - Lightspeed
   - Black Hole
-  - "Simon\u2019s Stars"
+  - "Simon\u2019s Star"
   - Morse War
   - The Stock Market
   - Mineseeker
@@ -535,7 +535,7 @@ MonoBehaviour:
   - SYNC-125 [3]
   - Westeros
   - Morse Identification
-  - Rot Decoding
+  - Pigpen Rotations
   - LED Math
   - Alphabetical Order
   - Simon Sounds
@@ -582,20 +582,20 @@ MonoBehaviour:
   - Four-Card Monte
   - Aa
   - The Witness
-  - The Giant's Drink
+  - "The Giant\u2019s Drink"
   - Digit String
   - Alpha
   - Snap!
   - Hidden Colors
-  fullName: "Wire Sequence;Wires;Who\u2019s On First;Venting Gas;Simon Says;Password;Morse
-    Code;Memory;Maze;Knob;Keypad;Complicated Wires;Capacitor Discharge;The Button;Color
+  fullName: "Wire Sequence;Wires;Who\u2019s on First;Venting Gas;Simon Says;Password;Morse
+    Code;Memory;Maze;Knob;Keypad;Complicated Wires;Capacitor Discharge;The Button;Colour
     Flash;Piano Keys;Semaphore;Math;Emoji Math;Lights Out;Switches;Two Bits;Word Scramble;Anagrams;Combination
     Lock;Filibuster;Motion Sense;Square Button;Simon States;Round Keypad;Listening;Foreign
     Exchange Rates;Answering Questions;Orientation Cube;Morsematics;Connection Check;Letter
-    Keys;Forget Me Not;Rotary Phone;Astrology;Logic;Crazy Crazy Talk;Adventure Game;Turn
+    Keys;Forget Me Not;Rotary Phone;Astrology;Logic;Crazy Talk;Adventure Game;Turn
     The Keys;Turn The Key;Mystic Square;Plumbing;Cruel Piano Keys;Safety Safe;Tetris;Cryptography;Chess;Mouse
     In The Maze;3D Maze;Silly Slots;Number Pad;Probing;Resistors;Skewed Slots;Caesar
-    Cipher;Perspective Pegs;Microcontroller;Murder;The Gamepad;Tic-Tac-Toe;Who\u2019s
+    Cipher;Perspective Pegs;Microcontroller;Murder;The Gamepad;Tic Tac Toe;Who\u2019s
     That Monsplode;Monsplode, Fight!;Shape Shift;Follow the Leader;Friendship;The
     Bulb;Alphabet;Blind Alley;Sea Shells;English Test;Rock-Paper-Scissors-Lizard-Spock;Hexamaze;Bitmaps;Colored
     Squares;Adjacent Letters;Third Base;Souvenir;Word Search;Broken Buttons;Simon
@@ -618,7 +618,7 @@ MonoBehaviour:
     Moon;The Cube;Dr. Doctor;Tax Returns;The Jewel Vault;Digital Root;Graffiti Numbers;Marble
     Tumble;X01;Logical Buttons;The Code;Tap Code;Simon Sings;Simon Sends;Synonyms;Greek
     Calculus;Simon Shrieks;Complex Keypad;Subways;Lasers;Turtle Robot;Guitar Chords;Calendar;USA
-    Maze;Binary Tree;The Time Keeper;Lightspeed;Black Hole;Simon\u2019s Stars;Morse
+    Maze;Binary Tree;The Time Keeper;Lightspeed;Black Hole;Simon\u2019s Star;Morse
     War;The Stock Market;Mineseeker;Maze Scrambler;The Number Cipher;Alphabet Numbers;British
     Slang;Double Color;Maritime Flags;Equations;Determinants;Pattern Cube;Know Your
     Way;Splitting The Loot;Simon Samples;Character Shift;Uncolored Squares;Dragon
@@ -637,7 +637,7 @@ MonoBehaviour:
     The Coin;Krazy Talk;Numbers;Simon\u2019s Stages;Free Parking;Cookie Jars;Alchemy;Varicolored
     Squares;Simon Squawks;Zoni;Mad Memory;Unrelated Anagrams;Bartending;Question Mark;Shapes
     And Bombs;Flavor Text;Flavor Text EX;Decolored Squares;Homophones;DetoNATO;Air
-    Traffic Controller;SYNC-125 [3];Westeros;Morse Identification;Rot Decoding;LED
+    Traffic Controller;SYNC-125 [3];Westeros;Morse Identification;Pigpen Rotations;LED
     Math;Alphabetical Order;Simon Sounds;The Fidget Spinner;Simon\u2019s Sequence;Simon
     Scrambles;Harmony Sequence;Unfair Cipher;Melody Sequencer;Colorful Insanity;Gadgetron
     Vendor;Passport Control;Left and Right;Wingdings;The Hexabutton;The Plunger;Genetic
@@ -645,7 +645,7 @@ MonoBehaviour:
     Cipher;Draw;Grocery Store;Burger Alarm;Subscribe to Pewdiepie;Purgatory;Mega Man
     2;Lombax Cubes;The Stare;Graphic Memory;Timing is Everything;Quiz Buzz;Wavetapping;The
     Hypercube;Speak English;Stack\u2019em;Seven Wires;Colored Keys;The Troll;Planets;The
-    Necronomicon;Four-Card Monte;Aa;The Witness;The Giant's Drink;Digit String;Alpha;Snap!;Hidden
+    Necronomicon;Four-Card Monte;Aa;The Witness;The Giant\u2019s Drink;Digit String;Alpha;Snap!;Hidden
     Colors"
 --- !u!4 &583999160
 Transform:
