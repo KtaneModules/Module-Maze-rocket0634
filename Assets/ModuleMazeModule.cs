@@ -436,10 +436,11 @@ public class ModuleMazeModule : MonoBehaviour
     void Start()
     {
         _moduleID = _moduleIDCounter++;
-        start = UnityEngine.Random.Range(0, sprites.Length);
+        DebugLog("Version 1.91", false);
+        start = Random.Range(0, sprites.Length);
         souvenirStart = sprites[start];
         do
-            destination = UnityEngine.Random.Range(0, sprites.Length);
+            destination = Random.Range(0, sprites.Length);
         while (destination == start || Loop(start, 0, 24, true, destination, new List<int>()));
         IconHolder.sprite = sprites[destination];
         for (int i = 0; i < Buttons.Length; i++)
