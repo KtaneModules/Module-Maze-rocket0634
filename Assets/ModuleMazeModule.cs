@@ -436,7 +436,7 @@ public class ModuleMazeModule : MonoBehaviour
     void Start()
     {
         _moduleID = _moduleIDCounter++;
-        DebugLog("Version 1.91", false);
+        DebugLog("Version 1.9.2", false);
         start = Random.Range(0, sprites.Length);
         souvenirStart = sprites[start];
         do
