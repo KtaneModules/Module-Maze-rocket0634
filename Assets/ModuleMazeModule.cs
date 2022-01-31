@@ -222,7 +222,7 @@ public class ModuleMazeModule : MonoBehaviour
         new int[] { 218 },
         new int[] { 219 },
         new int[] { 201 },
-        new int[] { 202, 221 },
+        new int[] { 221 },
         new int[] { 222 },
         new int[] { 223 },
         new int[] { 205, 224 },
