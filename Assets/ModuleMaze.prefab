@@ -1612,7 +1612,7 @@ MonoBehaviour:
   - {fileID: 114041712052389032}
   - {fileID: 114570754402181132}
   - {fileID: 114128410910072878}
-  version: 4
+  version: 1.9.32
   y: 20
   size: 96
   pixelsPerUnit: 100
