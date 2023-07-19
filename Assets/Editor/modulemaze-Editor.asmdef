@@ -1,0 +1,10 @@
+{
+  "name": "modulemaze-Editor",
+  "references": [
+    "modulemaze"
+  ],
+  "includePlatforms": [
+    "Editor"
+  ],
+  "excludePlatforms": []
+}
