@@ -7,14 +7,13 @@ public class ModuleMazeModule : MonoBehaviour
 {
     private static int _moduleIDCounter = 1;
     private int _moduleID;
-    public KMBombInfo Info;
     public KMBombModule Module;
     public KMAudio Audio;
     public KMRuleSeedable RuleSeedable;
+    public KMModSource ModSource;
     public SpriteRenderer IconHolder, IconHolder2;
     public Sprite[] sprites;
     public KMSelectable[] Buttons;
-    public string version;
 #pragma warning disable IDE0052 // Read by Souvenir
     private Sprite souvenirStart;
 #pragma warning restore IDE0052
@@ -436,7 +435,7 @@ public class ModuleMazeModule : MonoBehaviour
     void Start()
     {
         _moduleID = _moduleIDCounter++;
-        DebugLog("Version {0}", false, version);
+        DebugLog("Version {0}", false, ModSource.Version());
         start = Random.Range(0, sprites.Length);
         souvenirStart = sprites[start];
         do
@@ -842,7 +841,7 @@ public class ModuleMazeModule : MonoBehaviour
         DebugLog(log, true, args);
     }
 
-    void DebugLog(string log, bool show, params object[] args)
+    internal void DebugLog(string log, bool show, params object[] args)
     {
         var logData = string.Format(log, args);
         var name = Module.ModuleDisplayName + " #" + _moduleID;

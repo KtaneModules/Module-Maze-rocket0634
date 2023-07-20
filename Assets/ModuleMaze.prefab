@@ -1199,10 +1199,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bf875f31a9e64f34099ff1b203b14e18, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Info: {fileID: 114568497694388258}
   Module: {fileID: 114569959422684004}
   Audio: {fileID: 114176937116947816}
   RuleSeedable: {fileID: 114373242282389658}
+  ModSource: {fileID: 114851702452490762, guid: 142121083fc2ff649bb68caf8c760680,
+    type: 2}
   IconHolder: {fileID: 212392667605293258}
   IconHolder2: {fileID: 212802380058106872}
   sprites:
@@ -1612,7 +1613,6 @@ MonoBehaviour:
   - {fileID: 114041712052389032}
   - {fileID: 114570754402181132}
   - {fileID: 114128410910072878}
-  version: 1.9.32
   y: 20
   size: 96
   pixelsPerUnit: 100

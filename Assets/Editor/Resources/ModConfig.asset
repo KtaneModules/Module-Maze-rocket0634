@@ -28,11 +28,10 @@ MonoBehaviour:
 
     Manual link: https://ktane.timwi.de/HTML/Module%20Maze.html
 
-    (Note, icons may be out of date for certain modules. Please refer to https://ktane.timwi.de/PDF/Module%20Maze.pdf
-    for accurate icons)
+    (Note, icons may be out of date for certain modules.)
 
 
     Thanks to ThatGuyCalledJules for allowing me to reuse the screen/arrows from Synonyms'
-  version: 1.9.32
+  version: 1.9.33
   outputFolder: build
   previewImage: {fileID: 2800000, guid: dd3a4c33e601b9d49a12c61ad0e2ddbb, type: 3}
